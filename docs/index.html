@@ -274,7 +274,10 @@ select option{background:var(--surface)}
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" id="search-q" placeholder="Job title, skill, or keyword…" onkeydown="if(event.key==='Enter')doSearch()">
       </div>
-      <input type="text" id="search-loc" placeholder="Location (optional)" style="width:180px">
+      <input type="text" id="search-loc" placeholder="City, Country (e.g. Berlin)" style="width:200px">
+      <label style="display:flex;align-items:center;gap:.4rem;font-size:.82rem;color:var(--muted);white-space:nowrap;cursor:pointer;text-transform:none;letter-spacing:0">
+        <input type="checkbox" id="include-remote" checked style="width:auto;accent-color:var(--green)"> Include Remote
+      </label>
       <button class="btn btn-green" onclick="doSearch()">Search</button>
     </div>
     <div class="filter-row">
@@ -596,9 +599,9 @@ async function doSearch() {
   allJobs = [];
 
   const fetches = [
-    fetchRemotive(q),
-    fetchArbeitnow(q),
-    fetchTheMuse(q),
+    fetchRemotive(q, loc),
+    fetchArbeitnow(q, loc),
+    fetchTheMuse(q, loc),
   ];
 
   const results = await Promise.allSettled(fetches);
@@ -612,6 +615,24 @@ async function doSearch() {
     seen.add(key);
     return true;
   });
+
+  // Location filter — keep jobs whose location matches the entered city/country
+  if (loc) {
+    const locLower = loc.toLowerCase();
+    const includeRemote = document.getElementById('include-remote').checked;
+    allJobs = allJobs.filter(j => {
+      const jLoc = (j.location || '').toLowerCase();
+      // Direct location match (e.g. "Berlin" in "Berlin, Germany")
+      if (jLoc.includes(locLower)) return true;
+      // Include remote/worldwide jobs only if checkbox is ticked
+      if (includeRemote) {
+        if (!jLoc) return true;
+        if (/\b(remote|worldwide|anywhere|global|international)\b/i.test(jLoc)) return true;
+        if (j.remote && !jLoc) return true;
+      }
+      return false;
+    });
+  }
 
   // Score match against profile skills
   allJobs.forEach(j => {
@@ -684,9 +705,9 @@ function jobCard(j, i) {
 // ─────────────────────────────────────────────────────────────
 // API: REMOTIVE
 // ─────────────────────────────────────────────────────────────
-async function fetchRemotive(q) {
+async function fetchRemotive(q, loc) {
   try {
-    const url = `https://remotive.com/api/remote-jobs?search=${encodeURIComponent(q)}&limit=30`;
+    const url = `https://remotive.com/api/remote-jobs?search=${encodeURIComponent(q)}&limit=50`;
     const r = await fetch(url);
     const d = await r.json();
     return (d.jobs || []).map(j => ({
@@ -703,9 +724,10 @@ async function fetchRemotive(q) {
 // ─────────────────────────────────────────────────────────────
 // API: ARBEITNOW
 // ─────────────────────────────────────────────────────────────
-async function fetchArbeitnow(q) {
+async function fetchArbeitnow(q, loc) {
   try {
-    const url = `https://www.arbeitnow.com/api/job-board-api?search=${encodeURIComponent(q)}`;
+    let url = `https://www.arbeitnow.com/api/job-board-api?search=${encodeURIComponent(q)}`;
+    if (loc) url += `&location=${encodeURIComponent(loc)}`;
     const r = await fetch(url);
     const d = await r.json();
     return (d.data || []).slice(0, 30).map(j => ({
@@ -723,9 +745,10 @@ async function fetchArbeitnow(q) {
 // ─────────────────────────────────────────────────────────────
 // API: THE MUSE
 // ─────────────────────────────────────────────────────────────
-async function fetchTheMuse(q) {
+async function fetchTheMuse(q, loc) {
   try {
-    const url = `https://www.themuse.com/api/public/jobs?page=0&descending=true&query=${encodeURIComponent(q)}`;
+    let url = `https://www.themuse.com/api/public/jobs?page=0&descending=true&query=${encodeURIComponent(q)}`;
+    if (loc) url += `&location=${encodeURIComponent(loc)}`;
     const r = await fetch(url);
     const d = await r.json();
     return (d.results || []).slice(0, 20).map(j => ({
