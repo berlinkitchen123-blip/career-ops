@@ -1,0 +1,39 @@
+name: Job Copilot Agent — 24/7 Profile-Driven Search
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      note:
+        description: 'Manual trigger reason'
+        required: false
+
+jobs:
+  job-search:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install anthropic requests
+      - name: Run Job Copilot Agent
+        env:
+          ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python3 scripts/job_agent.py
+      - name: Commit updated jobs
+        run: |
+          git config user.name "Job Copilot Agent"
+          git config user.email "agent@job-copilot.bot"
+          git add docs/data/jobs.json
+          git diff --staged --quiet || git commit -m "Agent: jobs updated $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
