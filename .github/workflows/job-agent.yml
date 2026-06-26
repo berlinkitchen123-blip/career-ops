@@ -24,10 +24,10 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install anthropic requests
+        run: pip install google-generativeai requests
       - name: Run Job Copilot Agent
         env:
-          ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_KEY }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: python3 scripts/job_agent.py
       - name: Commit updated jobs
