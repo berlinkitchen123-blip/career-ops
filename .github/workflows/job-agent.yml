@@ -1,11 +1,8 @@
-name: Job Copilot Agent 24-7 Profile-Driven Search
+name: Job Copilot Agent Continuous Search and Apply
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
-    - cron: '0 6 * * *'
-    - cron: '0 12 * * *'
-    - cron: '0 18 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       note:
@@ -15,6 +12,7 @@ on:
 jobs:
   job-search:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     permissions:
       contents: write
     steps:
@@ -24,16 +22,22 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install google-genai requests
-      - name: Run Job Copilot Agent
+        run: |
+          pip install google-genai requests playwright
+          python -m playwright install chromium --with-deps
+      - name: Run Continuous Job Search and Apply
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          LINKEDIN_EMAIL: patelharsh513@gmail.com
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+          MIN_SCORE: '60'
         run: python3 scripts/job_agent.py
       - name: Commit updated jobs
+        if: always()
         run: |
           git config user.name "Job Copilot Agent"
           git config user.email "agent@job-copilot.bot"
-          git add docs/data/jobs.json
-          git diff --staged --quiet || git commit -m "Agent: jobs updated $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          git add docs/data/jobs.json docs/data/applied.json || true
+          git diff --staged --quiet || git commit -m "Agent: jobs+applications updated $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push || true
