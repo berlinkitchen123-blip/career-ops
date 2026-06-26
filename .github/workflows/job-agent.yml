@@ -1,4 +1,4 @@
-name: Job Copilot Agent — 24/7 Profile-Driven Search
+name: Job Copilot Agent â 24/7 Profile-Driven Search
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install google-generativeai requests
+        run: pip install google-genai requests
       - name: Run Job Copilot Agent
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
