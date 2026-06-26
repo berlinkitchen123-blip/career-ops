@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Career-Ops — AI Job Search</title>
+<title>Career-Ops â AI Job Search</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -149,15 +149,15 @@ select{cursor:pointer;appearance:none}
 <!-- SIDEBAR -->
 <nav id="sidebar">
   <div class="logo">
-    <div class="logo-title">🚀 Career-Ops</div>
+    <div class="logo-title">ð Career-Ops</div>
     <div class="logo-sub">AI-powered job search</div>
   </div>
-  <button class="nav-btn active" onclick="showPage('dashboard')"><span class="nav-icon">⚡</span>Dashboard</button>
-  <button class="nav-btn" onclick="showPage('jobs')"><span class="nav-icon">🔍</span>Job Board</button>
-  <button class="nav-btn" onclick="showPage('tracker')"><span class="nav-icon">📋</span>Tracker</button>
-  <button class="nav-btn" onclick="showPage('profile')"><span class="nav-icon">👤</span>My Profile</button>
-  <button class="nav-btn" onclick="showPage('cv')"><span class="nav-icon">📄</span>CV Editor</button>
-  <button class="nav-btn" onclick="showPage('settings')"><span class="nav-icon">⚙️</span>Settings</button>
+  <button class="nav-btn active" onclick="showPage('dashboard')"><span class="nav-icon">â¡</span>Dashboard</button>
+  <button class="nav-btn" onclick="showPage('jobs')"><span class="nav-icon">ð</span>Job Board</button>
+  <button class="nav-btn" onclick="showPage('tracker')"><span class="nav-icon">ð</span>Tracker</button>
+  <button class="nav-btn" onclick="showPage('profile')"><span class="nav-icon">ð¤</span>My Profile</button>
+  <button class="nav-btn" onclick="showPage('cv')"><span class="nav-icon">ð</span>CV Editor</button>
+  <button class="nav-btn" onclick="showPage('settings')"><span class="nav-icon">âï¸</span>Settings</button>
   <div class="sidebar-bottom">Powered by Claude & RapidAPI</div>
 </nav>
 
@@ -166,26 +166,26 @@ select{cursor:pointer;appearance:none}
 
 <!-- DASHBOARD -->
 <div id="page-dashboard" class="page active">
-  <h1>Good <span id="greeting-time"></span>, <span id="greeting-name">Harsh</span> 👋</h1>
+  <h1>Good <span id="greeting-time"></span>, <span id="greeting-name">Harsh</span> ð</h1>
   <p class="subtitle" id="dash-subtitle">Fetch today's jobs to get started</p>
 
   <div class="stats-grid">
-    <div class="stat-card"><div class="stat-icon" style="background:rgba(99,102,241,.15)">📄</div><div><div class="stat-num" id="stat-total">0</div><div class="stat-lbl">Applications</div></div></div>
-    <div class="stat-card"><div class="stat-icon" style="background:rgba(59,130,246,.15)">✉️</div><div><div class="stat-num" id="stat-applied">0</div><div class="stat-lbl">Applied</div></div></div>
-    <div class="stat-card"><div class="stat-icon" style="background:rgba(34,197,94,.15)">🎯</div><div><div class="stat-num" id="stat-interview">0</div><div class="stat-lbl">Interviews</div></div></div>
-    <div class="stat-card"><div class="stat-icon" style="background:rgba(245,158,11,.15)">⭐</div><div><div class="stat-num" id="stat-saved">0</div><div class="stat-lbl">Saved</div></div></div>
+    <div class="stat-card"><div class="stat-icon" style="background:rgba(99,102,241,.15)">ð</div><div><div class="stat-num" id="stat-total">0</div><div class="stat-lbl">Applications</div></div></div>
+    <div class="stat-card"><div class="stat-icon" style="background:rgba(59,130,246,.15)">âï¸</div><div><div class="stat-num" id="stat-applied">0</div><div class="stat-lbl">Applied</div></div></div>
+    <div class="stat-card"><div class="stat-icon" style="background:rgba(34,197,94,.15)">ð¯</div><div><div class="stat-num" id="stat-interview">0</div><div class="stat-lbl">Interviews</div></div></div>
+    <div class="stat-card"><div class="stat-icon" style="background:rgba(245,158,11,.15)">â­</div><div><div class="stat-num" id="stat-saved">0</div><div class="stat-lbl">Saved</div></div></div>
   </div>
 
   <div class="card" style="margin-bottom:18px">
-    <h3>🔍 Fetch Jobs From All Platforms</h3>
+    <h3>ð Fetch Jobs From All Platforms</h3>
     <div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap">
       <input id="dash-query" style="flex:2;min-width:200px" placeholder="Job title or keywords (e.g. 'operations manager', 'mechanical engineer Berlin')" onkeydown="if(event.key==='Enter')fetchJobs()"/>
       <input id="dash-location" style="flex:1;min-width:120px" placeholder="Location / remote" value="Germany"/>
-      <button class="btn btn-primary" onclick="fetchJobs()" id="fetch-btn">🚀 Fetch Jobs</button>
+      <button class="btn btn-primary" onclick="fetchJobs()" id="fetch-btn">ð Fetch Jobs</button>
     </div>
     <div style="display:flex;gap:14px;margin-top:10px;flex-wrap:wrap">
-      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:12px;color:var(--muted)"><input type="checkbox" id="src-jsearch" checked style="accent-color:var(--accent)"> 🌐 LinkedIn + Indeed + Glassdoor + More</label>
-      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:12px;color:var(--muted)"><input type="checkbox" id="src-remotive" checked style="accent-color:var(--accent)"> 🏠 Remotive (Remote)</label>
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:12px;color:var(--muted)"><input type="checkbox" id="src-jsearch" checked style="accent-color:var(--accent)"> ð LinkedIn + Indeed + Glassdoor + More</label>
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:12px;color:var(--muted)"><input type="checkbox" id="src-remotive" checked style="accent-color:var(--accent)"> ð  Remotive (Remote)</label>
     </div>
     <div id="fetch-msg" style="margin-top:8px;font-size:12px"></div>
   </div>
@@ -196,15 +196,15 @@ select{cursor:pointer;appearance:none}
 <!-- JOB BOARD -->
 <div id="page-jobs" class="page">
   <h1>Job Board</h1>
-  <p class="subtitle">All fetched jobs — add by URL or search</p>
+  <p class="subtitle">All fetched jobs â add by URL or search</p>
   <div class="card" style="margin-bottom:14px;display:flex;gap:10px;align-items:center">
-    <span style="font-size:18px">🔗</span>
-    <input id="scrape-url" placeholder="Paste any job URL to add it manually…" style="flex:1" onkeydown="if(event.key==='Enter')scrapeUrl()"/>
+    <span style="font-size:18px">ð</span>
+    <input id="scrape-url" placeholder="Paste any job URL to add it manuallyâ¦" style="flex:1" onkeydown="if(event.key==='Enter')scrapeUrl()"/>
     <button class="btn btn-secondary" onclick="scrapeUrl()">+ Add</button>
     <span id="scrape-msg" style="font-size:12px"></span>
   </div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px">
-    <input id="job-search" placeholder="Search jobs…" style="flex:1;min-width:180px" oninput="renderJobBoard()"/>
+    <input id="job-search" placeholder="Search jobsâ¦" style="flex:1;min-width:180px" oninput="renderJobBoard()"/>
     <select id="job-source-filter" onchange="renderJobBoard()" style="width:160px"><option value="">All Sources</option><option>LinkedIn</option><option>Indeed</option><option>Glassdoor</option><option>Remotive</option><option>The Muse</option></select>
     <select id="job-sort" onchange="renderJobBoard()" style="width:160px"><option value="match">Best Match</option><option value="date">Newest</option></select>
   </div>
@@ -224,20 +224,20 @@ select{cursor:pointer;appearance:none}
 <div id="page-profile" class="page">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
     <h1>My Profile</h1>
-    <button class="btn btn-primary" onclick="saveProfile()">💾 Save Profile</button>
+    <button class="btn btn-primary" onclick="saveProfile()">ð¾ Save Profile</button>
   </div>
-  <p class="subtitle">Your master CV — used to tailor every application automatically</p>
+  <p class="subtitle">Your master CV â used to tailor every application automatically</p>
   <div style="background:var(--surface2);border-radius:4px;height:4px;margin-bottom:20px"><div id="profile-bar" style="background:var(--accent);height:100%;border-radius:4px;transition:width .3s;width:0%"></div></div>
 
   <div style="display:flex;gap:18px">
     <div style="width:150px;flex-shrink:0">
       <div style="display:flex;flex-direction:column;gap:3px;position:sticky;top:20px">
-        <button class="nav-btn active" id="psec-personal" onclick="showProfileSection('personal')">👤 Personal</button>
-        <button class="nav-btn" id="psec-summary" onclick="showProfileSection('summary')">📝 Summary</button>
-        <button class="nav-btn" id="psec-experience" onclick="showProfileSection('experience')">💼 Experience</button>
-        <button class="nav-btn" id="psec-education" onclick="showProfileSection('education')">🎓 Education</button>
-        <button class="nav-btn" id="psec-skills" onclick="showProfileSection('skills')">🛠 Skills</button>
-        <button class="nav-btn" id="psec-extras" onclick="showProfileSection('extras')">🌍 Extras</button>
+        <button class="nav-btn active" id="psec-personal" onclick="showProfileSection('personal')">ð¤ Personal</button>
+        <button class="nav-btn" id="psec-summary" onclick="showProfileSection('summary')">ð Summary</button>
+        <button class="nav-btn" id="psec-experience" onclick="showProfileSection('experience')">ð¼ Experience</button>
+        <button class="nav-btn" id="psec-education" onclick="showProfileSection('education')">ð Education</button>
+        <button class="nav-btn" id="psec-skills" onclick="showProfileSection('skills')">ð  Skills</button>
+        <button class="nav-btn" id="psec-extras" onclick="showProfileSection('extras')">ð Extras</button>
       </div>
     </div>
     <div style="flex:1">
@@ -246,7 +246,7 @@ select{cursor:pointer;appearance:none}
         <div class="form-grid">
           <div class="form-group"><label>Full Name</label><input id="p-name" placeholder="Harsh Patel"/></div>
           <div class="form-group"><label>Email</label><input id="p-email" type="email" placeholder="harsh@email.com"/></div>
-          <div class="form-group"><label>Phone</label><input id="p-phone" placeholder="+49 155 …"/></div>
+          <div class="form-group"><label>Phone</label><input id="p-phone" placeholder="+49 155 â¦"/></div>
           <div class="form-group"><label>Location</label><input id="p-location" placeholder="Berlin, Germany"/></div>
           <div class="form-group"><label>LinkedIn URL</label><input id="p-linkedin" placeholder="linkedin.com/in/yourprofile"/></div>
           <div class="form-group"><label>Portfolio / GitHub</label><input id="p-portfolio" placeholder="github.com/username"/></div>
@@ -255,7 +255,7 @@ select{cursor:pointer;appearance:none}
       <div id="ps-summary" class="card profile-section" style="display:none">
         <h2>Professional Summary</h2>
         <p style="color:var(--faint);font-size:12px;margin-bottom:10px">AI rewrites this per job. Keep it honest and comprehensive.</p>
-        <textarea id="p-summary" rows="6" placeholder="Mechanical Engineer with 10 years…"></textarea>
+        <textarea id="p-summary" rows="6" placeholder="Mechanical Engineer with 10 yearsâ¦"></textarea>
       </div>
       <div id="ps-experience" class="card profile-section" style="display:none">
         <h2>Work Experience</h2>
@@ -271,12 +271,12 @@ select{cursor:pointer;appearance:none}
         <h2>Skills</h2>
         <div id="skills-tags" class="tags"></div>
         <div style="display:flex;gap:8px;margin-top:10px">
-          <input id="skill-input" placeholder="Add a skill…" onkeydown="if(event.key==='Enter'||event.key===','){addSkill();event.preventDefault()}"/>
+          <input id="skill-input" placeholder="Add a skillâ¦" onkeydown="if(event.key==='Enter'||event.key===','){addSkill();event.preventDefault()}"/>
           <button class="btn btn-secondary" onclick="addSkill()">Add</button>
         </div>
         <div style="margin-top:10px">
           <label>Or paste all (comma-separated)</label>
-          <textarea id="skills-bulk" rows="3" placeholder="React, Python, SolidWorks, DFMEA…" oninput="bulkSkills()"></textarea>
+          <textarea id="skills-bulk" rows="3" placeholder="React, Python, SolidWorks, DFMEAâ¦" oninput="bulkSkills()"></textarea>
         </div>
       </div>
       <div id="ps-extras" class="card profile-section" style="display:none">
@@ -285,7 +285,7 @@ select{cursor:pointer;appearance:none}
         <h2 style="margin-top:16px">Languages</h2>
         <textarea id="p-langs" rows="3" placeholder="English (Native)&#10;German (Conversational)"></textarea>
       </div>
-      <div style="margin-top:14px"><button class="btn btn-primary" onclick="saveProfile()">💾 Save Profile</button></div>
+      <div style="margin-top:14px"><button class="btn btn-primary" onclick="saveProfile()">ð¾ Save Profile</button></div>
     </div>
   </div>
 </div>
@@ -300,12 +300,12 @@ select{cursor:pointer;appearance:none}
       <button class="btn btn-sm btn-ghost" id="tpl-classic" onclick="setTemplate('classic')">Classic</button>
       <button class="btn btn-sm btn-ghost" id="tpl-minimal" onclick="setTemplate('minimal')">Minimal</button>
       <button class="btn btn-sm btn-ghost" id="tpl-bold" onclick="setTemplate('bold')">Bold</button>
-      <button class="btn btn-primary" onclick="printCV()">⬇️ Export PDF</button>
+      <button class="btn btn-primary" onclick="printCV()">â¬ï¸ Export PDF</button>
     </div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
     <div style="display:flex;flex-direction:column;gap:12px">
-      <div class="card"><h3 style="color:var(--accent2);margin-bottom:10px">👤 Personal</h3>
+      <div class="card"><h3 style="color:var(--accent2);margin-bottom:10px">ð¤ Personal</h3>
         <div class="form-grid">
           <div class="form-group"><label>Name</label><input id="cv-name" oninput="updateCV()"/></div>
           <div class="form-group"><label>Email</label><input id="cv-email" oninput="updateCV()"/></div>
@@ -315,13 +315,13 @@ select{cursor:pointer;appearance:none}
           <div class="form-group"><label>Portfolio</label><input id="cv-portfolio" oninput="updateCV()"/></div>
         </div>
       </div>
-      <div class="card"><h3 style="color:var(--accent2);margin-bottom:8px">📝 Summary</h3><textarea id="cv-summary" rows="4" oninput="updateCV()"></textarea></div>
-      <div class="card"><h3 style="color:var(--accent2);margin-bottom:8px">🛠 Skills (one per line)</h3><textarea id="cv-skills" rows="6" oninput="updateCV()"></textarea></div>
-      <div class="card" id="cv-exp-editor"><h3 style="color:var(--accent2);margin-bottom:10px">💼 Experience</h3><div id="cv-exp-list"></div></div>
+      <div class="card"><h3 style="color:var(--accent2);margin-bottom:8px">ð Summary</h3><textarea id="cv-summary" rows="4" oninput="updateCV()"></textarea></div>
+      <div class="card"><h3 style="color:var(--accent2);margin-bottom:8px">ð  Skills (one per line)</h3><textarea id="cv-skills" rows="6" oninput="updateCV()"></textarea></div>
+      <div class="card" id="cv-exp-editor"><h3 style="color:var(--accent2);margin-bottom:10px">ð¼ Experience</h3><div id="cv-exp-list"></div></div>
     </div>
     <div>
       <div id="cv-preview" style="box-shadow:0 4px 24px rgba(0,0,0,.4)"></div>
-      <p style="text-align:center;font-size:11px;color:var(--faint);margin-top:8px">Live preview · Export PDF uses browser print</p>
+      <p style="text-align:center;font-size:11px;color:var(--faint);margin-top:8px">Live preview Â· Export PDF uses browser print</p>
     </div>
   </div>
 </div>
@@ -329,13 +329,13 @@ select{cursor:pointer;appearance:none}
 <!-- SETTINGS -->
 <div id="page-settings" class="page">
   <h1>Settings</h1>
-  <p class="subtitle">All keys stored locally in your browser — never sent anywhere except the job/AI APIs</p>
+  <p class="subtitle">All keys stored locally in your browser â never sent anywhere except the job/AI APIs</p>
   <div class="card" style="margin-bottom:14px">
-    <h2>🌐 Job Sources</h2>
+    <h2>ð Job Sources</h2>
     <p style="color:var(--faint);font-size:12px;margin-bottom:14px">JSearch covers LinkedIn, Indeed, Glassdoor, ZipRecruiter, Monster, and 20+ more in one key.</p>
     <div class="form-group" style="margin-bottom:12px">
-      <label>RapidAPI Key (JSearch) <a href="https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch" target="_blank" style="color:var(--accent2);text-decoration:none;font-size:11px">Get free key →</a></label>
-      <div style="display:flex;gap:8px"><input id="s-rapidapi" type="password" placeholder="d10acd…"/><button class="btn btn-ghost btn-sm" onclick="togglePw('s-rapidapi')">👁</button></div>
+      <label>RapidAPI Key (JSearch) <a href="https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch" target="_blank" style="color:var(--accent2);text-decoration:none;font-size:11px">Get free key â</a></label>
+      <div style="display:flex;gap:8px"><input id="s-rapidapi" type="password" placeholder="d10acdâ¦"/><button class="btn btn-ghost btn-sm" onclick="togglePw('s-rapidapi')">ð</button></div>
     </div>
     <div class="form-grid">
       <div class="form-group"><label>Default Search Query</label><input id="s-query" placeholder="mechanical engineer quality"/></div>
@@ -343,14 +343,14 @@ select{cursor:pointer;appearance:none}
     </div>
   </div>
   <div class="card" style="margin-bottom:14px">
-    <h2>🔒 Privacy</h2>
+    <h2>ð Privacy</h2>
     <div style="color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:6px">
-      <div>✅ All data in your browser's localStorage — nothing stored on any server</div>
-      <div>✅ API key only used to call JSearch directly from your browser</div>
-      <div>✅ Profile and jobs never leave your device</div>
+      <div>â All data in your browser's localStorage â nothing stored on any server</div>
+      <div>â API key only used to call JSearch directly from your browser</div>
+      <div>â Profile and jobs never leave your device</div>
     </div>
   </div>
-  <button class="btn btn-primary" onclick="saveSettings()">💾 Save Settings</button>
+  <button class="btn btn-primary" onclick="saveSettings()">ð¾ Save Settings</button>
   <span id="settings-msg" style="margin-left:10px;font-size:12px"></span>
 </div>
 
@@ -365,16 +365,16 @@ select{cursor:pointer;appearance:none}
         <div style="color:var(--muted);font-size:13px;margin-top:2px" id="modal-meta"></div>
       </div>
       <div style="display:flex;gap:8px;align-items:center">
-        <button class="btn btn-secondary btn-sm" id="modal-save-btn" onclick="toggleSaveJob()">⭐ Save</button>
-        <a id="modal-apply-link" href="#" target="_blank" class="btn btn-primary btn-sm">🚀 Apply ↗</a>
-        <button class="modal-close" onclick="closeModal()">×</button>
+        <button class="btn btn-secondary btn-sm" id="modal-save-btn" onclick="toggleSaveJob()">â­ Save</button>
+        <a id="modal-apply-link" href="#" target="_blank" class="btn btn-primary btn-sm">ð Apply â</a>
+        <button class="modal-close" onclick="closeModal()">Ã</button>
       </div>
     </div>
     <div style="padding:0 22px">
       <div class="tabs">
-        <button class="tab active" onclick="modalTab('overview')">📋 Overview</button>
-        <button class="tab" onclick="modalTab('prompts')">🤖 Cowork Prompts</button>
-        <button class="tab" onclick="modalTab('cv-paste')">📄 Paste CV Result</button>
+        <button class="tab active" onclick="modalTab('overview')">ð Overview</button>
+        <button class="tab" onclick="modalTab('prompts')">ð¤ Cowork Prompts</button>
+        <button class="tab" onclick="modalTab('cv-paste')">ð Paste CV Result</button>
       </div>
     </div>
     <div class="modal-body">
@@ -392,9 +392,9 @@ select{cursor:pointer;appearance:none}
             <div class="card">
               <h3 style="margin-bottom:10px">Quick Actions</h3>
               <div style="display:flex;flex-direction:column;gap:7px">
-                <button class="btn btn-primary" style="justify-content:center" onclick="modalTab('prompts')">🤖 Get Cowork Prompts</button>
-                <button class="btn btn-secondary" style="justify-content:center" onclick="loadJobToCV()">📄 Load into CV Editor</button>
-                <button class="btn btn-secondary btn-sm" style="justify-content:center" id="modal-save-btn2" onclick="toggleSaveJob()">⭐ Save Job</button>
+                <button class="btn btn-primary" style="justify-content:center" onclick="modalTab('prompts')">ð¤ Get Cowork Prompts</button>
+                <button class="btn btn-secondary" style="justify-content:center" onclick="loadJobToCV()">ð Load into CV Editor</button>
+                <button class="btn btn-secondary btn-sm" style="justify-content:center" id="modal-save-btn2" onclick="toggleSaveJob()">â­ Save Job</button>
               </div>
             </div>
           </div>
@@ -402,34 +402,34 @@ select{cursor:pointer;appearance:none}
       </div>
       <div id="modal-prompts" style="display:none">
         <div class="alert alert-info" style="margin-bottom:16px">
-          <strong>How it works:</strong> Copy a prompt below → paste into your <strong>Cowork Claude chat</strong> → Claude knows your full profile automatically → paste the result back in "Paste CV Result" tab.
+          <strong>How it works:</strong> Copy a prompt below â paste into your <strong>Cowork Claude chat</strong> â Claude knows your full profile automatically â paste the result back in "Paste CV Result" tab.
         </div>
         <div class="tabs" style="margin-bottom:14px">
-          <button class="tab active" onclick="promptTab('match')">🎯 Match Score</button>
-          <button class="tab" onclick="promptTab('cv')">📄 Custom CV</button>
-          <button class="tab" onclick="promptTab('cover')">✉️ Cover Letter</button>
-          <button class="tab" onclick="promptTab('interview')">💬 Interview Prep</button>
+          <button class="tab active" onclick="promptTab('match')">ð¯ Match Score</button>
+          <button class="tab" onclick="promptTab('cv')">ð Custom CV</button>
+          <button class="tab" onclick="promptTab('cover')">âï¸ Cover Letter</button>
+          <button class="tab" onclick="promptTab('interview')">ð¬ Interview Prep</button>
         </div>
         <div id="prompt-content"></div>
-        <button class="btn btn-primary" style="margin-top:12px" onclick="copyPrompt()">📋 Copy Prompt</button>
+        <button class="btn btn-primary" style="margin-top:12px" onclick="copyPrompt()">ð Copy Prompt</button>
         <span id="copy-msg" style="margin-left:10px;font-size:12px"></span>
       </div>
       <div id="modal-cv-paste" style="display:none">
         <h3 style="margin-bottom:10px">Paste Cowork result here</h3>
         <p style="color:var(--muted);font-size:13px;margin-bottom:12px">After Claude generates your CV/cover letter in Cowork chat, paste the result below.</p>
         <div class="tabs" style="margin-bottom:12px">
-          <button class="tab active" onclick="pasteTab('cv-json')">📄 CV JSON</button>
-          <button class="tab" onclick="pasteTab('cover-text')">✉️ Cover Letter</button>
+          <button class="tab active" onclick="pasteTab('cv-json')">ð CV JSON</button>
+          <button class="tab" onclick="pasteTab('cover-text')">âï¸ Cover Letter</button>
         </div>
         <div id="paste-cv-json">
           <textarea id="cv-json-input" rows="8" placeholder='{"full_name":"Harsh Patel","summary":"...","skills":[...],...}'></textarea>
-          <button class="btn btn-primary" style="margin-top:10px" onclick="loadCVFromPaste()">✅ Load into CV Editor</button>
+          <button class="btn btn-primary" style="margin-top:10px" onclick="loadCVFromPaste()">â Load into CV Editor</button>
         </div>
         <div id="paste-cover-text" style="display:none">
-          <textarea id="cover-input" rows="10" placeholder="Paste the cover letter text from Cowork…"></textarea>
+          <textarea id="cover-input" rows="10" placeholder="Paste the cover letter text from Coworkâ¦"></textarea>
           <div style="display:flex;gap:8px;margin-top:10px">
-            <button class="btn btn-primary" onclick="copyCoverLetter()">📋 Copy</button>
-            <button class="btn btn-secondary" onclick="downloadCoverLetter()">⬇️ Download .txt</button>
+            <button class="btn btn-primary" onclick="copyCoverLetter()">ð Copy</button>
+            <button class="btn btn-secondary" onclick="downloadCoverLetter()">â¬ï¸ Download .txt</button>
           </div>
         </div>
       </div>
@@ -440,7 +440,7 @@ select{cursor:pointer;appearance:none}
 <div id="cv-print-area" style="display:none;position:fixed;inset:0;background:white;z-index:9999;overflow:auto;padding:20px"></div>
 
 <script>
-// ─── STATE ───────────────────────────────────────────────────────────────────
+// âââ STATE âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 let jobs = JSON.parse(localStorage.getItem('co_jobs') || '[]');
 let applications = JSON.parse(localStorage.getItem('co_apps') || '[]');
 let profile = JSON.parse(localStorage.getItem('co_profile') || 'null') || getDefaultProfile();
@@ -459,11 +459,11 @@ const TEMPLATES = {
 };
 
 const KANBAN_COLS = [
-  {id:'saved',label:'⭐ Saved',color:'#f59e0b'},
-  {id:'applied',label:'✉️ Applied',color:'#3b82f6'},
-  {id:'interview',label:'🎯 Interview',color:'#8b5cf6'},
-  {id:'offer',label:'🎉 Offer',color:'#22c55e'},
-  {id:'rejected',label:'❌ Rejected',color:'#ef4444'},
+  {id:'saved',label:'â­ Saved',color:'#f59e0b'},
+  {id:'applied',label:'âï¸ Applied',color:'#3b82f6'},
+  {id:'interview',label:'ð¯ Interview',color:'#8b5cf6'},
+  {id:'offer',label:'ð Offer',color:'#22c55e'},
+  {id:'rejected',label:'â Rejected',color:'#ef4444'},
 ];
 
 function getDefaultProfile(){
@@ -473,23 +473,69 @@ function getDefaultProfile(){
     summary:'Operations Manager and AI App Builder with 10+ years of engineering background. At Bella & Bona, independently designed and shipped 5+ production web apps including a real-time Culinary Quality Control system (credited publicly by Forbes 30 Under 30 CEO), full Catering Management System, bowl tracking system, and KPI dashboard. Deep background in mechanical engineering, DFMEA, reliability engineering, and manufacturing.',
     skills:['AI App Development','Operations Management','Quality Assurance','HACCP','DFMEA','RCA/CAPA','KPI Management','Process Validation','Logistics Management','SolidWorks Expert','Autodesk Inventor','Additive Manufacturing','DFM & DFA','Project Management','JavaScript','React','GitHub Pages','Mechanical Design','Prototype Validation','Technical Documentation'],
     experience:[
-      {title:'Quality & Operations Coordinator — AI Tools',company:'Bella & Bona GmbH',duration:'May 2026 – Present',bullets:['Independently built Culinary QC system — real-time temperature checks, weight controls, photo records, automated audit reports across Berlin & Munich','Publicly credited by Forbes 30 Under 30 CEO Niccolò Lapini: "vibe-coded and built the entire tool"','Built Catering Management System replacing 2-hour manual label process with 10-second automation']},
-      {title:'Operations & Logistics Manager',company:'Bella & Bona GmbH',duration:'Jan 2025 – May 2026',bullets:['Built bowl/asset tracking system for 10,000+ bowls and KPI dashboard used by management and investors','Managed daily logistics for enterprise clients including PayPal and Freshworks across Berlin','Performed RCA/CAPA on quality non-conformities, led HACCP audits, applied DFMEA-style risk thinking']},
-      {title:'Senior Design Engineer',company:'Engineering Technique (India)',duration:'Apr 2018 – Oct 2024',bullets:['Led mechanical development of in-house 3D printers: DAMBoy (FDM) and Jewel-3D (DLP)','Delivered prototyping via additive manufacturing (FDM, SLA, DLP, SLS, MJF), vacuum casting, injection molding','Supported DFMEA, design risk analysis across automotive, aerospace, and industrial machinery projects']}
+      {title:'Quality & Operations Coordinator â AI Tools',company:'Bella & Bona GmbH',duration:'May 2026 â Present',bullets:['Independently built Culinary QC system â real-time temperature checks, weight controls, photo records, automated audit reports across Berlin & Munich','Publicly credited by Forbes 30 Under 30 CEO NiccolÃ² Lapini: "vibe-coded and built the entire tool"','Built Catering Management System replacing 2-hour manual label process with 10-second automation']},
+      {title:'Operations & Logistics Manager',company:'Bella & Bona GmbH',duration:'Jan 2025 â May 2026',bullets:['Built bowl/asset tracking system for 10,000+ bowls and KPI dashboard used by management and investors','Managed daily logistics for enterprise clients including PayPal and Freshworks across Berlin','Performed RCA/CAPA on quality non-conformities, led HACCP audits, applied DFMEA-style risk thinking']},
+      {title:'Senior Design Engineer',company:'Engineering Technique (India)',duration:'Apr 2018 â Oct 2024',bullets:['Led mechanical development of in-house 3D printers: DAMBoy (FDM) and Jewel-3D (DLP)','Delivered prototyping via additive manufacturing (FDM, SLA, DLP, SLS, MJF), vacuum casting, injection molding','Supported DFMEA, design risk analysis across automotive, aerospace, and industrial machinery projects']}
     ],
-    education:[{degree:'Bachelor of Mechanical Engineering (Distinction)',school:'Gujarat Technological University',year:'2012–2016'}],
+    education:[{degree:'Bachelor of Mechanical Engineering (Distinction)',school:'Gujarat Technological University',year:'2012â2016'}],
     certifications:'SolidWorks Professional Certification\nComposite Design and Manufacturing (LinkedIn, 2024)\nAdditive Manufacturing: Resin 3D Printing (LinkedIn, 2024)',
     languages:'English (Native/Bilingual)\nGerman (Conversational)\nHindi (Native)\nGujarati (Native)'
   };
 }
 
-// ─── NAVIGATION ───────────────────────────────────────────────────────────────
+// âââ NAVIGATION âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function showPage(id) {
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('page-'+id).classList.add('active');
   document.querySelectorAll('.nav-btn').forEach(b=>{if(b.textContent.trim().toLowerCase().includes(id)||b.getAttribute('onclick')?.includes(id))b.classList.add('active')});
-  if(id==='dashboard')renderDashboard();
+  if(id==='dashboard')
+// ── AUTO-LOAD AGENT JOBS FROM data/jobs.json ──────────────────────────────
+async function loadAgentJobs() {
+  try {
+    const res = await fetch('./data/jobs.json?t=' + Date.now());
+    if (!res.ok) return;
+    const data = await res.json();
+    const agentJobs = data.jobs || [];
+    if (!agentJobs.length) return;
+
+    // Merge with existing jobs in localStorage
+    const existing = new Map(jobs.map(j => [j.id, j]));
+    let added = 0;
+    for (const j of agentJobs) {
+      if (!existing.has(j.id)) {
+        jobs.push({
+          id: j.id, title: j.title, company: j.company,
+          location: j.location, salary: j.salary || '',
+          source: j.source, applyUrl: j.applyUrl || j.apply_url || '',
+          posted: j.posted || j.postedAt || '',
+          matchScore: j.score, description: j.description || '',
+          fetchedAt: j.fetchedAt || new Date().toISOString(),
+          is_saved: 0
+        });
+        existing.set(j.id, j);
+        added++;
+      }
+    }
+
+    if (added > 0) {
+      saveJobs();
+      // Update subtitle with agent stats
+      const stats = data.stats || {};
+      const lastUp = data.lastUpdated ? new Date(data.lastUpdated).toLocaleTimeString() : '';
+      const subEl = document.getElementById('dash-subtitle');
+      if (subEl) subEl.textContent = added + ' new jobs from agent (' + (stats.applied_total || 0) + ' applied) · Last run: ' + lastUp;
+      renderDashboard();
+      console.log('Agent jobs loaded:', added, 'new jobs');
+    }
+  } catch(e) { console.log('Agent loader:', e.message); }
+}
+
+// Load agent jobs on startup and every 5 minutes
+loadAgentJobs();
+setInterval(loadAgentJobs, 5 * 60 * 1000);
+
+renderDashboard();
   if(id==='jobs')renderJobBoard();
   if(id==='tracker')renderTracker();
   if(id==='profile')loadProfileForm();
@@ -497,16 +543,16 @@ function showPage(id) {
   if(id==='settings')loadSettings();
 }
 
-// ─── DASHBOARD ────────────────────────────────────────────────────────────────
+// âââ DASHBOARD ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function renderDashboard(){
   const h=new Date().getHours();
   document.getElementById('greeting-time').textContent=h<12?'morning':h<18?'afternoon':'evening';
   const p=profile;document.getElementById('greeting-name').textContent=p.name?.split(' ')[0]||'Harsh';
   updateStats();
   const el=document.getElementById('dash-jobs');
-  if(!jobs.length){el.innerHTML='<div class="card" style="text-align:center;padding:50px;color:var(--muted)"><div style="font-size:40px;margin-bottom:10px">🎯</div><p>Enter a job title above and click Fetch Jobs to discover opportunities from LinkedIn, Indeed, Glassdoor, and more.</p></div>';return;}
+  if(!jobs.length){el.innerHTML='<div class="card" style="text-align:center;padding:50px;color:var(--muted)"><div style="font-size:40px;margin-bottom:10px">ð¯</div><p>Enter a job title above and click Fetch Jobs to discover opportunities from LinkedIn, Indeed, Glassdoor, and more.</p></div>';return;}
   const sorted=[...jobs].sort((a,b)=>(b.matchScore||0)-(a.matchScore||0)).slice(0,20);
-  el.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><span style="color:var(--muted);font-size:13px">${jobs.length} jobs · sorted by match</span><button class="btn btn-ghost btn-sm" onclick="showPage('jobs')">View all →</button></div><div class="job-grid">${sorted.map(jobCardHTML).join('')}</div>`;
+  el.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px"><span style="color:var(--muted);font-size:13px">${jobs.length} jobs Â· sorted by match</span><button class="btn btn-ghost btn-sm" onclick="showPage('jobs')">View all â</button></div><div class="job-grid">${sorted.map(jobCardHTML).join('')}</div>`;
 }
 
 function updateStats(){
@@ -517,16 +563,16 @@ function updateStats(){
   document.getElementById('stat-saved').textContent=apps.filter(a=>a.status==='saved').length;
 }
 
-// ─── JOB FETCHING ─────────────────────────────────────────────────────────────
+// âââ JOB FETCHING âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 async function fetchJobs(){
   const q=document.getElementById('dash-query').value.trim();
   const loc=document.getElementById('dash-location').value.trim()||'Germany';
   const useJsearch=document.getElementById('src-jsearch').checked;
   const useRemotive=document.getElementById('src-remotive').checked;
-  if(!q){setMsg('fetch-msg','⚠️ Enter a job title or keyword','var(--yellow)');return;}
+  if(!q){setMsg('fetch-msg','â ï¸ Enter a job title or keyword','var(--yellow)');return;}
   const btn=document.getElementById('fetch-btn');
-  btn.innerHTML='<span class="spinner"></span> Fetching…';btn.disabled=true;
-  setMsg('fetch-msg','Fetching from all platforms…','var(--muted)');
+  btn.innerHTML='<span class="spinner"></span> Fetchingâ¦';btn.disabled=true;
+  setMsg('fetch-msg','Fetching from all platformsâ¦','var(--muted)');
   const results=[];
   const errs=[];
   const fetchers=[];
@@ -542,8 +588,8 @@ async function fetchJobs(){
   const unique=results.filter(j=>{if(seen.has(j.id))return false;seen.add(j.id);return true;});
   jobs=[...unique,...jobs.filter(j=>!seen.has(j.id))];
   saveJobs();
-  btn.innerHTML='🚀 Fetch Jobs';btn.disabled=false;
-  const msg=`✅ ${unique.length} new jobs fetched${errs.length?' · ⚠️ '+errs.join(', '):''}`;
+  btn.innerHTML='ð Fetch Jobs';btn.disabled=false;
+  const msg=`â ${unique.length} new jobs fetched${errs.length?' Â· â ï¸ '+errs.join(', '):''}`;
   setMsg('fetch-msg',msg,unique.length>0?'var(--green)':'var(--yellow)');
   renderDashboard();
 }
@@ -557,7 +603,7 @@ async function fetchJSearch(query,location,apiKey){
     id:String(j.job_id),title:j.job_title||'',company:j.employer_name||'',
     location:j.job_is_remote?'Remote':[j.job_city,j.job_state,j.job_country].filter(Boolean).join(', '),
     jobType:mapJobType(j.job_employment_type||''),
-    salary:j.job_min_salary?`$${Number(j.job_min_salary).toLocaleString()}${j.job_max_salary?'–$'+Number(j.job_max_salary).toLocaleString():''} /${j.job_salary_period||'YEAR'}`:'',
+    salary:j.job_min_salary?`$${Number(j.job_min_salary).toLocaleString()}${j.job_max_salary?'â$'+Number(j.job_max_salary).toLocaleString():''} /${j.job_salary_period||'YEAR'}`:'',
     description:j.job_description||'',source:mapSource(j.job_publisher||''),
     applyUrl:j.job_apply_link||j.job_google_link||'',postedAt:j.job_posted_at_datetime_utc||new Date().toISOString(),
     fetchedAt:new Date().toISOString(),matchScore:null
@@ -579,7 +625,7 @@ async function fetchRemotive(){
 async function scrapeUrl(){
   const url=document.getElementById('scrape-url').value.trim();
   if(!url)return;
-  setMsg('scrape-msg','⏳ Fetching…','var(--muted)');
+  setMsg('scrape-msg','â³ Fetchingâ¦','var(--muted)');
   try{
     // Use allorigins to bypass CORS
     const proxy=`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
@@ -591,13 +637,13 @@ async function scrapeUrl(){
     const text=html.replace(/<script[\s\S]*?<\/script>/gi,'').replace(/<style[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().substring(0,4000);
     const job={id:'manual-'+Date.now(),title:h1,company:new URL(url).hostname.replace('www.',''),location:'',jobType:'',salary:'',description:text,source:new URL(url).hostname.replace('www.',''),applyUrl:url,postedAt:new Date().toISOString(),fetchedAt:new Date().toISOString(),matchScore:null};
     jobs=[job,...jobs];saveJobs();
-    setMsg('scrape-msg','✅ Added!','var(--green)');
+    setMsg('scrape-msg','â Added!','var(--green)');
     document.getElementById('scrape-url').value='';
     renderJobBoard();
-  }catch(e){setMsg('scrape-msg','❌ Could not fetch URL — try pasting the job description manually','var(--red)');}
+  }catch(e){setMsg('scrape-msg','â Could not fetch URL â try pasting the job description manually','var(--red)');}
 }
 
-// ─── JOB BOARD ────────────────────────────────────────────────────────────────
+// âââ JOB BOARD ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function renderJobBoard(){
   const search=(document.getElementById('job-search')?.value||'').toLowerCase();
   const src=document.getElementById('job-source-filter')?.value||'';
@@ -621,29 +667,29 @@ function jobCardHTML(j){
     </div>
     <div class="job-meta">
       <span class="badge ${src}">${esc(j.source)}</span>
-      ${j.location?`<span class="badge badge-gray">📍 ${esc(j.location)}</span>`:''}
+      ${j.location?`<span class="badge badge-gray">ð ${esc(j.location)}</span>`:''}
       ${j.jobType?`<span class="badge badge-gray">${esc(j.jobType)}</span>`:''}
     </div>
-    ${j.salary?`<div class="job-salary">💰 ${esc(j.salary)}</div>`:''}
+    ${j.salary?`<div class="job-salary">ð° ${esc(j.salary)}</div>`:''}
     <div class="job-footer">
       <span class="job-time">${timeAgo(j.postedAt)}</span>
-      <span style="font-size:12px;color:var(--accent2)">View & Apply →</span>
+      <span style="font-size:12px;color:var(--accent2)">View & Apply â</span>
     </div>
   </div>`;
 }
 
-// ─── JOB DETAIL MODAL ─────────────────────────────────────────────────────────
+// âââ JOB DETAIL MODAL âââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function openJob(id){
   currentJob=jobs.find(j=>j.id===id);
   if(!currentJob)return;
-  document.getElementById('modal-title').textContent=currentJob.title+' — '+currentJob.company;
-  document.getElementById('modal-meta').innerHTML=[currentJob.location?'📍 '+currentJob.location:'',currentJob.salary?'💰 '+currentJob.salary:'',currentJob.jobType||''].filter(Boolean).join(' · ');
+  document.getElementById('modal-title').textContent=currentJob.title+' â '+currentJob.company;
+  document.getElementById('modal-meta').innerHTML=[currentJob.location?'ð '+currentJob.location:'',currentJob.salary?'ð° '+currentJob.salary:'',currentJob.jobType||''].filter(Boolean).join(' Â· ');
   document.getElementById('modal-desc').textContent=currentJob.description||'No description available.';
   document.getElementById('modal-apply-link').href=currentJob.applyUrl||'#';
   const app=applications.find(a=>a.jobId===id);
   const saveBtn=document.getElementById('modal-save-btn');const saveBtn2=document.getElementById('modal-save-btn2');
-  if(app){saveBtn.textContent='✅ Saved';saveBtn.disabled=true;saveBtn2.textContent='✅ Saved';saveBtn2.disabled=true;}
-  else{saveBtn.textContent='⭐ Save';saveBtn.disabled=false;saveBtn2.textContent='⭐ Save';saveBtn2.disabled=false;}
+  if(app){saveBtn.textContent='â Saved';saveBtn.disabled=true;saveBtn2.textContent='â Saved';saveBtn2.disabled=true;}
+  else{saveBtn.textContent='â­ Save';saveBtn.disabled=false;saveBtn2.textContent='â­ Save';saveBtn2.disabled=false;}
   document.getElementById('modal-details').innerHTML=[
     currentJob.source?`<div><strong>Source:</strong> ${esc(currentJob.source)}</div>`:'',
     currentJob.location?`<div><strong>Location:</strong> ${esc(currentJob.location)}</div>`:'',
@@ -743,7 +789,7 @@ Requirements:
 - Close with a confident, specific call to action
 - Professional but human tone
 
-Return plain text only — no markdown formatting.`,
+Return plain text only â no markdown formatting.`,
     interview:`Prepare me for an interview for this role.
 
 JOB: ${j.title} at ${j.company}
@@ -770,7 +816,7 @@ function copyPrompt(){
   if(!txt)return;
   navigator.clipboard.writeText(txt);
   const m=document.getElementById('copy-msg');
-  m.textContent='✅ Copied! Paste into Cowork chat →';m.style.color='var(--green)';
+  m.textContent='â Copied! Paste into Cowork chat â';m.style.color='var(--green)';
   setTimeout(()=>m.textContent='',3000);
 }
 
@@ -780,7 +826,7 @@ function toggleSaveJob(){
   if(existing>-1)return;
   applications.push({jobId:currentJob.id,status:'saved',savedAt:new Date().toISOString(),notes:''});
   saveApplications();updateStats();
-  ['modal-save-btn','modal-save-btn2'].forEach(id=>{const b=document.getElementById(id);if(b){b.textContent='✅ Saved';b.disabled=true;}});
+  ['modal-save-btn','modal-save-btn2'].forEach(id=>{const b=document.getElementById(id);if(b){b.textContent='â Saved';b.disabled=true;}});
 }
 
 function loadJobToCV(){
@@ -795,7 +841,7 @@ function loadCVFromPaste(){
     if(!match)throw new Error('No JSON found');
     const parsed=JSON.parse(match[0]);
     cvData=parsed;closeModal();showPage('cv');
-  }catch(e){alert('Invalid JSON — paste the exact response from Cowork');}
+  }catch(e){alert('Invalid JSON â paste the exact response from Cowork');}
 }
 
 function copyCoverLetter(){navigator.clipboard.writeText(document.getElementById('cover-input').value);}
@@ -805,12 +851,12 @@ function downloadCoverLetter(){
   a.href=URL.createObjectURL(b);a.download=`Cover-Letter-${(currentJob?.company||'Job').replace(/\s+/g,'-')}.txt`;a.click();
 }
 
-// ─── TRACKER (KANBAN) ─────────────────────────────────────────────────────────
+// âââ TRACKER (KANBAN) âââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function renderTracker(){
   const el=document.getElementById('kanban-board');
   const apps=applications;
-  document.getElementById('tracker-subtitle').textContent=`${apps.length} applications · ${apps.filter(a=>a.status!=='saved').length} submitted · ${apps.filter(a=>a.status==='interview').length} interviews`;
-  if(!apps.length){el.innerHTML='<div class="card" style="text-align:center;padding:50px;color:var(--muted);min-width:400px"><div style="font-size:36px;margin-bottom:10px">📋</div><p>Save jobs from the Job Board to track them here.</p></div>';return;}
+  document.getElementById('tracker-subtitle').textContent=`${apps.length} applications Â· ${apps.filter(a=>a.status!=='saved').length} submitted Â· ${apps.filter(a=>a.status==='interview').length} interviews`;
+  if(!apps.length){el.innerHTML='<div class="card" style="text-align:center;padding:50px;color:var(--muted);min-width:400px"><div style="font-size:36px;margin-bottom:10px">ð</div><p>Save jobs from the Job Board to track them here.</p></div>';return;}
   el.innerHTML=KANBAN_COLS.map(col=>{
     const colApps=apps.filter(a=>a.status===col.id);
     return `<div class="kanban-col" ondragover="event.preventDefault()" ondrop="dropJob(event,'${col.id}')">
@@ -824,7 +870,7 @@ function renderTracker(){
             <div style="font-weight:600;font-size:13px;margin-bottom:2px">${esc(job.title||'Unknown')}</div>
             <div style="color:var(--muted);font-size:12px;margin-bottom:8px">${esc(job.company||'')}</div>
             <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px">
-              ${KANBAN_COLS.filter(c=>c.id!==col.id).map(c=>`<button class="btn btn-xs" onclick="event.stopPropagation();moveJob('${app.jobId}','${c.id}')" style="padding:2px 6px;font-size:10px;background:${c.color}15;color:${c.color};border:1px solid ${c.color}30">→ ${c.label.split(' ')[1]}</button>`).join('')}
+              ${KANBAN_COLS.filter(c=>c.id!==col.id).map(c=>`<button class="btn btn-xs" onclick="event.stopPropagation();moveJob('${app.jobId}','${c.id}')" style="padding:2px 6px;font-size:10px;background:${c.color}15;color:${c.color};border:1px solid ${c.color}30">â ${c.label.split(' ')[1]}</button>`).join('')}
             </div>
             <div style="font-size:10px;color:var(--faint)">${timeAgo(app.savedAt)}</div>
           </div>`;
@@ -844,7 +890,7 @@ function moveJob(jobId,status){
   saveApplications();renderTracker();updateStats();
 }
 
-// ─── PROFILE ──────────────────────────────────────────────────────────────────
+// âââ PROFILE ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function showProfileSection(s){
   document.querySelectorAll('.profile-section').forEach(el=>el.style.display='none');
   document.querySelectorAll('[id^="psec-"]').forEach(b=>b.classList.remove('active'));
@@ -878,7 +924,7 @@ function updateProfileBar(){
 
 function renderSkillTags(){
   const el=document.getElementById('skills-tags');
-  el.innerHTML=(profile.skills||[]).map((s,i)=>`<div class="tag">${esc(s)}<button class="tag-x" onclick="removeSkill(${i})">×</button></div>`).join('');
+  el.innerHTML=(profile.skills||[]).map((s,i)=>`<div class="tag">${esc(s)}<button class="tag-x" onclick="removeSkill(${i})">Ã</button></div>`).join('');
 }
 
 function addSkill(){
@@ -945,10 +991,10 @@ function saveProfile(){
   profile.languages=document.getElementById('p-langs').value;
   localStorage.setItem('co_profile',JSON.stringify(profile));
   updateProfileBar();
-  alert('✅ Profile saved!');
+  alert('â Profile saved!');
 }
 
-// ─── CV EDITOR ────────────────────────────────────────────────────────────────
+// âââ CV EDITOR ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 const TEMPLATES_CONFIG={modern:'#6366f1',classic:'#1e40af',minimal:'#374151',bold:'#dc2626'};
 
 function loadCVEditor(){
@@ -1023,10 +1069,10 @@ function renderCVPreview(){
     <div class="cv-header" style="background:${accent}">
       <div style="font-size:20px;font-weight:800;margin-bottom:4px">${esc(d.name||'Your Name')}</div>
       <div style="font-size:11px;opacity:.85;display:flex;gap:14px;flex-wrap:wrap">
-        ${d.email?`<span>✉ ${esc(d.email)}</span>`:''}
-        ${d.phone?`<span>📱 ${esc(d.phone)}</span>`:''}
-        ${d.location?`<span>📍 ${esc(d.location)}</span>`:''}
-        ${d.linkedin?`<span>🔗 ${esc(d.linkedin)}</span>`:''}
+        ${d.email?`<span>â ${esc(d.email)}</span>`:''}
+        ${d.phone?`<span>ð± ${esc(d.phone)}</span>`:''}
+        ${d.location?`<span>ð ${esc(d.location)}</span>`:''}
+        ${d.linkedin?`<span>ð ${esc(d.linkedin)}</span>`:''}
       </div>
     </div>
     <div class="cv-body">
@@ -1055,11 +1101,11 @@ function renderCVPreview(){
         </div>`:''}
         ${d.certifications?`<div style="margin-bottom:14px">
           <div class="cv-section-title" style="color:${accent};border-bottom-color:${accent}">Certifications</div>
-          ${d.certifications.split('\n').filter(Boolean).map(c=>`<div style="font-size:10px;color:#444;margin-bottom:3px">• ${esc(c)}</div>`).join('')}
+          ${d.certifications.split('\n').filter(Boolean).map(c=>`<div style="font-size:10px;color:#444;margin-bottom:3px">â¢ ${esc(c)}</div>`).join('')}
         </div>`:''}
         ${d.languages?`<div>
           <div class="cv-section-title" style="color:${accent};border-bottom-color:${accent}">Languages</div>
-          ${d.languages.split('\n').filter(Boolean).map(l=>`<div style="font-size:10px;color:#444;margin-bottom:3px">• ${esc(l)}</div>`).join('')}
+          ${d.languages.split('\n').filter(Boolean).map(l=>`<div style="font-size:10px;color:#444;margin-bottom:3px">â¢ ${esc(l)}</div>`).join('')}
         </div>`:''}
       </div>
     </div>`;
@@ -1072,7 +1118,7 @@ function printCV(){
   setTimeout(()=>{window.print();setTimeout(()=>{el.style.display='none';el.innerHTML='';},500);},100);
 }
 
-// ─── SETTINGS ─────────────────────────────────────────────────────────────────
+// âââ SETTINGS âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function loadSettings(){
   document.getElementById('s-rapidapi').value=settings.rapidapiKey||'';
   document.getElementById('s-query').value=settings.defaultQuery||'operations manager quality engineer';
@@ -1084,14 +1130,14 @@ function saveSettings(){
   settings.defaultQuery=document.getElementById('s-query').value.trim();
   settings.defaultLocation=document.getElementById('s-location').value.trim();
   localStorage.setItem('co_settings',JSON.stringify(settings));
-  const m=document.getElementById('settings-msg');m.textContent='✅ Saved!';m.style.color='var(--green)';
+  const m=document.getElementById('settings-msg');m.textContent='â Saved!';m.style.color='var(--green)';
   setTimeout(()=>m.textContent='',3000);
   if(settings.rapidapiKey){document.getElementById('dash-query').value=settings.defaultQuery;document.getElementById('dash-location').value=settings.defaultLocation;}
 }
 
 function togglePw(id){const el=document.getElementById(id);el.type=el.type==='password'?'text':'password';}
 
-// ─── HELPERS ──────────────────────────────────────────────────────────────────
+// âââ HELPERS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function saveJobs(){localStorage.setItem('co_jobs',JSON.stringify(jobs));}
 function saveApplications(){localStorage.setItem('co_apps',JSON.stringify(applications));}
 function setMsg(id,msg,color){const el=document.getElementById(id);if(el){el.textContent=msg;el.style.color=color||'var(--text)';}}
@@ -1102,7 +1148,7 @@ function sourceClass(src){const l=(src||'').toLowerCase();if(l.includes('linkedi
 function mapJobType(raw){const m={FULLTIME:'Full Time',PARTTIME:'Part Time',CONTRACTOR:'Contract',INTERN:'Internship'};return m[raw?.toUpperCase()]||raw||'';}
 function mapSource(pub){const l=(pub||'').toLowerCase();if(l.includes('linkedin'))return'LinkedIn';if(l.includes('indeed'))return'Indeed';if(l.includes('glassdoor'))return'Glassdoor';if(l.includes('zip'))return'ZipRecruiter';return pub||'JSearch';}
 
-// ─── INIT ─────────────────────────────────────────────────────────────────────
+// âââ INIT âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 // Pre-load RapidAPI key
 if(settings.rapidapiKey){} else {
   // Pre-fill from known key if not set
