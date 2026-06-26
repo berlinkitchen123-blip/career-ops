@@ -1,8 +1,8 @@
 """
-Job Copilot Agent v4.0 â 5 Platforms + Berlin-First + Continuous Loop
+Job Copilot Agent v4.0 Ã¢ÂÂ 5 Platforms + Berlin-First + Continuous Loop
 =======================================================================
 Platforms: LinkedIn, Xing, Stepstone, Indeed, Generic
-Priority: Berlin, Germany first â always
+Priority: Berlin, Germany first Ã¢ÂÂ always
 """
 
 import os, json, re, time, asyncio, requests
@@ -15,7 +15,7 @@ PROFILE = {
     "phone": "+4915560938054", "location": "Berlin, Germany",
     "linkedin": "https://www.linkedin.com/in/patelharsh513",
     "portfolio": "https://berlinkitchen123-blip.github.io",
-    "summary": "Operations Manager + AI App Builder. Built 22 live production tools (React/Firebase/Gemini). Bella and Bona GmbH Berlin â QC system credited by Forbes 30 Under 30 CEO. 10yr mechanical engineering: DFMEA SolidWorks additive manufacturing. Managed PayPal GetYourGuide Revolut Personio. EU Blue Card applicant.",
+    "summary": "Operations Manager + AI App Builder. Built 22 live production tools (React/Firebase/Gemini). Bella and Bona GmbH Berlin Ã¢ÂÂ QC system credited by Forbes 30 Under 30 CEO. 10yr mechanical engineering: DFMEA SolidWorks additive manufacturing. Managed PayPal GetYourGuide Revolut Personio. EU Blue Card applicant.",
     "skills": ["AI App Development","React","TypeScript","Firebase","Google Gemini AI","Operations Management","Quality Assurance","HACCP","DFMEA","RCA/CAPA","KPI Management","Logistics Management","SolidWorks","Additive Manufacturing","DFM/DFA","Process Validation","Project Management"],
     "cover_letter_short": "I am excited to apply for this position in Berlin. With 10+ years in engineering and operations plus 22 production AI tools built independently, I bring a unique combination of technical execution and operational leadership.",
 }
@@ -54,7 +54,7 @@ def call_gemini(prompt):
             time.sleep(3)
     return None
 
-# ââ QUERY GENERATION â BERLIN FIRST ââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ QUERY GENERATION Ã¢ÂÂ BERLIN FIRST Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 def generate_queries():
     log("Generating Berlin-first search queries from profile...")
     skills = ", ".join(PROFILE["skills"][:8])
@@ -107,7 +107,7 @@ def generate_queries():
         ("AI app developer operations", "remote Europe"),
     ]
 
-# ââ FETCHING ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ FETCHING Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 def fetch_jsearch(query, location):
     if not RAPIDAPI_KEY: return []
     try:
@@ -192,7 +192,7 @@ def fetch_stepstone_jobs(query="operations manager", location="Berlin"):
         log(f"  Stepstone fetch: {e}")
         return []
 
-# ââ SCORING â BERLIN BONUS ââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ SCORING Ã¢ÂÂ BERLIN BONUS Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 def score_job(job):
     skills_str = ", ".join(PROFILE["skills"][:8])
     prompt = (
@@ -240,9 +240,9 @@ def generate_cv(job):
         "Inject exact JD keywords. Lead with most relevant skills."
     )
 
-# ââ AUTO-APPLY FLOWS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ AUTO-APPLY FLOWS Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 async def fill_basic_fields(page, job, cv_text):
-    """Fill common form fields â works across most ATS."""
+    """Fill common form fields Ã¢ÂÂ works across most ATS."""
     filled = False
     field_map = {
         "input[name*='first_name' i], input[id*='firstName' i], input[placeholder*='Vorname' i]": PROFILE["first_name"],
@@ -258,7 +258,7 @@ async def fill_basic_fields(page, job, cv_text):
         "textarea[name*='cover' i], textarea[placeholder*='Motivationsschreiben' i], textarea[placeholder*='Cover' i]": (
             f"Sehr geehrte Damen und Herren,\n\n"
             f"I am excited to apply for the position of {job['title']} at {job['company']} in Berlin. "
-            f"{PROFILE['cover_letter_short']}\n\nMit freundlichen GrÃ¼Ãen,\n{PROFILE['name']}"
+            f"{PROFILE['cover_letter_short']}\n\nMit freundlichen GrÃÂ¼ÃÂen,\n{PROFILE['name']}"
         ),
     }
     for selector, value in field_map.items():
@@ -320,7 +320,7 @@ async def apply_linkedin(page, job, cv_text):
                 return True
 
             # Next step
-            nxt = page.locator("button:has-text('Next'), button:has-text('Weiter'), button:has-text('Continue'), button:has-text('Review'), button:has-text('ÃberprÃ¼fen')")
+            nxt = page.locator("button:has-text('Next'), button:has-text('Weiter'), button:has-text('Continue'), button:has-text('Review'), button:has-text('ÃÂberprÃÂ¼fen')")
             if await nxt.count() > 0:
                 await nxt.first.click()
                 await page.wait_for_timeout(1500)
@@ -331,15 +331,31 @@ async def apply_linkedin(page, job, cv_text):
     return False
 
 async def apply_xing(page, context, job, cv_text):
-    """Xing job application â Jetzt bewerben."""
+    """Xing job application Ã¢ÂÂ Jetzt bewerben."""
     try:
+        # Cookies first (Google login), password as fallback
         xing_cookies = os.environ.get("XING_COOKIES", "")
+        xing_pw = os.environ.get("XING_PASSWORD", "")
+        xing_em = os.environ.get("XING_EMAIL", "patelharsh513@gmail.com")
         if xing_cookies:
             try:
                 await context.add_cookies(json.loads(xing_cookies))
-                log("  Xing: session cookies injected (Google login)")
+                log("  Xing: cookies injected")
             except Exception as ce:
                 log(f"  Xing cookie error: {ce}")
+        elif xing_pw:
+            await page.goto("https://www.xing.com/login", wait_until="domcontentloaded", timeout=15000)
+            await page.wait_for_timeout(1500)
+            email_f = page.locator("input[name='email'], input[type='email']")
+            pwd_f = page.locator("input[name='password'], input[type='password']")
+            if await email_f.count() > 0:
+                await email_f.fill(xing_em)
+                await pwd_f.fill(xing_pw)
+                submit_btn = page.locator("button[type='submit']")
+                if await submit_btn.count() > 0:
+                    await submit_btn.first.click()
+                    await page.wait_for_timeout(4000)
+                    log("  Xing: logged in with password")
 
         await page.goto(job["applyUrl"], wait_until="domcontentloaded", timeout=20000)
         await page.wait_for_timeout(2000)
@@ -365,7 +381,7 @@ async def apply_xing(page, context, job, cv_text):
     return False
 
 async def apply_stepstone(page, context, job, cv_text):
-    """Stepstone application â Jetzt bewerben."""
+    """Stepstone application Ã¢ÂÂ Jetzt bewerben."""
     try:
         await page.goto(job["applyUrl"], wait_until="domcontentloaded", timeout=20000)
         await page.wait_for_timeout(2000)
@@ -459,7 +475,7 @@ async def apply_to_job(job, cv_text):
         log(f"  No URL: {job['title']}")
         return False
 
-    log(f"  Applying [{job['source']}]: {job['title']} @ {job['company']} ({job.get('location')}) â {job['score']}%")
+    log(f"  Applying [{job['source']}]: {job['title']} @ {job['company']} ({job.get('location')}) Ã¢ÂÂ {job['score']}%")
 
     from playwright.async_api import async_playwright
     async with async_playwright() as p:
@@ -487,9 +503,9 @@ async def apply_to_job(job, cv_text):
                 result = await apply_generic(page, job, cv_text)
 
             if result:
-                log(f"  â APPLIED: {job['title']} @ {job['company']}")
+                log(f"  Ã¢ÂÂ APPLIED: {job['title']} @ {job['company']}")
             else:
-                log(f"  â ï¸ Form not completed: {url}")
+                log(f"  Ã¢ÂÂ Ã¯Â¸Â Form not completed: {url}")
             return result
 
         except Exception as e:
@@ -498,7 +514,7 @@ async def apply_to_job(job, cv_text):
         finally:
             await browser.close()
 
-# ââ DATA PERSISTENCE ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ DATA PERSISTENCE Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 def load_jobs():
     if JOBS_FILE.exists():
         try: return json.loads(JOBS_FILE.read_text())
@@ -517,7 +533,7 @@ def load_applied():
 def save_applied(s):
     APPLIED_FILE.write_text(json.dumps(sorted(list(s)), indent=2))
 
-# ââ MAIN CYCLE ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ MAIN CYCLE Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 async def run_cycle(applied_ids, cycle_num):
     log(f"\n=== CYCLE {cycle_num} | {datetime.now(timezone.utc).strftime('%H:%M UTC')} ===")
 
@@ -526,7 +542,7 @@ async def run_cycle(applied_ids, cycle_num):
 
     queries = generate_queries()
 
-    # Fetch â Berlin queries first
+    # Fetch Ã¢ÂÂ Berlin queries first
     new_jobs = []
     seen = set()
     for query, location in queries:
@@ -579,7 +595,7 @@ async def run_cycle(applied_ids, cycle_num):
                 save_applied(applied_ids)
             time.sleep(3)
 
-    # Merge & save â Berlin jobs shown first
+    # Merge & save Ã¢ÂÂ Berlin jobs shown first
     all_jobs = list(existing.values()) + new_jobs
     all_jobs.sort(key=sort_key)
     all_jobs = all_jobs[:500]
@@ -608,18 +624,18 @@ async def run_cycle(applied_ids, cycle_num):
         log("Top matches:")
         for j in top:
             tag = "APPLIED" if j.get("applied") else "     "
-            loc_flag = "ð©ðª" if "berlin" in (j.get("location") or "").lower() else "ð"
-            log(f"  [{tag}] {loc_flag} {j['score']}% â {j['title']} @ {j['company']} [{j['source']}]")
+            loc_flag = "Ã°ÂÂÂ©Ã°ÂÂÂª" if "berlin" in (j.get("location") or "").lower() else "Ã°ÂÂÂ"
+            log(f"  [{tag}] {loc_flag} {j['score']}% Ã¢ÂÂ {j['title']} @ {j['company']} [{j['source']}]")
 
     return applied_ids
 
-# ââ ENTRY POINT âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ ENTRY POINT Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 async def main():
     log("=" * 60)
-    log("Job Copilot Agent v4.0 â 5 Platforms + Berlin-First + Continuous")
+    log("Job Copilot Agent v4.0 Ã¢ÂÂ 5 Platforms + Berlin-First + Continuous")
     log(f"Platforms: LinkedIn | Xing | Stepstone | Indeed | Remotive")
     log(f"Gemini: {'OK' if GEMINI_KEY else 'MISSING'} | RapidAPI: {'OK' if RAPIDAPI_KEY else 'MISSING'}")
-    log(f"LinkedIn: {'OK' if LI_PASSWORD else 'MISSING'} | Xing: {'OK-cookies' if os.environ.get('XING_COOKIES') else 'add XING_COOKIES secret'} | Stepstone: {'OK-cookies' if os.environ.get('STEPSTONE_COOKIES') else 'add STEPSTONE_COOKIES secret'}")
+    log(f"LinkedIn: {'OK' if LI_PASSWORD else 'MISSING'} | Xing: {'OK-cookies' if os.environ.get('XING_COOKIES') else ('OK-password' if os.environ.get('XING_PASSWORD') else 'no auth')} | Stepstone: {'OK-cookies' if os.environ.get('STEPSTONE_COOKIES') else 'add STEPSTONE_COOKIES'}")
     log(f"Min score: {MIN_SCORE}% | Max apply/cycle: {MAX_APPLY_PER_CYCLE} | Berlin bonus: +{BERLIN_BONUS}pts")
     log("=" * 60)
 
@@ -640,7 +656,7 @@ async def main():
         elapsed = time.time() - start
         remaining = max_runtime - elapsed
         if remaining < LOOP_INTERVAL:
-            log("Approaching GitHub Actions timeout â stopping cleanly")
+            log("Approaching GitHub Actions timeout Ã¢ÂÂ stopping cleanly")
             break
         log(f"Sleeping {LOOP_INTERVAL}s | Elapsed: {elapsed/3600:.1f}h | Remaining: {remaining/3600:.1f}h")
         time.sleep(LOOP_INTERVAL)
