@@ -53,7 +53,7 @@ async function loadAgent(){
     if(document.getElementById("st0"))document.getElementById("st0").textContent=st.total||aj.length;
     if(document.getElementById("st1"))document.getElementById("st1").textContent=st.berlin_jobs||aj.filter(j=>isBerlin(j)).length;
     if(document.getElementById("st2"))document.getElementById("st2").textContent=st.applied_total||0;
-    document.getElementById("st3")&&(document.getElementById("st3").textContent=jobs.filter(j=>hasSavedCV(j.id)).length;
+    var _e3=document.getElementById("st3");if(_e3)_e3.textContent=jobs.filter(j=>hasSavedCV(j.id)).length;
     const lu=data.lastUpdated?new Date(data.lastUpdated):null,mn=lu?Math.round((Date.now()-lu)/60000):null;
     if(document.getElementById("ast"))document.getElementById("ast").textContent=lu?"Last run "+(mn<2?"just now":mn+" min ago")+" -- "+aj.length+" jobs, "+(st.applied_total||0)+" applied":"Waiting for first run...";
     const eids=new Set(jobs.map(j=>j.id));
@@ -134,8 +134,7 @@ function switchTab(t){
 }
 
 // ── CV GENERATION ──────────────────────────────────────────────────────────
-var _cvGenerating=false;
-async function generateCV(){
+var _cvGenerating=false;async function generateCV(){
   if(!currentJob||_cvGenerating)return;
   const s=JSON.parse(localStorage.getItem("cs")||"{}"),key=s.gemini||"";
   if(!key){alert("Add your Gemini API key in Settings first.");return;}
