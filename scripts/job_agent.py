@@ -208,7 +208,7 @@ def fetch_stepstone_jobs(query="operations manager", location="Berlin"):
         return []
 
 # Ã¢ÂÂÃ¢ÂÂ SCORING Ã¢ÂÂ BERLIN BONUS Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
-def score_job(job):
+        job["score"], job["analysis"] = keyword_score(job), "keyword"
     skills_str = ", ".join(PROFILE["skills"][:8])
     prompt = (
         "Score job for candidate. Return ONLY JSON.\n"
@@ -583,10 +583,9 @@ async def run_cycle(applied_ids, cycle_num):
 
     # Score all new jobs
     for job in new_jobs:
-        score, reason = score_job(job)
+        score, reason = keyword_score(job), "keyword"
         job["score"] = score
         job["analysis"] = reason
-        time.sleep(0.3)
 
     # Sort: Berlin first, then by score
     def sort_key(j):
