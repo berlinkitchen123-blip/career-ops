@@ -162,7 +162,7 @@ def fetch_arbeitnow(keyword="", page=1):
         )
         r.raise_for_status()
         jobs = []
-        for j in (r.json().get("data", {}) or {}).get("jobs", []):
+        for j in r.json().get("data", []):
             tags = j.get("tags", [])
             loc = j.get("location", "Berlin, Germany")
             jobs.append({
