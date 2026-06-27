@@ -26,7 +26,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install requests
+          pip install requests google-genai
       - name: Run Continuous Job Search and Apply
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
