@@ -50,12 +50,12 @@ async function loadAgent(){
     const r=await fetch("./data/jobs.json?t="+Date.now());
     if(!r.ok)return;
     const data=await r.json(),aj=data.jobs||[],st=data.stats||{};
-    document.getElementById("st0").textContent=st.total||aj.length;
-    document.getElementById("st1").textContent=st.berlin_jobs||aj.filter(j=>isBerlin(j)).length;
-    document.getElementById("st2").textContent=st.applied_total||0;
-    document.getElementById("st4").textContent=jobs.filter(j=>hasSavedCV(j.id)).length;
+    if(document.getElementById("st0"))document.getElementById("st0").textContent=st.total||aj.length;
+    if(document.getElementById("st1"))document.getElementById("st1").textContent=st.berlin_jobs||aj.filter(j=>isBerlin(j)).length;
+    if(document.getElementById("st2"))document.getElementById("st2").textContent=st.applied_total||0;
+    document.getElementById("st3")&&(document.getElementById("st3").textContent=jobs.filter(j=>hasSavedCV(j.id)).length;
     const lu=data.lastUpdated?new Date(data.lastUpdated):null,mn=lu?Math.round((Date.now()-lu)/60000):null;
-    document.getElementById("ast").textContent=lu?"Last run "+(mn<2?"just now":mn+" min ago")+" -- "+aj.length+" jobs, "+(st.applied_total||0)+" applied":"Waiting for first run...";
+    if(document.getElementById("ast"))document.getElementById("ast").textContent=lu?"Last run "+(mn<2?"just now":mn+" min ago")+" -- "+aj.length+" jobs, "+(st.applied_total||0)+" applied":"Waiting for first run...";
     const eids=new Set(jobs.map(j=>j.id));
     let added=0;
     for(const j of aj){
