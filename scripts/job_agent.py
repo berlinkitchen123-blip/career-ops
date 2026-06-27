@@ -133,7 +133,7 @@ def fetch_jsearch(query, location):
             timeout=20)
         r.raise_for_status()
         jobs = []
-        for j in r.json().get("data", []):
+        for j in (r.json().get("data", {}) or {}).get("jobs", []):
             loc = "Remote" if j.get("job_is_remote") else ", ".join(
                 filter(None,[j.get("job_city",""),j.get("job_country","")]))
             pub = (j.get("job_publisher","") or "").lower()
@@ -162,7 +162,7 @@ def fetch_arbeitnow(keyword="", page=1):
         )
         r.raise_for_status()
         jobs = []
-        for j in r.json().get("data", []):
+        for j in (r.json().get("data", {}) or {}).get("jobs", []):
             tags = j.get("tags", [])
             loc = j.get("location", "Berlin, Germany")
             jobs.append({
