@@ -9,7 +9,7 @@ import os, json, re, time, asyncio, requests
 from datetime import datetime, timezone
 from pathlib import Path
 
-PROFILE = 
+PROFILE = {
     "name": "Harshkumar Patel", "first_name": "Harshkumar", "last_name": "Patel",
     "email": os.environ.get("LINKEDIN_EMAIL", "patelharsh513@gmail.com"),
     "phone": "+4915560938054", "location": "Berlin, Germany",
