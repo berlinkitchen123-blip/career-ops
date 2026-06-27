@@ -134,10 +134,12 @@ function switchTab(t){
 }
 
 // ── CV GENERATION ──────────────────────────────────────────────────────────
+var _cvGenerating=false;
 async function generateCV(){
-  if(!currentJob)return;
+  if(!currentJob||_cvGenerating)return;
   const s=JSON.parse(localStorage.getItem("cs")||"{}"),key=s.gemini||"";
   if(!key){alert("Add your Gemini API key in Settings first.");return;}
+  _cvGenerating=true;
   const btn=document.getElementById("gen-btn");
   btn.disabled=true;btn.textContent="Generating...";
   switchTab("cv");
@@ -154,8 +156,9 @@ async function generateCV(){
     document.getElementById("save-cv-btn").style.display="";
     genCVHtml=cvHtml;
     saveToFirebase(currentJob,cvHtml);
-  }catch(e){document.getElementById("cv-area").innerHTML="<div style=\"text-align:center;padding:40px;color:#f87171\"><p style=\"margin-bottom:8px;font-weight:600\">Error</p><p>"+esc(e.message)+"</p></div>";}
+  }catch(e){var msg=e.message||"";var is429=msg.includes("429")||(typeof e.status!=="undefined"&&e.status===429);document.getElementById("cv-area").innerHTML="<div style=\"text-align:center;padding:40px;color:"+(is429?"#fbbf24":"#f87171")+"\">"+(is429?"<p style=\"font-size:20px;margin-bottom:8px\">Rate limited</p><p style=\"margin-bottom:12px\">Free tier: 15 requests/minute. Wait 60 seconds and try again.</p><button onclick=\"generateCV()\" style=\"background:var(--a);color:#fff;border:none;padding:8px 18px;border-radius:8px;cursor:pointer;font-size:13px\">Try Again</button>":"<p style=\"margin-bottom:8px;font-weight:600\">Error</p><p>"+esc(msg)+"</p>")+"</div>";}
   btn.disabled=false;btn.textContent="Regenerate CV";
+  _cvGenerating=false;
 }
 
 function buildEuropeanCV(txt,j,p){
