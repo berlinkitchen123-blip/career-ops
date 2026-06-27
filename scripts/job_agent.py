@@ -108,6 +108,20 @@ def generate_queries():
     ]
 
 # Ã¢ÂÂÃ¢ÂÂ FETCHING Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
+KEYWORDS = ["operations","quality","logistics","manager","coordinator","engineer",
+    "ai","product","lean","process","manufacturing","supply chain",
+    "haccp","dfmea","kpi","continuous improvement","Qualitaets","Betriebs"]
+
+def keyword_score(job):
+    score = 30
+    text = (job.get("title","") + " " + job.get("description","")).lower()
+    loc = (job.get("location","") or "").lower()
+    if "berlin" in loc: score += 20
+    elif "germany" in loc or "deutschland" in loc: score += 8
+    for kw in KEYWORDS:
+        if kw.lower() in text: score += 4
+    return min(score, 98)
+
 def fetch_arbeitnow(keyword="", page=1):
     """Fetch Berlin/Germany jobs from Arbeitnow - free, no API key needed."""
     try:
