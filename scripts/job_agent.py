@@ -113,7 +113,7 @@ def fetch_jsearch(query, location):
     try:
         r = requests.get("https://jsearch.p.rapidapi.com/search",
             headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
-            params={"query":f"{query} {location}","page":"1","num_pages":"1","date_posted":"3days"},timeout=20)
+            params={"query":f"{query} {location}","page":"1","num_pages":"1"},timeout=20)
         r.raise_for_status()
         jobs = []
         for j in r.json().get("data", []):
