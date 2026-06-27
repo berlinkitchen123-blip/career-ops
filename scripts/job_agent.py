@@ -108,27 +108,42 @@ def generate_queries():
     ]
 
 # Ã¢ÂÂÃ¢ÂÂ FETCHING Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
-def fetch_jsearch(query, location):
-    if not RAPIDAPI_KEY: return []
+def fetch_arbeitnow(keyword="", page=1):
+    """Fetch Berlin/Germany jobs from Arbeitnow - free, no API key needed."""
     try:
-        r = requests.get("https://jsearch.p.rapidapi.com/search",
-            headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
-            params={"query":f"{query} {location}","page":"1","num_pages":"1"},timeout=20)
+        params = {"page": page}
+        if keyword:
+            params["search"] = keyword
+        r = requests.get(
+            "https://arbeitnow.com/api/job-board-api",
+            params=params,
+            headers={"Accept": "application/json"},
+            timeout=20
+        )
         r.raise_for_status()
         jobs = []
         for j in r.json().get("data", []):
-            loc = "Remote" if j.get("job_is_remote") else ", ".join(filter(None,[j.get("job_city",""),j.get("job_country","")]))
-            src = j.get("job_publisher","")
-            src = "LinkedIn" if "linkedin" in src.lower() else "Indeed" if "indeed" in src.lower() else "Glassdoor" if "glassdoor" in src.lower() else src or "JSearch"
-            jobs.append({"id":str(j["job_id"]),"title":j.get("job_title",""),"company":j.get("employer_name",""),
-                "location":loc,"salary":"","description":(j.get("job_description","") or "")[:2000],
-                "applyUrl":j.get("job_apply_link") or j.get("job_google_link",""),
-                "source":src,"posted":j.get("job_posted_at_datetime_utc",""),"score":None,"analysis":None,"applied":False})
-        log(f"  JSearch '{query[:25]}' {location}: {len(jobs)}")
+            tags = j.get("tags", [])
+            loc = j.get("location", "Berlin, Germany")
+            jobs.append({
+                "id": f"an-{j.get('slug',j.get('title','')[:20]).replace(' ','-')}",
+                "title": j.get("title", ""),
+                "company": j.get("company_name", ""),
+                "location": loc,
+                "salary": "",
+                "description": (j.get("description", "") or "")[:2000],
+                "applyUrl": j.get("url", ""),
+                "source": "Arbeitnow",
+                "posted": j.get("created_at", ""),
+                "score": None,
+                "applied": False,
+            })
+        log(f"  Arbeitnow '{keyword}': {len(jobs)}")
         return jobs
     except Exception as e:
-        log(f"  JSearch: {e}")
+        log(f"  Arbeitnow error: {e}")
         return []
+
 
 def fetch_remotive():
     try:
@@ -546,7 +561,7 @@ async def run_cycle(applied_ids, cycle_num):
     new_jobs = []
     seen = set()
     for query, location in queries:
-        for job in fetch_jsearch(query, location):
+        for job in fetch_arbeitnow(keyword=query):
             if job["id"] not in seen and job["id"] not in existing:
                 seen.add(job["id"]); new_jobs.append(job)
         time.sleep(1.5)
