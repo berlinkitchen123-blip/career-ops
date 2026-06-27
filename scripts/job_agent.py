@@ -9,7 +9,7 @@ import os, json, re, time, asyncio, requests
 from datetime import datetime, timezone
 from pathlib import Path
 
-PROFILE = {
+PROFILE = 
     "name": "Harshkumar Patel", "first_name": "Harshkumar", "last_name": "Patel",
     "email": os.environ.get("LINKEDIN_EMAIL", "patelharsh513@gmail.com"),
     "phone": "+4915560938054", "location": "Berlin, Germany",
@@ -29,8 +29,8 @@ XING_PASSWORD = os.environ.get("XING_PASSWORD", "")
 STEPSTONE_EMAIL = os.environ.get("STEPSTONE_EMAIL", "patelharsh513@gmail.com")
 STEPSTONE_PASSWORD = os.environ.get("STEPSTONE_PASSWORD", "")
 MIN_SCORE    = int(os.environ.get("MIN_SCORE", "60"))
-LOOP_INTERVAL = 300
-MAX_APPLY_PER_CYCLE = 5   # Apply to 5 per cycle across all platforms
+LOOP_INTERVAL = 999999
+MAX_APPLY_PER_CYCLE = 0   # Apply to 5 per cycle across all platforms
 
 JOBS_FILE    = Path("docs/data/jobs.json")
 APPLIED_FILE = Path("docs/data/applied.json")
@@ -113,7 +113,7 @@ def fetch_jsearch(query, location):
     try:
         r = requests.get("https://jsearch.p.rapidapi.com/search",
             headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
-            params={"query":f"{query} {location}","page":"1","num_pages":"1","date_posted":"today"},timeout=20)
+            params={"query":f"{query} {location}","page":"1","num_pages":"1","date_posted":"week"},timeout=20)
         r.raise_for_status()
         jobs = []
         for j in r.json().get("data", []):
@@ -644,7 +644,7 @@ async def main():
 
     cycle = 0
     start = time.time()
-    max_runtime = 5.5 * 3600
+    max_runtime = 360
 
     while time.time() - start < max_runtime:
         cycle += 1
