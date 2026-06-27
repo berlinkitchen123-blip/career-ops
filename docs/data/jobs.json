@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-27T15:09:04.031424+00:00",
+  "lastUpdated": "2026-06-27T15:17:26.986400+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 134,
-    "new_this_cycle": 0,
-    "berlin_jobs": 13,
+    "total": 135,
+    "new_this_cycle": 1,
+    "berlin_jobs": 14,
     "high_match_70plus": 2,
     "applied_total": 0,
     "applied_this_cycle": 0
@@ -258,6 +258,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/ebsco-information-services-gmbh/sachbearbeiterin-kundenservice-frankreich-berlin-396725",
       "source": "Arbeitnow",
       "posted": 1782480628,
+      "score": 50,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-50-staatlich-geprufte-kosmetikerin-in-teilzeit-berlin-243972",
+      "title": "50 %: Staatlich geprüfte Kosmetikerin in Teilzeit",
+      "company": "Inanna GmbH",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<p><strong>Ein Haus, in dem Handwerk Zeit hat</strong></p>\n<p>Inanna Wellness ist ein privates Haus für Ästhetik und Wohlbefinden in der Charlottenstraße in Berlin-Mitte. Wir arbeiten leise und präzise, mit feinem Handwerk und sorgfältig gewählten Methoden, im Rhythmus unserer Gäste.</p>\n<p>Wer hier arbeitet, gestaltet diese Haltung mit: den Menschen vor der Methode, Genauigkeit statt Intensität, Rhythmus statt Beschleunigung.</p>\n<p><strong>Diese Haltung wurde mehrfach ausgezeichnet:</strong></p>\n<ul>\n<li>World Spa Award 2024 und 2025, Best Day Spa Deutschland</li>\n<li>Gloria Award für Ambiente 2025, 1. Platz</li>\n<li>Spa Star Award 2025, Publikumspreis</li>\n<li>Top10 Berlin 2026, Platz 1 in den Kategorien Beauty und Massage</li>\n<li>CIDESCO-zertifiziert, als einziges Haus in Berlin</li>\n</ul>\n<p>Diese Anerkennungen sind nicht das Ziel. Sie sind das Ergebnis einer Arbeitsweise, an der Sie mitwirken können.</p>\n<h2>Aufgaben</h2>\n<p><strong>Ihre Arbeit bei Inanna Wellness</strong></p>\n<p>Sie begleiten unsere Gäste auf dem Weg zu sichtbarer Verfeinerung von Haut und Haar. Ihre Arbeit verbindet feines Handwerk, das über Generationen weitergegeben wurde, mit sorgfältig gewählten, wissenschaftlich fundierten Methoden der modernen Ästhetik. Technologie verstärkt, was Hände beginnen. Hände geben dem Ergebnis Eleganz.</p>\n<p>Sie arbeiten in einem kleinen Team von fünf Menschen, unter der fachlichen Leitung von Chantal Däumig, Meisterin des Hauses.</p>\n<p>Bei uns hat jede Behandlung ihre Zeit, in der Regel eine volle Stunde. Wir arbeiten mit wenigen Gästen und der Sorgfalt, die jede Begegnung verdient, nicht mit vielen Terminen am Tag. Was zählt, ist die Genauigkeit der Arbeit und die Aufmerksamkeit für den Menschen vor Ihnen.</p>\n<p>Ihre Arbeit hinterlässt mehr als ein sichtbares Ergebnis. Sie gibt den Menschen, die zu uns kommen, Zeit für sich und das Gefühl, in Ruhe gesehen zu werden.</p>\n<p><strong>Ihre Schwerpunkte:</strong></p>\n<ul>\n<li>Sie analysieren Haut und Kopfhau",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/inanna-gmbh/50-staatlich-geprufte-kosmetikerin-in-teilzeit-berlin-243972",
+      "source": "Arbeitnow",
+      "posted": 1782570663,
       "score": 50,
       "applied": false,
       "analysis": "keyword"
