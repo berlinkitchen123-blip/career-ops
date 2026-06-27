@@ -122,6 +122,32 @@ def keyword_score(job):
         if kw.lower() in text: score += 4
     return min(score, 98)
 
+def fetch_jsearch(query, location):
+    """Fetch from JSearch API (LinkedIn/Indeed/Glassdoor) via RapidAPI."""
+    if not RAPIDAPI_KEY: return []
+    try:
+        r = requests.get(
+            "https://jsearch.p.rapidapi.com/search",
+            headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
+            params={"query":f"{query} {location}","page":"1","num_pages":"1"},
+            timeout=20)
+        r.raise_for_status()
+        jobs = []
+        for j in r.json().get("data", []):
+            loc = "Remote" if j.get("job_is_remote") else ", ".join(
+                filter(None,[j.get("job_city",""),j.get("job_country","")]))
+            pub = (j.get("job_publisher","") or "").lower()
+            src = "LinkedIn" if "linkedin" in pub else "Indeed" if "indeed" in pub else "Glassdoor" if "glassdoor" in pub else j.get("job_publisher","") or "JSearch"
+            jobs.append({"id":str(j["job_id"]),"title":j.get("job_title",""),"company":j.get("employer_name",""),
+                "location":loc,"salary":"","description":(j.get("job_description","") or "")[:2000],
+                "applyUrl":j.get("job_apply_link") or j.get("job_google_link",""),
+                "source":src,"posted":j.get("job_posted_at_datetime_utc",""),"score":None,"applied":False})
+        log(f"  JSearch '{query[:20]}' {location}: {len(jobs)}")
+        return jobs
+    except Exception as e:
+        log(f"  JSearch error: {e}")
+        return []
+
 def fetch_arbeitnow(keyword="", page=1):
     """Fetch Berlin/Germany jobs from Arbeitnow - free, no API key needed."""
     try:
@@ -574,6 +600,12 @@ async def run_cycle(applied_ids, cycle_num):
     # Fetch Ã¢ÂÂ Berlin queries first
     new_jobs = []
     seen = set()
+    # JSearch: LinkedIn/Indeed/Glassdoor via RapidAPI
+    for query, location in [("operations manager","Berlin Germany"),("quality assurance","Berlin Germany"),("logistics manager","Berlin Germany"),("AI developer","Berlin Germany"),("product manager","Berlin Germany")]:
+        for job in fetch_jsearch(query, location):
+            if job["id"] not in seen and job["id"] not in existing:
+                seen.add(job["id"]); new_jobs.append(job)
+        time.sleep(1)
     for query, location in queries:
         for job in fetch_arbeitnow(keyword=query):
             if job["id"] not in seen and job["id"] not in existing:
