@@ -35,12 +35,33 @@ jobs:
           LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
           MIN_SCORE: '60'
         run: python3 scripts/job_agent.py
-      - name: Commit updated jobs
-        if: always()
+      - name: Push jobs via API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "Career-Ops Bot"
-          git config user.email "bot@career-ops.bot"
-          git add docs/data/jobs.json || true
-          git diff --staged --quiet || git commit -m "Jobs: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main || true
-          git push || git push || true
+          python3 - <<'EOF'
+import os, json, base64, urllib.request
+from datetime import datetime, timezone
+token = os.environ['GITHUB_TOKEN']
+repo = os.environ['GITHUB_REPOSITORY']
+path = 'docs/data/jobs.json'
+if not os.path.exists(path):
+    print('No jobs.json found'); exit(0)
+with open(path, 'rb') as f:
+    content = base64.b64encode(f.read()).decode()
+req = urllib.request.Request(
+    f'https://api.github.com/repos/{repo}/contents/{path}',
+    headers={'Authorization': f'token {token}', 'Accept': 'application/json'})
+sha = json.loads(urllib.request.urlopen(req).read())['sha']
+msg = f'Jobs: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}'
+body = json.dumps({'message': msg, 'content': content, 'sha': sha}).encode()
+req2 = urllib.request.Request(
+    f'https://api.github.com/repos/{repo}/contents/{path}',
+    data=body, method='PUT',
+    headers={'Authorization': f'token {token}', 'Content-Type': 'application/json'})
+try:
+    r = json.loads(urllib.request.urlopen(req2).read())
+    print('Pushed:', r.get('commit', {}).get('sha', '?')[:8])
+except Exception as e:
+    print('Push error:', e)
+EOF
