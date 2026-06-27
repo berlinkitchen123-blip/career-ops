@@ -2,17 +2,20 @@ name: Job Copilot Agent Continuous Search and Apply
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       note:
         description: 'Manual trigger reason'
         required: false
 
+concurrency:
+  group: job-fetcher
+  cancel-in-progress: true
 jobs:
   job-search:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 8
     permissions:
       contents: write
     steps:
@@ -23,8 +26,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install google-genai requests playwright
-          python -m playwright install chromium --with-deps
+          pip install requests
       - name: Run Continuous Job Search and Apply
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
