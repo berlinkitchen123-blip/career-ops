@@ -129,7 +129,7 @@ def fetch_jsearch(query, location):
         r = requests.get(
             "https://jsearch.p.rapidapi.com/search-v2",
             headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
-            params={"query":f"{query} {location}","page":"1","num_pages":"1","country":"de","date_posted":"all"},
+            params={"query":f"{query} {location}","page":"1","num_pages":"3","country":"de","date_posted":"3days"},
             timeout=20)
         r.raise_for_status()
         jobs = []
@@ -601,7 +601,19 @@ async def run_cycle(applied_ids, cycle_num):
     new_jobs = []
     seen = set()
     # JSearch: LinkedIn/Indeed/Glassdoor via RapidAPI
-    for query, location in [("operations manager","Berlin Germany"),("quality assurance","Berlin Germany"),("logistics manager","Berlin Germany"),("AI developer","Berlin Germany"),("product manager","Berlin Germany")]:
+    for query, location in [
+        ("operations manager Berlin","Berlin Germany"),
+        ("quality assurance manager Berlin","Berlin Germany"),
+        ("logistics manager Berlin","Berlin Germany"),
+        ("product manager Berlin","Berlin Germany"),
+        ("operations coordinator Berlin","Berlin Germany"),
+        ("operations manager Berlin via linkedin","Berlin Germany"),
+        ("quality manager Berlin via linkedin","Berlin Germany"),
+        ("logistics Berlin via linkedin","Berlin Germany"),
+        ("operations manager Berlin via xing","Berlin Germany"),
+        ("Betriebsleiter Berlin","Berlin Germany"),
+        ("Qualitaetsmanager Berlin","Berlin Germany"),
+    ]:
         for job in fetch_jsearch(query, location):
             if job["id"] not in seen and job["id"] not in existing:
                 seen.add(job["id"]); new_jobs.append(job)
