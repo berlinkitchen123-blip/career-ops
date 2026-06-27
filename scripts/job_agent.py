@@ -127,7 +127,7 @@ def fetch_jsearch(query, location):
     if not RAPIDAPI_KEY: return []
     try:
         r = requests.get(
-            "https://jsearch.p.rapidapi.com/search",
+            "https://jsearch.p.rapidapi.com/search-v2",
             headers={"x-rapidapi-host":"jsearch.p.rapidapi.com","x-rapidapi-key":RAPIDAPI_KEY},
             params={"query":f"{query} {location}","page":"1","num_pages":"1"},
             timeout=20)
