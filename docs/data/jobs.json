@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-28T18:42:31.821029+00:00",
+  "lastUpdated": "2026-06-28T20:09:12.165315+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 298,
-    "new_this_cycle": 0,
+    "total": 299,
+    "new_this_cycle": 1,
     "berlin_jobs": 37,
     "high_match_70plus": 5,
     "applied_total": 0,
@@ -986,6 +986,20 @@
       "applyUrl": "https://de.trabajo.org/stellenangebot-3390-77a99595d3c73c895a727acebf078479",
       "source": "Trabajo.org",
       "posted": "2026-06-24T00:00:00.000Z",
+      "score": 50,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-ai-product-engineer-internal-tools-automation-dusseldorf-373777",
+      "title": "AI Product Engineer - Internal Tools & Automation (m/w/d)",
+      "company": "Lyto Brands Group GmbH",
+      "location": "Düsseldorf",
+      "salary": "",
+      "description": "<p>Baue KI-gestützte Tools und Automationen, die unsere Marketing-, Creative-, Operations- und Engineering-Teams 10x schneller und besser machen. Dabei setzt du auf unserer proprietären Plattform Lyto.OS auf und entwickelst diese gemeinsam mit unserem Tech Team kontinuerlich weiter.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Du findest Automatisierungs- und KI-Chancen im ganzen Unternehmen – im direkten Austausch mit den Teams, nah am echten Workflow statt am Whiteboard.</li>\n<li>Du baust KI-gestützte Workflows für Marketing &#x26; Creative: Briefing-Generierung, Copy Review, Asset-QA und Ad-Performance-Summaries – entlang unseres Trend-to-Product-Zyklus von unter einer Woche.</li>\n<li>Du entwickelst Quality-Assurance- und Anomalie-Erkennungs-Tooling für unsere proprietäre Plattform LYTO.OS.</li>\n<li>Du shippst leichtgewichtige interne Agents, die repetitive Arbeit übernehmen – damit Menschen sich auf das konzentrieren, was wirklich sie braucht.</li>\n<li>Du verantwortest interne Operations-Automation end-to-end: Reporting-Pipelines, Approval Flows und systemübergreifende Daten-Syncs über unsere 15 Microservices.</li>\n<li>Du scopest, priorisierst, baust, shippst und iterierst – eigenverantwortlich, mit kurzem Weg von Idee zu Produktion.</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Du bist ein exzellenter Engineer und baust Software, die in Produktion echte Last trägt – sauber, pragmatisch, ohne Bloat.</li>\n<li>Unser Stack (PHP/Laravel &#x26; Python, Vue/React, MySQL, Docker, DigitalOcean) ist dir vertraut oder du eignest ihn dir mühelos an.</li>\n<li>Du hast LLM-Systeme nicht nur gebaut, sondern produktiv betrieben, mit allem, was das real bedeutet: Kosten, Latenz, Evals, Fehlerfälle, Monitoring.</li>\n<li>Hands-on Erfahrung mit Claude Code, dem Anthropic Agent SDK oder Multi-Step-AI-Agents in Produktion</li>\n<li>Du erweiterst AI-Tooling über MCPs und eigene Integrationen gegen reale Datenquellen</li>\n<li>Tiefe in LLM-Workflows: Prompt Engineering, Tool Use, Structured Outputs, RAG ",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/lyto-brands-group-gmbh/ai-product-engineer-internal-tools-automation-dusseldorf-373777",
+      "source": "Arbeitnow",
+      "posted": 1782675032,
       "score": 50,
       "applied": false,
       "analysis": "keyword"
