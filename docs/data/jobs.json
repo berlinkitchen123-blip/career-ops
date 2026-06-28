@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-28T12:14:06.682736+00:00",
+  "lastUpdated": "2026-06-28T14:22:22.990900+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 295,
-    "new_this_cycle": 6,
+    "total": 296,
+    "new_this_cycle": 1,
     "berlin_jobs": 36,
     "high_match_70plus": 5,
     "applied_total": 0,
@@ -2263,6 +2263,20 @@
       "score": 38,
       "analysis": "keyword",
       "applied": false
+    },
+    {
+      "id": "an-founders-associate-munich-208205",
+      "title": "Founders Associate (m/w/d)",
+      "company": "BarBrain GmbH",
+      "location": "Munich",
+      "salary": "",
+      "description": "<p>BarBrain ist eines der am schnellsten wachsenden SaaS-Startups für die Gastronomie. Unser Tool digitalisiert Inventurprozesse in Restaurants, Bars und Hotels – effizient, benutzerfreundlich und datengetrieben. Mit einer wachsenden Zahl qualifizierter Leads, einem skalierbaren Produkt und starken Referenzen schaffen wir täglich echten Mehrwert für unsere Kunden. Als Founders Associate arbeitest Du direkt mit der Geschäftsführung zusammen, bekommst tiefe Einblicke in alle Geschäftsbereiche und gestaltest das Wachstum operativ mit. Die Rolle ist ideal für smarte Generalist:innen mit Ambition, unternehmerischem Denken und dem Wunsch, wirklich etwas zu bewegen.</p>\n<h2>Aufgaben</h2>\n<p><strong>Deine Aufgaben (je nach Einarbeitung &#x26; Fokus):</strong></p>\n<p>Du übernimmst operative Verantwortung in strategisch wichtigen Bereichen und hältst dem Gründerteam den Rücken frei – in Projekten, Prozessen und Prioritäten.</p>\n<ul>\n<li>Direkte Zusammenarbeit mit der Geschäftsführung im Tagesgeschäft</li>\n<li>Planung und Umsetzung von strategischen Projekten (z. B. Marktanalysen, Expansionspläne, neue Produktfeatures)</li>\n<li>Unterstützung bei Investor Relations und der Vorbereitung von Reportings</li>\n<li>Übernahme von Aufgaben im Bereich Business Development, Operations oder Vertrieb – je nach Bedarf &#x26; Skillset</li>\n<li>Erstellung von Präsentationen, Entscheidungsvorlagen und Analysen</li>\n<li>Strukturierung von internen Prozessen – von Recruiting bis Kundenfeedback</li>\n<li>Kommunikation mit Partnern, Kunden und Dienstleistern</li>\n<li>Sparring für neue Ideen, MVPs und Entscheidungen im schnellen Setup</li>\n</ul>\n<h2>Qualifikation</h2>\n<p><strong>Das bringst Du mit:</strong></p>\n<ul>\n<li>Erste praktische Erfahrung im Startup-, Beratungs- oder Tech-Umfeld (z. B. Praktika, Werkstudentenjobs)</li>\n<li>Hohe Eigenmotivation, unternehmerisches Denken und Hands-on-Mentalität</li>\n<li>Ausgeprägtes Organisations- und Umsetzungsvermögen</li>\n<li>Tech-Affinität und Lust, Dich i",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/barbrain-gmbh/founders-associate-munich-208205",
+      "source": "Arbeitnow",
+      "posted": 1782648026,
+      "score": 38,
+      "applied": false,
+      "analysis": "keyword"
     },
     {
       "id": "an-e-commerce-ecom-shopify-onlineshop-manager-fur-3-brands-dusseldorf-397091",
