@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-28T21:37:17.059952+00:00",
+  "lastUpdated": "2026-06-28T22:58:17.668764+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 299,
-    "new_this_cycle": 0,
+    "total": 300,
+    "new_this_cycle": 1,
     "berlin_jobs": 37,
     "high_match_70plus": 5,
     "applied_total": 0,
@@ -3016,6 +3016,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/jobbusters-gmbh/bilanzbuchhalter-munich-474493",
       "source": "Arbeitnow",
       "posted": 1782640828,
+      "score": 34,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-junior-ailance-ailance-application-support-specialist-bonn-151809",
+      "title": "Junior Ailance Ailance Application Support Specialist (m/w/d)",
+      "company": "2B Advice GmbH",
+      "location": "Bonn",
+      "salary": "",
+      "description": "<p>2B Advice entwickelt mit Ailance eine moderne SaaS-Plattform für Datenschutz, Governance, Risk und Compliance. Unsere Kunden nutzen Ailance, um komplexe Prozesse, Daten, Workflows, Nachweise und Berichte im Alltag steuerbar zu machen.</p>\n<p>Für unser Team in Bonn suchen wir eine strukturierte, kommunikative und technisch interessierte Person, die unsere Kunden im täglichen Umgang mit Ailance unterstützt. Du bist erste Anlaufstelle für Supportanfragen, analysierst Probleme sauber, hilfst bei Standardfragen und wächst Schritt für Schritt tiefer in unsere Plattform, Konfiguration und Supportprozesse hinein.</p>\n<p>Diese Rolle passt zu dir, wenn du Software verstehen willst, gerne mit Kunden arbeitest und Probleme nicht nur weiterleitest, sondern sauber einordnest, dokumentierst und lösungsorientiert bearbeitest. hritt für Schritt tiefer in Produkt, Konfiguration und Lösungslogik hineinwächst.</p>\n<h2>Aufgaben</h2>\n<p>Du bearbeitest Supportanfragen unserer Kunden über Tickets, E-Mail und Telefon und sorgst dafür, dass Anliegen schnell, freundlich und nachvollziehbar geklärt werden.</p>\n<p>Du nimmst Anfragen strukturiert auf, stellst die richtigen Rückfragen, priorisierst Fälle und dokumentierst alle wichtigen Informationen sauber im Ticketsystem.</p>\n<p>Du unterstützt Kunden bei typischen Anwendungsthemen rund um Ailance, zum Beispiel bei Nutzerfragen, Rollen und Berechtigungen, Formularen, Ansichten, Workflows, Reports, Dokumenten und Grundeinstellungen.</p>\n<p>Du reproduzierst gemeldete Probleme, prüfst, ob es sich um Bedienungsfragen, Konfigurationsthemen, technische Störungen oder mögliche Bugs handelt, und bereitest komplexere Fälle für das Solution-Builder-, Produkt- oder Entwicklungsteam vor.</p>\n<p>Nach der Einarbeitung übernimmst du einfache Konfigurations- und Analyseaufgaben selbst und hilfst dabei, wiederkehrende Fragen in FAQ, Wissensartikeln und internen Supportleitfäden zu dokumentieren.</p>\n<p>Du arbeitest eng mit Solution Buildern, Produktmanagement",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/2b-advice-gmbh/junior-ailance-ailance-application-support-specialist-bonn-151809",
+      "source": "Arbeitnow",
+      "posted": 1782680432,
       "score": 34,
       "applied": false,
       "analysis": "keyword"
