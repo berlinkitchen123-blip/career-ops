@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-29T19:48:54.870226+00:00",
+  "lastUpdated": "2026-06-29T21:20:18.473655+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 451,
-    "new_this_cycle": 4,
-    "berlin_jobs": 61,
-    "high_match_70plus": 7,
+    "total": 456,
+    "new_this_cycle": 5,
+    "berlin_jobs": 63,
+    "high_match_70plus": 8,
     "applied_total": 0,
     "applied_this_cycle": 0
   },
@@ -174,6 +174,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/bees-bears/junior-credit-analyst-berlin-461535",
       "source": "Arbeitnow",
       "posted": 1782727262,
+      "score": 70,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-senior-embedded-qa-engineer-berlin-327837",
+      "title": "Senior Embedded QA Engineer",
+      "company": "SumUp",
+      "location": "Berlin, Berlin, Germany",
+      "salary": "",
+      "description": "<p><strong>About the role</strong></p>\n<p>As a Senior Embedded QA Engineer in SumUp's Hardware Tribe, you will be part of one of our small and highly skilled cross-functional teams and work together with Product Managers, Embedded Engineers, Mobile Engineers, and more. You will build sustainable solutions for testing and be accountable for the <strong>mobile testing tools</strong> that the QA team are building. Lastly, you will also be a critical decision maker in the design of <strong>hardware test infrastructures to run HIL tests</strong> and provide crucial support to software releases.</p>\n<p>You should be an engineer with a product mindset who can fully own the features you are working on and remain flexible with changing priorities.</p>\n<p><strong>The role is based on-site in our office in Berlin. We believe in the power of face-to-face conversations that happen organically when working next to one another.</strong></p>\n<p><strong>About the team</strong></p>\n<p>You have probably used our<a href=\"https://sumup.co.uk/card-readers/\"> card readers</a> to buy a cappuccino or pay your hairdresser already. In Hardware, we are passionate about creating these beautifully designed card payment devices and accessories that enable our merchants to start, run, and grow their own businesses. In doing so, we deal with a diverse range of engineering topics - industrial and electronic design, embedded systems, all the way to mobile apps and backend services.</p>\n<p>We believe in open communication and constant learning over strict rules. If you're looking for the chance to innovate and help millions of small independent merchants succeed - join us!</p>\n<p><strong>What you'll do</strong></p>\n<ul>\n<li>Ensure that all new code of developers has the right quality and is compliant with selected best practices (in collaboration with the CL)</li>\n<li>Build and maintain test infrastructure for HIL tests, with a <strong>strong emphasis on Embedded QA.</strong></li>\n<li>Ensure that mult",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sumup/senior-embedded-qa-engineer-berlin-327837",
+      "source": "Arbeitnow",
+      "posted": 1782765925,
       "score": 70,
       "applied": false,
       "analysis": "keyword"
@@ -398,6 +412,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/lionflence/trainee-artist-manager-influencer-manager-berlin-372801",
       "source": "Arbeitnow",
       "posted": 1782720038,
+      "score": 62,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-marketing-managerin-fur-schnell-wachsende-fashion-marke-remote-berlin-251012",
+      "title": "Marketing Managerin für schnell wachsende Fashion Marke | remote m/w/d",
+      "company": "ivyclip",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<p>Remote oder München · Vollzeit · Marketing &#x26; Social Media · 45.000 € – 70.000 € / Jahr</p>\n<p>Wir sind <strong>ivyclip</strong> und wir haben die Haarklammer neu erfunden: eine flexible Haarklammer, die nicht kneift, nicht bricht, nicht rutscht. Wir haben in weniger als 6 Monate nach Launch über 10.000 Bestellungen bekommen und wollen dieses Jahr auf 100.000 Bestellungen wachsen.</p>\n<p>Dafür brauchen wir dich: die Person, die ivyclip in jeden Feed bringt.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Du baust unser Creator-Programm stark aus, von Seedings an kleinere Creator bis hin zu großen Paid Koops.</li>\n<li>Du ownst unsere Kanäle (Instagram, TikTok): Redaktionsplan, Ideen und Community gemeinsam mit unserer Gründerin.</li>\n<li>Du machst aus Haarklammer viralen Content. Du denkst dir Hooks, Formate und Kampagnen aus, die Leute begeistern.</li>\n<li>Ideen, Ideen, Ideen. Du ziehst sie aus Trends, aus DMs, aus dem Alltag und übersetzt sie auf unsere Marke.</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Du bist absolut obsessed mit Content. Hooks, Copy, Formate, Trends, du studierst sie, weil du nicht anders kannst.</li>\n<li>Du hast selbst schon hunderte Reels/Videos/Posts gebaut, die funktioniert haben.</li>\n<li>Du hast ein Gespür für Creator und ein Netzwerk, das du aktivieren kannst.</li>\n<li>Du bist datenaffin genug, um zu wissen, was wirkt und ehrlich genug, um zu killen, was nicht.</li>\n<li>Du übernimmst 100% Ownership, arbeitest eigenständig und brauchst niemanden, der dich antreibt.</li>\n<li>Du brennst für Beauty, Marken und fürs Aufbauen.</li>\n<li>Deutsch auf Muttersprachen-Niveau.</li>\n</ul>\n<h2>Benefits</h2>\n<ul>\n<li>Du bekommst bei uns Einblicke in wirklich alles: Wachstum, Marketing, Produkt, Operations, Strategie, Zahlen, Entscheidungen und Fehler. Wir arbeiten radikal transparent. Du lernst alle Aspekte die für den erfolgreichen Aufbau eines der spannendsten Fashion-Startups im DACH-Raum wichtig sind.</li>\n<li>Bei uns lernst du in einem Jahr mehr über Unternehm",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ivyclip/marketing-managerin-fur-schnell-wachsende-fashion-marke-remote-berlin-251012",
+      "source": "Arbeitnow",
+      "posted": 1782761426,
       "score": 62,
       "applied": false,
       "analysis": "keyword"
@@ -4673,6 +4701,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-network-it-security-engineer-munich-208061",
+      "title": "Network & IT Security Engineer (m/w/d)",
+      "company": "Specific-Group Germany GmbH",
+      "location": "Munich",
+      "salary": "",
+      "description": "<p>Du bist im Netzwerk- und Security-Umfeld zu Hause und möchtest nicht nur Tickets bearbeiten, sondern moderne IT-Infrastrukturen aktiv gestalten? Dann werde Teil unseres Teams und unterstütze mittelständische Kunden im Großraum München bei der Planung, Umsetzung und dem Betrieb sicherer Netzwerk- und Security-Lösungen.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Planung, Design und Umsetzung von Netzwerk- und IT-Security-Projekten</li>\n<li>Konzeption und Implementierung von Firewall-, Switching- und WLAN-Umgebungen</li>\n<li>Administration, Konfiguration und Migration von Firewall-SystemenUmsetzung von VPN-, Routing-, NAT- und Access-Control-Konzepten</li>\n<li>Betrieb und Weiterentwicklung von Unternehmensnetzwerken</li>\n<li>Einrichtung, Administration und Troubleshooting von WLAN-Infrastrukturen</li>\n<li>Analyse und Bearbeitung von Security Incidents und sicherheitsrelevanten Ereignissen</li>\n<li>Administration moderner Endpoint-, Netzwerk- und Identity-Security-Lösungen</li>\n<li>Technische Beratung und Unterstützung unserer Kunden vor Ort und remote</li>\n<li>Eigenverantwortliche Umsetzung kleinerer und mittlerer Kundenprojekte</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Abgeschlossene Ausbildung oder gleichwertig</li>\n<li>Berufserfahrung im Bereich Netzwerk- und IT-Security</li>\n<li>Fundierte Kenntnisse in den Bereichen Firewall, Routing, Switching und WLAN</li>\n<li>Erfahrung mit VPN-Technologien, Netzwerksegmentierung und Sicherheitskonzepten</li>\n<li>Strukturierte und lösungsorientierte Arbeitsweise</li>\n<li>Hohe Kundenorientierung, Zuverlässigkeit und Eigeninitiative</li>\n<li>Führerschein Klasse B und Bereitschaft zu Kundeneinsätzen im Raum München</li>\n<li>Kenntnisse im Microsoft-Umfeld (Windows Server, Microsoft 365) sind von Vorteil</li>\n</ul>\n<h2>Benefits</h2>\n<ul>\n<li>Spannende Projekte bei namhaften Unternehmen im Großraum München</li>\n<li>Hohe Eigenverantwortung und kurze Entscheidungswege</li>\n<li>Individuelle Weiterbildungs- und Zertifizierungsmöglichkeiten</li>\n<l",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/specific-group-germany-gmbh/network-it-security-engineer-munich-208061",
+      "source": "Arbeitnow",
+      "posted": 1782759629,
+      "score": 34,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-marketing-spezialist-herzogenrath-499809",
       "title": "Marketing Spezialist (m/w/d)",
       "company": "Griptech GmbH",
@@ -5914,6 +5956,34 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/consurio-ag/kreativer-mediengestalter-digital-print-frechen-363765",
       "source": "Arbeitnow",
       "posted": 1782745240,
+      "score": 30,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-sap-berechtigungsberater-gesucht-dusseldorf-440081",
+      "title": "SAP Berechtigungsberater (w/m/d) gesucht!",
+      "company": "Recruit 121 Group",
+      "location": "Düsseldorf",
+      "salary": "",
+      "description": "<p>Du möchtest Deine SAP-Expertise in einem innovativen IT-Umfeld einbringen und Unternehmen bei sicheren und zukunftsfähigen SAP-Landschaften unterstützen? Dann solltest Du weiterlesen! 👇</p>\n<p>Unser Kunde ist eines der führenden IT-Service-Unternehmen im deutschsprachigen Raum und begleitet namhafte Kunden bei ihrer digitalen Transformation. Dich erwarten abwechslungsreiche Projekte, modernste Technologien und ein Team, das Zusammenarbeit und persönliche Weiterentwicklung großschreibt. 💙</p>\n<h2>Aufgaben</h2>\n<p>🔹 Konzeption, Erstellung und Weiterentwicklung von Berechtigungskonzepten in SAP R/3, S/4HANA &#x26; Fiori<br>\n🔹 Analyse und Behebung von Berechtigungsproblemen<br>\n🔹 Beratung zu SAP-Berechtigungen, Compliance und Systemvermessung<br>\n🔹 Mitarbeit in spannenden Kundenprojekten sowie Unterstützung im Presales<br>\n🔹 Weiterentwicklung des Serviceportfolios, u. a. im Bereich XAMS Suite</p>\n<h2>Qualifikation</h2>\n<p>✅ Mehrjährige Erfahrung im SAP-Berechtigungsmanagement<br>\n✅ Kenntnisse in S/4HANA- und Fiori-Berechtigungen<br>\n✅ Erfahrung mit der XAMS Suite (Xiting) von Vorteil<br>\n✅ Analytisches Denken, Eigeninitiative und Teamgeist<br>\n✅ Sehr gute Deutsch- und Englischkenntnisse</p>\n<h2>Benefits</h2>\n<p>🏡 Flexible Homeoffice-Möglichkeiten<br>\n⏰ Flexible Arbeitszeiten<br>\n📚 Individuelle Weiterbildungs- und Entwicklungsmöglichkeiten<br>\n🚀 Spannende Projekte bei namhaften Unternehmen<br>\n🤝 Offene Unternehmenskultur und ein motiviertes Team<br>\n📈 Langfristige Perspektiven in einem erfolgreichen, wachstumsstarken IT-Unternehmen</p>\n<p>📩 Interesse? Dann freue ich mich auf Deine Nachricht oder Deine Bewerbung. Ich erzähle Dir gerne mehr über die Position und das Unternehmen – selbstverständlich vertraulich. 😊</p>\n<p>Find more <a href=\"https://www.arbeitnow.com/english-speaking-jobs\">English Speaking Jobs in Germany</a> on Arbeitnow</a>",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/recruit-121-group/sap-berechtigungsberater-gesucht-dusseldorf-440081",
+      "source": "Arbeitnow",
+      "posted": 1782761426,
+      "score": 30,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-founders-associate-chief-of-staff-dusseldorf-309670",
+      "title": "Founder's Associate / Chief of Staff (m/w/d)",
+      "company": "Kulturwerke Deutschland",
+      "location": "Düsseldorf",
+      "salary": "",
+      "description": "<p><span style=\"color: #121317\">Du willst dort arbeiten, wo die wichtigsten Entscheidungen fallen, und einem Founder den Rücken so freihalten, dass er sich auf das Wesentliche konzentrieren kann?</span></p><p style=\";\"></p><p><span style=\"color: #121317\">Als Founder's Associate arbeitest Du direkt an der Seite unseres Geschäftsführers und wirst zu seiner wichtigsten Entlastung. Du übernimmst eigenständig Themen, die sonst auf seinem Tisch landen, koordinierst bereichsübergreifende Projekte und sorgst dafür, dass Entscheidungen vorbereitet, getroffen und nachgehalten werden. Du bekommst tiefe Einblicke in alle Bereiche eines schnell wachsenden, international expandierenden Unternehmens und übernimmst vom ersten Tag an echte Verantwortung.</span></p><p style=\";\"></p><p><span style=\"color: #121317\">Wir suchen einen außergewöhnlich strukturierten, schnellen und zuverlässigen Kopf, der eigenständig denkt, diskret handelt und Dinge zu Ende bringt, ohne dass man nachfassen muss.</span></p><p style=\";\"></p><h3><strong><span style=\"color: #121317\"><span style=\"background-color: #ffffff\">Deine Aufgaben<br /></span></span></strong></h3><p><span style=\"color: #121317\">Du bist die rechte Hand der Geschäftsführung und entlastest sie operativ wie inhaltlich. Zu Deinen Aufgaben gehören:</span></p><ul><li><p><span style=\"color: #121317\">Eigenständige Übernahme von Aufgaben und Projekten der Geschäftsführung</span></p></li><li><p><span style=\"color: #121317\">Vorbereitung von Entscheidungen durch Recherchen, Analysen und klare Entscheidungsvorlagen</span></p></li><li><p><span style=\"color: #121317\">Koordination und Nachhalten bereichsübergreifender Projekte und Prioritäten</span></p></li><li><p><span style=\"color: #121317\">Schnittstelle zwischen Geschäftsführung, Teams und externen Partnern</span></p></li><li><p><span style=\"color: #121317\">Aufbereitung von Daten und Unterlagen für Strategie, Expansion und Tagesgeschäft</span></p></li><li><p><span style=\"color: #121317\">Übernahme von ",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/kulturwerke-deutschland/founders-associate-chief-of-staff-dusseldorf-309670",
+      "source": "Arbeitnow",
+      "posted": 1782760813,
       "score": 30,
       "applied": false,
       "analysis": "keyword"
