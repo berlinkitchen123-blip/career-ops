@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-29T00:09:29.693047+00:00",
+  "lastUpdated": "2026-06-29T05:10:23.659135+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 300,
-    "new_this_cycle": 0,
+    "total": 301,
+    "new_this_cycle": 1,
     "berlin_jobs": 37,
     "high_match_70plus": 5,
     "applied_total": 0,
@@ -3800,6 +3800,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/jobbusters-gmbh/finanzbuchhalter-nuremberg-261065",
       "source": "Arbeitnow",
       "posted": 1782640827,
+      "score": 30,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-werkstudent-gn-hochbau-schwerpunkt-kalkulation-arbeitsvorbereitung-magdeburg-180683",
+      "title": "Werkstudent (gn) Hochbau Schwerpunkt Kalkulation & Arbeitsvorbereitung",
+      "company": "OST BAU; Osterburger Straßen-,Tief- und Hochbau GmbH",
+      "location": "Magdeburg",
+      "salary": "",
+      "description": "<p><strong>Was wir Dir bieten:</strong></p>\n<ul>\n<li>Einblicke und Aufgaben in verschiedenen Projekten im Bereich Hochbau</li>\n<li>Einen zentralen Arbeitsplatz und ein dynamisches Team an unserem Standort Magdeburg</li>\n<li>Flexible Arbeitszeitgestaltung passend zu deinem Studium</li>\n<li>Berufliche Perspektive für den Berufseinstieg als Kalkulator/in oder weitere Positionen</li>\n</ul>\n<p><strong>Deine Aufgaben:</strong></p>\n<ul>\n<li>Du unterstützt unser Team vorrangig in der Kalkulation und Mengenermittlung, ergänzend in der Abrechnungsvorbereitung, Baustellendokumentation und Bauleitung.</li>\n<li>Du führst eigenständig Mengenermittlungen aus Planunterlagen und Leistungsverzeichnissen durch, erstellst Voraufmaße und einfache Aufmaßunterlagen.</li>\n<li>Du unterstützt die Dokumentation von Baustellen, z.B. Foto- und Mengendokumentation.</li>\n<li>Du unterstützt die Bauleitung und Kalkulation bei organisatorischen und technischen Aufgaben, übernimmst kleinere Kalkulationsrechnungen und Preisermittlungen.</li>\n<li>Du sorgst für die nachvollziehbare Aufbereitung und strukturierte Ablage von Unterlagen.</li>\n</ul>\n<p><strong>Was Du mitbringen solltest:</strong></p>\n<ul>\n<li>Du bist eingeschriebene/r Student/in im Bereich Bauingenieurwesen und hast Lust, praktische Erfahrungen in einem Bauunternehmen zu sammeln.</li>\n<li>Du arbeitest engagiert, selbstständig und bist ein Teamplayer mit einer offenen, kommunikativen Art.</li>\n</ul>\n<p>Find <a href=\"https://www.arbeitnow.com/\">Jobs in Germany</a> on Arbeitnow</a>",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ost-bau-osterburger-strassen-tief-und-hochbau-gmbh/werkstudent-gn-hochbau-schwerpunkt-kalkulation-arbeitsvorbereitung-magdeburg-180683",
+      "source": "Arbeitnow",
+      "posted": 1782693032,
       "score": 30,
       "applied": false,
       "analysis": "keyword"
