@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-29T17:32:04.606514+00:00",
+  "lastUpdated": "2026-06-29T19:48:54.870226+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 447,
-    "new_this_cycle": 21,
-    "berlin_jobs": 60,
-    "high_match_70plus": 6,
+    "total": 451,
+    "new_this_cycle": 4,
+    "berlin_jobs": 61,
+    "high_match_70plus": 7,
     "applied_total": 0,
     "applied_this_cycle": 0
   },
@@ -104,6 +104,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/flix/senior-product-designer-flixtrain-operations-management-platform-berlin-49320",
       "source": "Arbeitnow",
       "posted": 1782517525,
+      "score": 74,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-engineering-manager-heartbeat-ai-berlin-482604",
+      "title": "Engineering Manager Heartbeat AI (m/f/d)",
+      "company": "1KOMMA5˚",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<h2>1KOMMA5°</h2>\n<p>At <strong>1KOMMA5°</strong>, we pursue a clear vision: <strong>Living on wind and sunlight forever for free</strong>. To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it?</p>\n<p>We bring together regional craftsmanship and scalable software: We don't think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, integrated overall system in our virtual power plant. Directly connected to the electricity market – in real time, fully automated. This way, energy is used when it is available from renewables and particularly cost-effective. By 2030, our goal is to transition 1.5 million households to renewable energies. Over 3,000 people are working towards this every day, at more than 80 locations worldwide, from Finland to Australia.</p>\n<p><strong>Want to take responsibility and build solutions that truly matter? Apply now and help us shape the energy world of tomorrow.</strong></p>\n<p>Learn about our Product &#x26; Tech team!</p>\n<h2>Deine Position</h2>\n<p>As an Engineering Manager at <strong>1KOMMA5° Heartbeat AI GmbH</strong>, you will lead one of our cross-functional App teams, empowering your engineers to own the full lifecycle of their products from development and deployment to day-to-day operations.</p>\n<h2>Our Stack:</h2>\n<ul>\n<li>TypeScript, NestJS, Next.js, Flutter</li>\n<li>AI-assisted development with Cursor and agentic coding workflows</li>\n<li>SQLMesh, BigQuery, Looker</li>\n<li>GCP, Vercel, GitHub Actions, Datadog</li>\n<li>Linear, Notion, Figma, Miro</li>\n</ul>\n<h2>Key responsibilities include but are not limited to:</h2>\n<ul>\n<li>Provide technical leadership, guidance, and expertise across a platform team and be part of the hiring process to find the best talents</li>\n<li>Be an excellent people manager and support your team members in their professional and personal development</li>\n<li>Help your team members to create, im",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/1komma50/engineering-manager-heartbeat-ai-berlin-482604",
+      "source": "Arbeitnow",
+      "posted": 1782754227,
       "score": 74,
       "applied": false,
       "analysis": "keyword"
@@ -2447,6 +2461,34 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-senior-data-scientist-demand-forecasting-hamburg-245305",
+      "title": "Senior Data Scientist - Demand Forecasting (f/m/d)",
+      "company": "VOIDS Technology GmbH",
+      "location": "Hamburg",
+      "salary": "",
+      "description": "<p><strong>We maximize product availability with minimal cashflow investment in 1/10 of the time. We solve a real problem for SMEs. With AI.</strong></p>\n<p><em>The problem we solve:</em> Mid-size Shopify brands lose revenue and cash to stockouts and inefficiencies every day. They can see the problem. They can't fix it fast enough.</p>\n<p><em>What VOIDS does:</em> VOIDS is the AI brain for mid-size Shopify brands. We forecast demand at the product level, catch stockouts and inefficiencies before they happen, and tell e-commerce teams exactly what to do — or execute it automatically with a click.</p>\n<p>The result: <strong>98% inventory efficiency. 20x ROI. Six-figure cash unlocked. Within weeks.</strong></p>\n<p><em>Traction:</em> Launched June 2023. Since then: 300% growth, 1B+ data points processed, €2M ARR, 50+ brands live — including Hyrox, 6pm, Creamyfabrics, and NatureHeart. Now targeting <strong>€10M ARR by 2027.</strong></p>\n<p><em>Where we're going:</em> Today we own demand forecasting and stock management. Tomorrow: fully autonomous AI-driven procurement. We're not building features — we're rebuilding how modern commerce operates.</p>\n<p><em>Why join now:</em> We're a small, fast team where every hire shapes the company's trajectory. You'll work directly with Jannik and Tobias - two founders who live and breathe e-commerce and AI - and own how we ingest, process, and activate 1B+ data points across our platform. This isn't a maintenance role. You'll build the data foundation for a fully AI-driven future.</p>\n<p>With high autonomy. At real data scale. With real impact.</p>\n<h2>Tasks</h2>\n<p><strong>🛠 What you'll do</strong></p>\n<p>As a Senior Data Scientist – Demand Forecasting, you’ll own the core of our product: the VOIDS demand forecasting engine that currently forecasts €1,000,000,000 of yearly revenue for our customers. Your mission is to solve our toughest challenge—developing and continuously improving a scalable forecasting solution capable of accura",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/voids-technology-gmbh/senior-data-scientist-demand-forecasting-hamburg-245305",
+      "source": "Arbeitnow",
+      "posted": 1782754227,
+      "score": 42,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-software-engineer-sensor-fusion-gilching-250711",
+      "title": "Software Engineer - Sensor Fusion (m/f/d)",
+      "company": "Quantum- Systems GmbH",
+      "location": "Gilching",
+      "salary": "",
+      "description": "<p style=\";\">As a Software Engineer for Sensor Fusion, you will help develop software that combines data from</p><p style=\";\">multiple sensors into reliable system-level information.</p><p style=\";\"> Your focus will be the design, implementation, and validation of fusion and tracking functionality for real-world sensor</p><p style=\";\">data. This includes working on robust processing logic, track association, state fusion, system behavior analysis,</p><p style=\";\">and test coverage for the fusion pipeline.</p><p style=\";\"> </p><p style=\";\">When new sensor sources are introduced, you will support their integration into the fusion system by helping define how</p><p style=\";\">their data is represented, aligned, validated, and used within the tracking and fusion logic.</p><p style=\";\">You will collaborate closely with software, systems, sensor, and test engineers to bring fusion capabilities from concept to</p><p style=\";\">system-level validation.</p><p style=\";\"><br /><br /></p><h4><strong>What is your Day to Day Mission:</strong></h4><ul><li><p>Design, implement, and maintain software components for multi-sensor fusion and tracking.</p></li><li><p>Develop processing logic for combining information from multiple sensor sources.</p></li><li><p>Work on data alignment, association, tracking, and fusion behavior.</p></li><li><p>Analyze simulated and real sensor data to understand and improve system behavior.</p></li><li><p>Support the integration of new sensor sources into the fusion pipeline when needed.</p></li><li><p>Implement automated tests and support system-level validation of fusion functionality.</p></li><li><p>Improve logging, diagnostics, and tooling for debugging real-world scenario.</p></li><li><p>Collaborate with software, systems, sensor and test engineers on interfaces, requirements and integration constraints.</p><p style=\";\"></p></li></ul><br /><br /><h4><strong><br />What you bring to the team:</strong><br /></h4><ul><li><p>Degree in Computer Science, Rob",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/software-engineer-sensor-fusion-gilching-250711",
+      "source": "Arbeitnow",
+      "posted": 1782753612,
+      "score": 42,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-social-media-manager-achern-160031",
       "title": "Social Media Manager",
       "company": "Ipanema UG (haftungsbeschränkt)",
@@ -3506,6 +3548,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/joe-nimble-gmbh/senior-marketing-manager-brand-lifecycle-ludwigsburg-26409",
       "source": "Arbeitnow",
       "posted": 1782743432,
+      "score": 38,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-senior-marketing-manager-pirmasens-468928",
+      "title": "Senior Marketing Manager (m/w/d)",
+      "company": "apoplex medical technologies",
+      "location": "Pirmasens",
+      "salary": "",
+      "description": "<p>Schlaganfälle gehören global zu den häufigsten Todesursachen. Wir wollen das ändern. Mit KI-gestützter Software unterstützen wir medizinisches Personal weltweit dabei, Risiken frühzeitig zu erkennen – bevor es zu spät ist.</p>\n<p>Komm zu Apoplex und gestalte mit uns die Medizin von morgen.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li><strong>Positionierung &#x26; Strategie</strong>: du entwickelst Positionierung und STP (Segmentierung, Targeting, Positioning) aus echter Marktanalyse und leitest daraus die Marketing-Strategie ab</li>\n<li><strong>Markenarchitektur</strong>: du gestaltest und steuerst die Marke über mehrere Produkte und Märkte hinweg (DACH, perspektivisch UK/ES/USA)</li>\n<li><strong>Kampagnen &#x26; Launches</strong>: du designst Kampagnen und Produkt-Launches end-to-end: Ziel → Botschaft → Kanal → Messung</li>\n<li><strong>Markt- &#x26; Wettbewerbsintelligenz</strong>: du machst aus Marktbeobachtung entscheidungsreife Battlecards für den Vertrieb</li>\n<li><strong>Content &#x26; Sales-Enablement</strong>: du verantwortest Botschaften und Materialien (Evidenz, Case Studies, One-Pager, Decks), die klinisch und ökonomisch überzeugen</li>\n<li><strong>Kanal- &#x26; KPI-Strategie</strong>: du setzt den Kanal-Mix (LinkedIn, Newsletter, Website/SEO) und steuerst Marketing über klare Kennzahlen</li>\n<li><strong>Orchestrierung &#x26; Budget</strong>: du steuerst KI, Design-Partner, Agentur- und Event-Dienstleister und verantwortest dein Marketing-Budget (Umsetzung kannst du auslagern, du gestaltest und entscheidest)</li>\n</ul>\n<h2>Qualifikation</h2>\n<p><strong>Deine fachliche Grundlage</strong></p>\n<ul>\n<li><strong>Mehrjährige Erfahrung im strategischen Marketing</strong>: du hast Marketing-Konzepte und -Strategien nicht nur gelernt, sondern selbst entwickelt und umgesetzt</li>\n<li><strong>Sicher in den Kern-Methoden</strong>: Positionierung &#x26; STP, Kampagnen- und Launch-Architektur, Kanal-Mix und KPI-Steuerung</li>\n<li><strong>KI-nativ</strong>: du nutzt LLMs täglich a",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/apoplex-medical-technologies/senior-marketing-manager-pirmasens-468928",
+      "source": "Arbeitnow",
+      "posted": 1782752428,
       "score": 38,
       "applied": false,
       "analysis": "keyword"
