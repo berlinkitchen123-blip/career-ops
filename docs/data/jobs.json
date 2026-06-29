@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-29T21:20:18.473655+00:00",
+  "lastUpdated": "2026-06-29T22:36:17.105774+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 456,
-    "new_this_cycle": 5,
-    "berlin_jobs": 63,
+    "total": 457,
+    "new_this_cycle": 1,
+    "berlin_jobs": 64,
     "high_match_70plus": 8,
     "applied_total": 0,
     "applied_this_cycle": 0
@@ -608,6 +608,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/complori/senior-marketing-manager-berlin-145215",
       "source": "Arbeitnow",
       "posted": 1782750627,
+      "score": 58,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-senior-content-strategist-german-english-speaking-berlin-451381",
+      "title": "Senior Content Strategist (German & English-Speaking)",
+      "company": "SalesPlaybook AG",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<p>SalesPlaybook is DACH's #1 Pipeline, Sales, and HubSpot agency for B2B software companies (10–200 FTEs). We help founders and revenue teams scale fast – by turning marketing and sales into a true revenue factory: repeatable, predictable, and efficient.</p>\n<p>The best B2B companies already know that founder- and executive-led content is one of the strongest pipeline channels there is. What holds them back is the doing: the right angle is hard to find, time is scarce, and staying consistent over months is harder still. Closing that gap – turning a busy expert's knowledge into content that actually moves their business – is what our content strategists do.</p>\n<p>As a Senior Content Strategist, you'll own the full content operation for a portfolio of personal-branding clients. Think of it as three jobs in one: sharp copywriter, organized project manager, and trusted customer-success partner. You'll sit close to founders and executives, pull the expertise out of their heads, and turn it into content that sounds unmistakably like them and earns them the right attention.</p>\n<p>And yes – you essentially get paid to learn from successful founders and executives every week.</p>\n<h2>Aufgaben</h2>\n<p>Here's what owning that looks like day to day:</p>\n<p><strong><em>Client Setup &#x26; Strategy</em></strong></p>\n<ul>\n<li>Open every engagement with a setup phase – shaping the content strategy, sharpening the client's LinkedIn presence, and mapping out their wider media approach.</li>\n</ul>\n<p><strong><em>The Content Engine</em></strong></p>\n<ul>\n<li>Run bi-weekly content calls to draw out each client's expertise, stories, and point of view as raw input for ideas.</li>\n<li>Turn those calls into clear content outlines, then write LinkedIn content that carries their ideas, attracts the people they want to reach, supports their business goals, and reads like they wrote it themselves.</li>\n</ul>\n<p><strong><em>Client Success &#x26; Project Ownership</em></strong></p>\n<ul>\n<li>Ke",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/salesplaybook-ag/senior-content-strategist-german-english-speaking-berlin-451381",
+      "source": "Arbeitnow",
+      "posted": 1782768628,
       "score": 58,
       "applied": false,
       "analysis": "keyword"
