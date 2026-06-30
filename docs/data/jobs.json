@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-30T20:27:45.865517+00:00",
+  "lastUpdated": "2026-06-30T21:56:10.857205+00:00",
   "agentVersion": "4.0",
   "stats": {
     "total": 500,
-    "new_this_cycle": 25,
-    "berlin_jobs": 85,
-    "high_match_70plus": 13,
+    "new_this_cycle": 21,
+    "berlin_jobs": 87,
+    "high_match_70plus": 14,
     "applied_total": 0,
     "applied_this_cycle": 0
   },
@@ -263,6 +263,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-full-stack-engineer-billings-subscriptions-berlin-284636",
+      "title": "Full Stack Engineer - Billings & Subscriptions",
+      "company": "SumUp",
+      "location": "Berlin, Berlin, Germany",
+      "salary": "",
+      "description": "<p class=\"p1\">Our Billing and Subscriptions team sits at the heart of how SumUp's merchants pay for, manage, and grow with our products. We own the billing engine, merchant wallet, and subscription experiences that underpin millions of transactions across 37 markets, and right now, we're in an exciting phase of rebuilding and expanding that foundation. We're deepening our billing capabilities to support new sales models, market expansions, and financial integrations that directly shape how small businesses experience SumUp — and this role is central to making that happen.</p>\n<p class=\"p2\"><strong>What you'll do</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Build and maintain backend services and frontend interfaces across our billing, contracts, and merchant wallet products</li>\n<li class=\"li1\">Contribute to the refactoring of key billing components to improve reliability, data security, and alignment with our wider payments platform</li>\n<li class=\"li1\">Support the expansion of our billing and wallet capabilities into new markets, helping ensure localisation requirements are met</li>\n<li class=\"li1\">Take part in our weekly support rotation, handling incoming customer queries and helping maintain platform stability</li>\n<li class=\"li1\">Work closely with senior engineers and product managers to deliver features end-to-end, from implementation through to production</li>\n</ul>\n<p class=\"p2\"><strong>You'll be great for this role if</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Solid experience building full stack applications, with a backend focus. Ideally comfortable with Node.js or Go, though we're open to other backend languages.</li>\n<li class=\"li1\">Comfortable working with both relational databases such as PostgreSQL or MySQL and non-relational databases (such as DynamoDB, MongoDB, or Redis).</li>\n<li class=\"li1\">Practical frontend experience working with React and Next.js, with the ability to write clean, typed code in TypeScript or JavaScript.</li>\n<li class=\"li",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sumup/full-stack-engineer-billings-subscriptions-berlin-284636",
+      "source": "Arbeitnow",
+      "posted": 1782852325,
+      "score": 70,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-middle-software-engineer-berlin-15204",
       "title": "Middle Software Engineer (m/f/d)",
       "company": "Flix",
@@ -384,6 +398,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-android-engineer-berlin-79712",
       "source": "Arbeitnow",
       "posted": 1782827153,
+      "score": 66,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-engineering-manager-website-berlin-214562",
+      "title": "Engineering Manager - Website",
+      "company": "SumUp",
+      "location": "Berlin, Germany",
+      "salary": "",
+      "description": "<p>As an <strong>Engineering Manager</strong> in the <strong>Website squad</strong>, you will lead a pivotal team within the Acquisition Value stream, shaping the merchant journey from the first impression to the final hardware purchase. This team owns the public and marketing web experience, which is critical to SumUp's overall growth and revenue.</p>\n<p>The role combines technical leadership, organizational impact, and cross-functional collaboration. You will drive delivery excellence, strengthen engineering culture, and elevate technical quality across the squad while leading strategic initiatives like the ongoing Content Management System (CMS) migration.</p>\n<h3><strong>What You'll Do</strong></h3>\n<ul>\n<li>Lead a squad of 4 Fullstack Engineers, mentoring talent, setting performance frameworks, and building a high-performing, inclusive team.</li>\n<li>Oversee the squad's technical direction and elevate technical quality, ensuring the long-term stability, performance, and scalability of our web platform.</li>\n<li>Lead and conclude the ongoing migration to a different CMS to improve marketing agility and content delivery efficiency.</li>\n<li>Build a measurable engineering organization using metrics like DORA to guide improvements in productivity, quality, and delivery efficiency.</li>\n<li>Partner closely with Product, Marketing, Design, and Platform teams to enhance product impact and delivery predictability.</li>\n<li>Become a significant contributor to product roadmaps and present early engineering strategies that align technical priorities with the Acquisition Mission.</li>\n</ul>\n<h3><strong>What We're Looking For</strong></h3>\n<ul>\n<li>You have 8+ years of software engineering experience, and experience building and leading an engineering team or squad.</li>\n<li>You possess strong technical depth in modern web technologies and architecture. Our core tech stack is React, Next.js, TypeScript, Go, microservices, and APIs.</li>\n<li>You have a demonstrated track rec",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-website-berlin-214562",
+      "source": "Arbeitnow",
+      "posted": 1782852325,
       "score": 66,
       "applied": false,
       "analysis": "keyword"
@@ -1267,6 +1295,20 @@
       "source": "Arbeitnow",
       "posted": 1782844223,
       "score": 50,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-software-developer-in-test-ii-java-heidelberg-367691",
+      "title": "Software Developer in Test II - Java (m/f/d)",
+      "company": "Onapsis",
+      "location": "Heidelberg, Baden-Württemberg, Germany",
+      "salary": "",
+      "description": "<h2>About the job</h2>\n<p>The world's most critical--and at risk--business applications have been neglected for far too long. Onapsis eliminates this blind spot by providing cybersecurity solutions dedicated to business-critical applications. Whether running on-premises, in the cloud, or a hybrid environment, Onapsis helps nearly 30% of the Forbes Global 100 understand the threats and risks across their SAP and Oracle landscapes.</p>\n<p>We are looking for self-motivated and enthusiastic Software Engineer in Test who wants to make an impact in the cybersecurity space by continuing to advance, maintain, and enhance our platform features in the areas of application security testing for SAP applications, including the ability to review third-party custom code and transports, and automatic remediation for common code errors.</p>\n<h2>What you will be doing, your legacy:&nbsp;</h2>\n<p>Working with leadership, product management, engineering, and the Onapsis research team. You will design, implement, and execute test procedures to ensure software features work as intended. Focused on automation and advancing automation capabilities, you will also design, build, and use test automation and build automation to ensure our software always fulfills business solution requirements to protect our customers. Work collaboratively as part of a software engineer team aligned with cybersecurity researchers and product managers to iterate toward product definition and realization. Additionally, you will be working with the Architecture team to take the platform to the next level of maturity in terms of technologies, quality, and architecture design while advancing our quality engineering processes to deliver high-quality products and services.</p>\n<h3>Requirements:</h3>\n<ul>\n<li>2+ years of professional software engineering experience</li>\n<li>2+ years of programming experience with Python, Java and or JavaScript</li>\n<li>Bachelor's Degree in Systems Engineering, Computer Science or rela",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/onapsis/software-developer-in-test-ii-java-heidelberg-367691",
+      "source": "Arbeitnow",
+      "posted": 1782852325,
+      "score": 62,
       "applied": false,
       "analysis": "keyword"
     },
@@ -4869,6 +4911,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-creator-manager-teilzeit-wurzburg-96333",
+      "title": "Creator Manager (m/w/d) Teilzeit",
+      "company": "Hebamme Isabelle",
+      "location": "Würzburg",
+      "salary": "",
+      "description": "<p>Hebamme Isabelle ist eine der bekanntesten Hebammen Deutschlands. Mit Instagram, Online-Kursen und einem Buch erreichen wir täglich tausende Familien. Wir sind ein kleines, remote arbeitendes Team mit echter Reichweite und wachsendem Einfluss. Bei uns arbeitest du nicht für einen anonymen Konzern, sondern direkt mit einer Person, deren Gesicht und Stimme die Marke sind. Entscheidungen werden schnell getroffen, eigene Ideen sind willkommen und deine Arbeit ist sofort sichtbar.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Du bist direkte Ansprechpartnerin von Isabelle und hilfst ihr weiterhin qualitativen Content zu liefern.</li>\n<li>Du koordinierst Kooperationen mit eigenständig: Anfragen prüfen, Konditionen abstimmen, Timings koordinieren und sicherstellen, dass alles reibungslos läuft.</li>\n<li>Du pflegst den Redaktionskalender, terminierst und stellst Beiträge ein und behältst Deadlines im Blick.</li>\n<li>Du behältst die Performance unserer Kanäle im Blick, wertest Insights regelmäßig aus und ziehst daraus konkrete Schlüsse für unseren Content</li>\n<li>Du hast ein Gespür für aktuelle Trends auf Social Media und weißt, wie man sie sinnvoll auf einen etablierten Kanal überträgt, ohne die Marke zu verwässern</li>\n<li>Daneben erstellst du einfache Grafiken in Canva und übernimmst einfaches Video-Editing für Reels.</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Nachweisbare Erfahrung im Influencer- oder Kooperationsmanagement, vorzugsweise auf Instagram</li>\n<li>guter Umgang mit Canva und Video-Editing-Tools (z.B. CapCut, Edits, Final Cut oder Premiere)</li>\n<li>Erfahrung mit Redaktionsplanung und Content-Scheduling</li>\n<li>Kommunikationsstärke im Umgang mit externen Partnern und Marken</li>\n<li>Eigenverantwortliche, strukturierte Arbeitsweise ohne dauernde Rückfragen</li>\n<li>Sehr gute Deutschkenntnisse in Wort und Schrift</li>\n<li>Interesse an den Themen Schwangerschaft, Geburt und Wochenbett</li>\n</ul>\n<p><strong>Nice to have</strong></p>\n<ul>\n<li>Eigene Content-Erfahrung (eigene",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/hebamme-isabelle/creator-manager-teilzeit-wurzburg-96333",
+      "source": "Arbeitnow",
+      "posted": 1782851434,
+      "score": 38,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-e-commerce-ecom-shopify-onlineshop-manager-fur-3-brands-dusseldorf-397091",
       "title": "E-Commerce / eCom Shopify Onlineshop Manager (m/w/d) für 3 Brands",
       "company": "Hommel Hired",
@@ -7020,62 +7076,6 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/solartechnik-thiemann/projektleiterin-schorndorf-471247",
       "source": "Arbeitnow",
       "posted": 1782577826,
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "ez4y9XzCL3RXeitFAAAAAA==",
-      "title": "Logistikabteilung Mitarbeiter",
-      "company": "Runa Art GmbH",
-      "location": "",
-      "salary": "",
-      "description": "Aufgaben: - Verwaltung von Lageroperationen - Kontrolle von Lieferungen und Sendungen Anforderungen: - Hochschulabschluss in Technik oder Wirtschaft - Bereitschaft zur Weiterbildung und persönlichen Entwicklung Wir bieten wettbewerbsfähige Gehälter, eine freundliche Arbeitsumgebung und Möglichkeiten für beruflichen Aufstieg. Wir freuen uns auf Sie in unserem Team Art der Stelle: Vollzeit, Teilzeit, Minijob Gehalt: 3.500,00€ pro Monat Arbeitszeiten: - Montag bis Freitag Flexible Sprachanforderungen: - Keine Deutschkenntnisse erforderlich Sprache: - Russisch (Erforderlich) Arbeitsort: Vor Ort",
-      "applyUrl": "https://de.trabajo.org/stellenangebot-3390-ec42e494ee1e6fe400ef2606ef53c06c",
-      "source": "Trabajo.org",
-      "posted": "2026-06-25T00:00:00.000Z",
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "an-finanzbuchhalter-in-bilanzbuchhalter-in-steuerfachangestellte-r-munich-111903",
-      "title": "Finanzbuchhalter/in, Bilanzbuchhalter/in, Steuerfachangestellte/r",
-      "company": "Phoenix Personalvermittlung GmbH",
-      "location": "Munich",
-      "salary": "",
-      "description": "<p>Bei <strong>Phoenix Personalvermittlung</strong> suchen wir engagierte, zuverlässige und motivierte Personen, die ihre Karriere in einem professionellen Umfeld vorantreiben möchten. Wir bieten individuelle HR-Lösungen, die genau auf Ihre Bedürfnisse abgestimmt sind.</p>\n<p>Für ein renommiertes Unternehmen suchen wir erfahrene/n <strong>Finanzbuchhalter/in, Bilanzbuchhalter/in, Steuerfachangestellte/r</strong> unbefristeter Festanstellung zur Direktvermittlung.</p>\n<p>Wir fördern Ihre persönliche und fachliche Weiterentwicklung und bieten Ihnen die Möglichkeit, in einem wertschätzenden Team zu wachsen.</p>\n<p>Wir freuen uns auf Ihre Bewerbung. Einer unserer Personalberater steht Ihnen für Fragen gerne zur Verfügung.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Erstellung und Prüfung von Monats-, Quartals- und Jahresabschlüssen nach HGB.</li>\n<li>Bearbeitung der laufenden Finanzbuchhaltung sowie der Kreditoren- und Debitorenbuchhaltung.</li>\n<li>Erstellung der Umsatzsteuer-Voranmeldungen</li>\n<li>Konsolidierung der Buchhaltung innerhalb des Unternehmensverbundes</li>\n<li>Anwenderkenntnisse in DATEV/SAP</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Du hast eine kaufmännische Ausbildung oder bist Steuerfachangestellter – vielleicht sogar mit einer Weiterbildung zum Bilanzbuchhalter</li>\n<li>Anwenderkenntnisse in DATEV</li>\n<li>Fundierte Kenntnisse im Rechnungswesen und in der Finanzbuchhaltung</li>\n<li>Selbstständige, strukturierte und sorgfältige Arbeitsweise</li>\n<li>Hohes Maß an Zuverlässigkeit, Diskretion und Verantwortungsbewusstsein</li>\n<li>Analytisches Denkvermögen sowie ausgeprägte Zahlenaffinität</li>\n</ul>\n<h2>Benefits</h2>\n<ul>\n<li>30 Tage Jahresurlaub sowie flexible Arbeitszeitgestaltung</li>\n<li>Bereitstellung kostenloser Getränke und Snacks</li>\n<li>Flexible Arbeitszeiten &#x26; Homeoffice</li>\n<li>Modern ausgestatteter Arbeitsplatz</li>\n<li>Teamorientierte Unternehmenskultur</li>\n<li>Persönliche Weiterentwicklung</li>\n</ul>\n<p>Find more <a href=\"https://www.arbeitnow.",
-      "applyUrl": "https://www.arbeitnow.com/jobs/companies/phoenix-personalvermittlung-gmbh/finanzbuchhalter-in-bilanzbuchhalter-in-steuerfachangestellte-r-munich-111903",
-      "source": "Arbeitnow",
-      "posted": 1782585045,
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "an-kosmetikerin-beauty-expertin-facials-lashlift-manikure-pedikure-frankfurt-am-main-279086",
-      "title": "Kosmetikerin / Beauty Expertin (Facials, Lashlift, Maniküre & Pediküre)",
-      "company": "Pow korean concept",
-      "location": "Frankfurt am Main",
-      "salary": "",
-      "description": "<p>POW Korean Concept ist ein modernes Beauty Studio mit Fokus auf hochwertige Hautbehandlungen und koreanische Beauty-Techniken. Unser Schwerpunkt liegt auf professionellen Facials, gesunder Haut und präzisen Beauty Treatments wie russischer Maniküre, Pediküre und Korean Lashlift.<br>\nWir legen großen Wert auf Qualität, Ästhetik und eine ruhige, entspannte Atmosphäre für unsere Kundinnen.</p>\n<h2>Aufgaben</h2>\n<p>Durchführung von professionellen Gesichtsbehandlungen (Facials)<br>\nHautanalyse und individuelle Beratung unserer Kundinnen<br>\nDurchführung von russischer Maniküre und Pediküre<br>\nKorean Lashlift Behandlungen<br>\nVorbereitung und hygienisches Arbeiten im Behandlungsraum<br>\nBeratung zu Hautpflege und passenden Produkten<br>\nSicherstellen einer hochwertigen Kundenerfahrung</p>\n<h2>Qualifikation</h2>\n<p>Ausbildung als Kosmetikerin oder Erfahrung im Beauty-Bereich<br>\nErfahrung mit Facials und Hautpflegebehandlungen<br>\nIdealerweise Kenntnisse in russischer Maniküre / Pediküre oder Lashlift<br>\nSaubere und präzise Arbeitsweise<br>\nFreundliches, professionelles Auftreten<br>\nLeidenschaft für Beauty, Hautpflege und Ästhetik<br>\nZuverlässigkeit und Teamfähigkeit</p>\n<h2>Benefits</h2>\n<p>Flexible Arbeitszeiten<br>\nArbeiten auf selbstständiger Basis mit hoher Eigenverantwortung<br>\nUmsatzbeteiligung von 40 % pro Behandlung<br>\nModernes und stilvolles Arbeitsumfeld<br>\nAngenehmes und wertschätzendes Team</p>\n<p>POW Korean Concept ist ein Beauty Studio, das sich auf koreanisch inspirierte Facials und moderne Hautpflege spezialisiert. Ergänzt wird das Angebot durch russische Maniküre und Pediküre sowie koreanisches Lash Lift – für ganzheitliche Beauty-Rituale und ein gepflegtes, natürliches Erscheinungsbild.</p>\n<p>Find <a href=\"https://www.arbeitnow.com/\">Jobs in Germany</a> on Arbeitnow</a>",
-      "applyUrl": "https://www.arbeitnow.com/jobs/companies/pow-korean-concept/kosmetikerin-beauty-expertin-facials-lashlift-manikure-pedikure-frankfurt-am-main-279086",
-      "source": "Arbeitnow",
-      "posted": 1782601232,
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "PADIIBFd-nW7dS4CAAAAAA==",
-      "title": "Qualitätsmanagementbeauftragte im ZQM",
-      "company": "DOMIDEP Germany SE",
-      "location": "",
-      "salary": "",
-      "description": "_Du bist Pflegefachkraft mit hoher fachlicher Kompetenz und möchtest Pflegequalität nicht nur dokumentieren, sondern im Alltag erlebbar machen? Dann bist Du bei uns genau richtig._ _Für unser Zentrales Qualitätsmanagement (ZQM) suchen wir eine engagierte und fachlich starke Persönlichkeit als Qualitätsmanagementbeauftragte. In Deiner Rolle betreust Du 2–3 unserer Einrichtungen direkt und unterstützt bei Bedarf weitere Standorte. Die fachliche und personelle Steuerung erfolgt über das ZQM._ Aufgaben * Du sicherst eine professionelle Pflegefachpraxis in unseren Einrichtungen, sichtbar, ansprechbar und mit echtem Vorbildcharakter. * Du führst pflegerische Fallbesprechungen durch und bearbeitest komplexe Situationen strukturiert und fachlich fundiert. * Du übernimmst die Verantwortung für Pflegevisiten inklusive Auswertung, Bearbeitung und konstruktiver fachlicher Rückmeldung an die Teams. * Du trägst die fachliche Verantwortung für die korrekte Anwendung des Strukturmodells im Pflegeprozess (SIS, Maßnahmenplanung, Verlaufsdokumentation). * Du erkennst Schulungsbedarfe und führst kurze, praxisnahe und wirksame Workshops direkt vor Ort durch. * Dein Anspruch: Du verwaltest Pflegequalität nicht, sondern entwickelst sie gemeinsam mit den Teams weiter und machst sie im Alltag sichtbar. Qualifikation * Abgeschlossene Ausbildung als Pflegefachkraft * Mindestens 5 Jahre Berufserfahrung in der Pflege * Hohe Pflegefachlichkeit und ausgeprägte Prozesssicherheit * Sehr gute kommunikative Fähigkeiten sowie Sicherheit in Wort und Schrift * Hohe zeitliche Flexibilität und Freude an einer mobilen, abwechslungsreichen Tätigkeit * Offenheit für Weiterentwicklung, Verantwortungsübernahme und aktive Mitgestaltung * Motivation, Dich fachlich und persönlich in einem professionellen QM-Team weiterzuentwickeln Benefits * Zusammenarbeit mit erfahrenen, hochmotivierten Fachkräften im ZQM-Team * Viel Gestaltungsspielraum und die Möglichkeit, Pflegequalität nachhaltig zu beeinflussen * Einen Dien",
-      "applyUrl": "https://de.trabajo.org/stellenangebot-4024-45a549ef88faf8773f14d119d4037b2b",
-      "source": "Trabajo.org",
-      "posted": "2026-06-24T00:00:00.000Z",
       "score": 30,
       "applied": false,
       "analysis": "keyword"
