@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-29T23:58:22.338806+00:00",
+  "lastUpdated": "2026-06-30T03:35:15.056589+00:00",
   "agentVersion": "4.0",
   "stats": {
-    "total": 457,
-    "new_this_cycle": 0,
+    "total": 460,
+    "new_this_cycle": 3,
     "berlin_jobs": 64,
     "high_match_70plus": 8,
     "applied_total": 0,
@@ -1616,6 +1616,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-campaign-manager-gilching-378534",
       "source": "Arbeitnow",
       "posted": 1782746413,
+      "score": 50,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-key-account-manager-suddeutschland-munich-1794",
+      "title": "Key Account Manager Süddeutschland  F/M/D",
+      "company": "ICAPE GROUP",
+      "location": "Munich",
+      "salary": "",
+      "description": "<h2>Key Account Manager <strong>Süddeutschland</strong> (m/f/d)</h2>\n<p><strong>Remote position | Germany</strong></p>\n<p>To strengthen our growth in Germany, we are looking for a <strong>Key Account Manager Süddeutschland (m/f/d)</strong> with solid experience in <strong>electronics sales</strong> and customer relationship management.</p>\n<p>This is a <strong>full‑time, remote role</strong>, with frequent travel to customers.</p>\n<p>Your role</p>\n<p>You will be responsible for <strong>managing and developing key customer relationships</strong> in Germany and driving sustainable revenue growth.<br>\nYou will act as a trusted partner for your clients, offering <strong>custom‑made technical solutions</strong> and coordinating closely with internal teams.</p>\n<p>Our solutions include:</p>\n<ul>\n<li>Printed Circuit Boards (PCBs)</li>\n<li>Custom-made electro‑mechanical parts</li>\n<li>Cable assemblies, displays, keypads, metal &#x26; plastic parts</li>\n</ul>\n<p>Your responsibilities</p>\n<ul>\n<li>Prospect and develop <strong>new companies and business opportunities</strong></li>\n<li>Manage and grow <strong>existing key accounts</strong></li>\n<li>Achieve and exceed <strong>sales and revenue targets</strong></li>\n<li>Prepare quotations and lead <strong>commercial negotiations</strong> with clients and suppliers</li>\n<li>Coordinate communication between customers and internal departments<br>\n(Engineering, Quality, Customer Service, Supply Chain)</li>\n<li>Monitor and improve <strong>customer satisfaction</strong></li>\n<li><strong>Frequent weekly travel</strong> to visit customers and prospects</li>\n<li>Report regularly to management on <strong>sales performance, targets and pipeline</strong></li>\n</ul>\n<p>Your profile</p>\n<ul>\n<li><strong>Minimum 5 years of sales experience</strong>, ideally in electronics</li>\n<li>Bachelor’s degree preferred; technical background is a plus</li>\n<li><strong>Fluent German and English</strong> (spoken and written)</li>\n<li>Strong communication and",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/icape-group/key-account-manager-suddeutschland-munich-1794",
+      "source": "Arbeitnow",
+      "posted": 1782779424,
       "score": 50,
       "applied": false,
       "analysis": "keyword"
@@ -4724,6 +4738,34 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/specific-group-germany-gmbh/network-it-security-engineer-munich-208061",
       "source": "Arbeitnow",
       "posted": 1782759629,
+      "score": 34,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-shopify-entwicklerin-shopify-programmer-nidderau-179293",
+      "title": "Shopify Entwickler:in / Shopify Programmer (m/w/d)",
+      "company": "Nature Heart GmbH & Co KG",
+      "location": "Nidderau",
+      "salary": "",
+      "description": "<h2>Deine Aufgaben</h2>\n<ul>\n<li>Entwicklung und Wartung von Shopify Apps (Custom Apps &#x26; Erweiterungen)</li>\n<li>Umsetzung von Backend-Logiken (z. B. Warenkorb-Logik, Bundles, Upsells, Discounts, Automationen)</li>\n<li>Arbeit mit Shopify APIs (REST &#x26; GraphQL), Webhooks und externen Services</li>\n<li>Anbindung und Integration externer Tools, Payment-, Versand- oder Marketing-Systeme</li>\n<li>Technische Konzeption neuer Features inkl. Datenmodellierung</li>\n<li>Frontend-Umsetzung der entwickelten Logiken in Shopify Themes (Liquid, JS, CSS)</li>\n<li>Enge Zusammenarbeit mit Design, Marketing &#x26; Produkt</li>\n</ul>\n<h2>Dein Profil</h2>\n<ul>\n<li>Erfahrung in der Shopify App- oder Backend-Entwicklung</li>\n<li>Sehr gute Kenntnisse in Shopify APIs, Webhooks &#x26; App-Architekturen</li>\n<li>Erfahrung mit Backend-Stacks wie Node.js oder vergleichbar</li>\n<li>Sicherer Umgang mit Liquid, JavaScript, CSS &#x26; HTML für die Frontend-Integration</li>\n<li>Verständnis für E-Commerce-Flows, Performance &#x26; Skalierbarkeit</li>\n<li>Strukturierte, saubere und dokumentierte Arbeitsweise</li>\n<li>Eigenständiges Denken, Lösungsorientierung und hoher Qualitätsanspruch</li>\n<li>Erfahrung mit Git, CI/CD und modernen Entwicklungsprozessen von Vorteil</li>\n</ul>\n<h2>Wir bieten</h2>\n<ul>\n<li>100 % Remote-Arbeit</li>\n<li>Faire, leistungsorientierte Bezahlung</li>\n<li>Langfristige Zusammenarbeit in einem wachsenden Premium-Brand</li>\n<li>Technisch anspruchsvolle Projekte mit viel Gestaltungsspielraum</li>\n<li>Klare Prozesse, kurze Entscheidungswege, keine Agentur-Hektik</li>\n<li>Zusammenarbeit auf Augenhöhe in einem fokussierten, motivierten Team</li>\n<li>Möglichkeit, Kernsysteme und Architektur aktiv mitzugestalten</li>\n</ul>\n<p>Find <a href=\"https://www.arbeitnow.com/\">Jobs in Germany</a> on Arbeitnow</a>",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/nature-heart-gmbh-co-kg/shopify-entwicklerin-shopify-programmer-nidderau-179293",
+      "source": "Arbeitnow",
+      "posted": 1782779427,
+      "score": 34,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-communication-manager-brand-content-technology-60-100-furth-476860",
+      "title": "Communication Manager – Brand, Content & Technology  (60 – 100%)",
+      "company": "Ing Plus AG",
+      "location": "Fürth",
+      "salary": "",
+      "description": "<p>Ing.Plus ist Spezialist für intelligente Prozessautomatisierung im Tiefbau und unterstützt Netzbetreiber sowie Ingenieurbüros mit einsatzbereiten, datengetriebenen Lösungen für das sichere, effiziente und nachhaltige Management von Infrastrukturnetzen.</p>\n<p>Durch den Einsatz moderner Technologien verwandeln wir komplexe Informationen in transparente und nutzbare Daten, die eine präzise Entscheidungsfindung und strategische Handlungsempfehlungen ermöglichen. Von der Zustandserfassung bis zum reibungslosen Betrieb helfen unsere Lösungen dabei, Abläufe zu vereinfachen, Personal zu entlasten sowie wertvolle Zeit und Ressourcen einzusparen.</p>\n<p>Dabei setzen wir auf einen ganzheitlichen Ansatz aus digitaler und persönlicher Unterstützung. Unser hybrides Service-Konzept garantiert umfassende Entlastung bei der Datenarbeit sowie kompetente Beratung durch langjährige Erfahrung und tiefgreifendes Fachwissen im Bereich Geoinformationssysteme.</p>\n<p><strong>Wir denken heute die Infrastruktur von morgen und suchen Teamplayer, die Verantwortung übernehmen und mit uns etwas bewegen wollen. Für die Weiterentwicklung unserer B2G-Marken- und Vertriebskommunikation besetzen wir eine zentrale Schnittstelle zwischen Sales und Design. Du übersetzt komplexe Technologien in verständliche Kommunikation und gestaltest die Markenbotschaften sowie die strategische Weiterentwicklung unserer Kommunikation aktiv mit.</strong></p>\n<p><strong>Dein Aufgabenbereich</strong></p>\n<ul>\n<li><strong>Markenkommunikation</strong><br>\nDu schärfst unsere Markenkommunikation und stärkst eine konsistente Brand Voice über alle Kanäle hinweg</li>\n<li><strong>Strategie &#x26; Positionierung</strong><br>\nDu entwickelst bestehende Content-, Messaging-, Positionierungs- und Kommunikationsstrukturen kontinuierlich weiter</li>\n<li><strong>Technologieübersetzung</strong><br>\nDu übersetzt komplexe Marken-, Produkt- und Prozessinhalte sowie Funktionen und Anwendungsfälle unserer Softwarelösungen zielgerichtet in ",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ing-plus-ag/communication-manager-brand-content-technology-60-100-furth-476860",
+      "source": "Arbeitnow",
+      "posted": 1782779425,
       "score": 34,
       "applied": false,
       "analysis": "keyword"
