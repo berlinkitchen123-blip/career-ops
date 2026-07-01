@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-07-01T01:38:40.097923+00:00",
+  "lastUpdated": "2026-07-01T06:20:40.242632+00:00",
   "agentVersion": "4.0",
   "stats": {
     "total": 500,
-    "new_this_cycle": 21,
+    "new_this_cycle": 18,
     "berlin_jobs": 90,
     "high_match_70plus": 14,
     "applied_total": 0,
@@ -2820,6 +2820,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/concape/leiter-operations-produktion-site-director-region-bodensee-deutschland-rosenheim-450146",
       "source": "Arbeitnow",
       "posted": 1782844224,
+      "score": 46,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-flight-test-engineer-gilching-344593",
+      "title": "Flight Test Engineer (m/f/d)",
+      "company": "Quantum- Systems GmbH",
+      "location": "Gilching",
+      "salary": "",
+      "description": "<p>As a Flight Test Engineer, you will be part of our System Testing and Prototyping team and a key function to put drones and overall systems through their paces and improve them in collaboration with development. With our world-class team, currently 8 team members, you will play a pivotal role in pushing the boundaries of drone technology.<br /><br />You will work closely with stakeholders in software and hardware development to ensure our drones are delivered to customers \"bug free\". With a strong motivation to test products to their limits and beyond, you will support Quantum Systems in its mission to become the benchmark for aerial data collection solutions with unmanned aerial systems (sUAV).</p><p style=\";;\"></p><h4><strong>What is your Day to Day Mission:</strong></h4><ul><li><p>Plan and execute flight tests to evaluate the performance and functionality of our UAVs</p></li><li><p>Conduct pre-flight inspections and ensure all necessary equipment is in working order</p></li><li><p>Deal with error tickets to insure the high level of quality assurance </p></li><li><p>Analyze flight data and provide detailed reports on test results</p></li><li><p>Collaborate with cross-functional teams to identify and resolve any technical issues</p></li><li><p>Stay up-to-date with industry trends and advancements in UAV technology</p></li></ul><br /><br /><h4><strong><br /></strong></h4><h4><strong>What you bring to the team:</strong><br /></h4><ul><li><p>Bachelor's degree in Aerospace Engineering or a related field</p></li><li><p>You already have professional experience in the area of function assurance and/or operation of drones. </p></li><li><p>Knowledge in the field of surveying drones, photogrammetry and lidar data evaluation is an advantag.</p></li><li><p>You have good knowledge in the handling of drones or in the area of functional safety.</p></li><li><p>You are interested in drones, model aircraft construction, robotics or anything that flies.</p></li><li><p>Proficiency ",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/flight-test-engineer-gilching-344593",
+      "source": "Arbeitnow",
+      "posted": 1782883212,
       "score": 46,
       "applied": false,
       "analysis": "keyword"
@@ -7062,20 +7076,6 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/itb-gmbh/business-consultant-kamp-lintfort-309357",
       "source": "Arbeitnow",
       "posted": 1782480629,
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "UWaN73PwcR_psJMoAAAAAA==",
-      "title": "Koordinator/in Lager und Logistik (m/w/d)",
-      "company": "Disrupted Cloud",
-      "location": "",
-      "salary": "",
-      "description": "Willkommen bei der Nespoli Group – wo Innovation auf Tradition trifft. Als europaweit erfolgreiches Familienunternehmen sind wir führend in der Entwicklung und Herstellung hochwertiger Farbroller, Pinsel und Malerwerkzeuge. Mit Leidenschaft für Qualität, einem klaren Blick für Innovation und einem nachhaltigen Ansatz gestalten wir Produkte, die exakt auf die Anforderungen unserer Kunden zugeschnitten sind. Europaweit mehr als 1300 engagierte Mitarbeiterinnen und Mitarbeiter – davon über 200 in Deutschland – tragen täglich dazu bei, unsere Vision voranzutreiben: durch moderne Technologien und kontinuierliche Weiterentwicklung die besten Lösungen für den Markt zu schaffen. Werden Sie Teil unseres Teams und gestalten Sie mit uns die Zukunft der Branche! Zur Verstärkung suchen wir für unser Team an unserem Standort Dinkelsbühl zum nächstmöglichen Zeitpunkt, Sie als Aufgaben Organisation und Steuerung der täglichen Abläufe im Lager- und Logistikbereich Koordination von Wareneingang, Einlagerung, Kommissionierung und Versand Sicherstellung eines reibungslosen und termingerechten Materialflusses Unterstützung bei der fachlichen Führung des Lagerteams im Tagesgeschäft Mitwirkung bei der Einsatz- und Schichtplanung Ansprechpartner für Mitarbeitende bei operativen Fragestellungen Einarbeitung und Anleitung neuer Mitarbeitender Unterstützung bei der Weiterentwicklung und Motivation des Teams Überwachung von Beständen sowie Mitwirkung bei Inventuren Abstimmung mit Speditionen und Organisation von Transporten Enge Zusammenarbeit mit Produktion, Einkauf und Vertrieb Analyse und Optimierung logistischer Prozesse und Abläufe Mitarbeit an Digitalisierungs- und Verbesserungsprojekten Operative Unterstützung im Lager bei Bedarf (z. B. Kommissionierung, Verpackung)\n\nProfil Abgeschlossene Ausbildung, z. B. als o\n\nFachkraft für Lagerlogistik o\n\nKaufmann für Spedition und Logistikdienstleistung o\n\nKaufmann im Groß- und Außenhandel / Einzelhandel o\n\noder vergleichbare Qualifikation\n\nMehrjä",
-      "applyUrl": "https://de.talent.com/view?id=625455402983041347",
-      "source": "Talent.com",
-      "posted": "2026-06-24T00:00:00.000Z",
       "score": 30,
       "applied": false,
       "analysis": "keyword"
