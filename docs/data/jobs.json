@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-30T23:05:50.749857+00:00",
+  "lastUpdated": "2026-07-01T01:38:40.097923+00:00",
   "agentVersion": "4.0",
   "stats": {
     "total": 500,
-    "new_this_cycle": 19,
-    "berlin_jobs": 88,
+    "new_this_cycle": 21,
+    "berlin_jobs": 90,
     "high_match_70plus": 14,
     "applied_total": 0,
     "applied_this_cycle": 0
@@ -417,6 +417,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-senior-platform-engineer-contact-centre-berlin-477540",
+      "title": "Senior Platform Engineer - Contact Centre",
+      "company": "SumUp",
+      "location": "Berlin, Berlin, Germany",
+      "salary": "",
+      "description": "<p class=\"p2\">Our contact centre platform is what keeps merchant support running across all of SumUp's global markets, handling thousands of interactions every day across the globe. As our Senior Platform Engineer, you'll own the technical side of this space entirely, reviewing how it's built today, driving the implementation of new technologies, and leading the move towards AI-powered support. If you want real technical ownership, a broad scope, and work that directly shapes the experience merchants have when they need help most, this is the role.</p>\n<h2 class=\"p1\"><strong>What you'll do:</strong></h2>\n<ul class=\"ul1\">\n<li class=\"li2\">Review our current contact centre setup, identify what's working and what can be improved, and shape a clear roadmap for the voice channel</li>\n<li class=\"li2\">Design and improve automation and AI-powered self-service solutions, including conversational AI agents and intelligent call routing</li>\n<li class=\"li2\">Administer and evolve our Five9 environment, maintaining integrations with internal systems via APIs and Salesforce</li>\n<li class=\"li2\">Lead the implementation of our AI voice solution, including the rollout of an Agent Copilot tool to support live agents handling voice calls in real time</li>\n<li class=\"li2\">Work closely with operations, product, and engineering teams to align on tooling decisions and deliver solutions that reduce friction for merchants and agents alike</li>\n<li class=\"li2\">Support and mentor junior team members, helping build contact centre and AI capability across the team</li>\n</ul>\n<h2 class=\"cui-headline-64we cui-headline-l-bth2 css-1cpk9mt e173j6r80\">What we're looking for:</h2>\n<ul class=\"ul1\">\n<li class=\"li2\">Solid experience in contact centre platform development and administration, with hands-on knowledge of Five9, Genesys, or similar platforms, and strong API integration skills</li>\n<li class=\"li2\">Comfortable working with JavaScript and Salesforce in a distributed systems environment</li>\n<li cl",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sumup/senior-platform-engineer-contact-centre-berlin-477540",
+      "source": "Arbeitnow",
+      "posted": 1782863123,
+      "score": 66,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-senior-software-engineer-typescript-nestjs-nodejs-berlin-233143",
       "title": "Senior Software Engineer (TypeScript, NestJS/Node.js) (m/f/x)",
       "company": "Atolls",
@@ -818,6 +832,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/realstudio-gmbh/ecommerce-strategist-direct-response-berlin-262972",
       "source": "Arbeitnow",
       "posted": 1782856826,
+      "score": 58,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-senior-enterprise-sales-manager-wolt-for-work-berlin-203017",
+      "title": "Senior Enterprise Sales Manager, Wolt for Work",
+      "company": "Wolt - English",
+      "location": "Berlin, Berlin, Germany",
+      "salary": "",
+      "description": "<div class=\"content-intro\"><h2><span data-sheets-root=\"1\">About Wolt</span></h2>\n<p><span data-sheets-root=\"1\">At Wolt, we create technology that brings joy, simplicity and earnings to the neighborhoods of the world. In 2014 we started with delivery of restaurant food. Now we're building the delivery of (almost) everything and you'll find us in over 500 cities in 30 countries around the world. In 2022 we joined forces with DoorDash and together we keep on dreaming big and expanding across the globe.<br><br>Working at Wolt isn't always easy, but it's definitely exciting. Here you'll learn more, build more, and ship more than in most other companies. You'll be challenged a lot, but also have a lot of fun on the way. So, if you're a self-starter with drive and entrepreneurial spirit, this could be the ride of your life.</span></p></div><h2><strong>About the team</strong></h2>\n<p>Wolt for Work is a rapidly-growing B2B business at Wolt, and we have ambitious plans to massively accelerate this growth. Our mission is simple: we want to bring the same great user experience that Wolt is known for to business users around the world. Through Wolt's established delivery network and vast number of restaurant and retail partners, Wolt for Work enables businesses to boost their employees' happiness no matter where they are working, promote camaraderie in teams, and save time and effort running office events. We are already live in 16 of Wolt's 23 countries, with no plans to slow down.</p>\n<h2><strong>What you'll be doing</strong></h2>\n<ul>\n<li>Full end-to-end responsibility over the sales acquisition funnel, from A-Z within the enterprise market.</li>\n<li>Own the full sales cycle for inbound and outbound opportunities, including prospecting, negotiation, and closing partnership agreements across enterprise and SMB customers.</li>\n<li>Acting as problem-solver for prospects' needs and working with internal stakeholders to formulate solutions for them.</li>\n<li>Working closely with A",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-enterprise-sales-manager-wolt-for-work-berlin-203017",
+      "source": "Arbeitnow",
+      "posted": 1782863121,
       "score": 58,
       "applied": false,
       "analysis": "keyword"
@@ -3483,6 +3511,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-customer-service-assistant-munich-237020",
+      "title": "Customer Service Assistant (m/f/d)",
+      "company": "ICAPE GROUP",
+      "location": "Munich",
+      "salary": "",
+      "description": "<p>Customer Service Assistant (m/f/d)</p>\n<p>Remote position | Germany | Part‑time (25h/week, 5 days/week)</p>\n<p>To support our growth in Germany, CIPEM (ICAPE Group subsidiary) is looking for a Customer Service Assistant (m/f/d) with a first experience in customer service, sales administration or international business.</p>\n<p>This is a part‑time remote role, working 25 hours per week over 5 days.</p>\n<p>Your role</p>\n<p>You will support the daily management of customer orders and ensure smooth coordination between customers, suppliers and internal teams.<br>\nYou will play a key role in delivering high‑quality service and maintaining strong customer relationships.</p>\n<p>Our solutions include:</p>\n<ul>\n<li>Custom‑made technical parts (plastic, metal, batteries, power supplies, cables, keyboards, transformers, etc.)</li>\n<li>Electro‑mechanical components for multiple industrial sectors</li>\n</ul>\n<p>Your responsibilities</p>\n<ul>\n<li>Process and follow up customer orders in line with contract review</li>\n<li>Support the creation and maintenance of strong, trusting relationships with customers</li>\n<li>Act as a coordination point between customers, suppliers, carriers, sales teams and internal departments</li>\n<li>Prepare pro forma invoices, invoices and credit notes (in case of disputes)</li>\n<li>Answer incoming calls, provide basic information or redirect inquiries</li>\n<li>Maintain accurate administrative records and documentation</li>\n<li>Assist in improving processes and updating department procedures</li>\n</ul>\n<p>Your profile</p>\n<ul>\n<li>Degree in International Business, Sales Administration or similar preferred</li>\n<li>First experience in customer service, administration or a commercial support role</li>\n<li>Fluent in <strong>German and English</strong> (additional languages are a plus)</li>\n<li>Knowledge of SAP is an advantage</li>\n<li>Strong interpersonal and communication skills</li>\n<li>Organized, detail‑oriented and rigorous</li>\n<li>Team player with ",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/icape-group/customer-service-assistant-munich-237020",
+      "source": "Arbeitnow",
+      "posted": 1782865829,
+      "score": 42,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-social-media-manager-achern-160031",
       "title": "Social Media Manager",
       "company": "Ipanema UG (haftungsbeschränkt)",
@@ -4934,6 +4976,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/hebamme-isabelle/creator-manager-teilzeit-wurzburg-96333",
       "source": "Arbeitnow",
       "posted": 1782851434,
+      "score": 38,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-ki-spezialist-ai-power-user-schwerpunkt-claude-cowork-claude-code-nidderau-306629",
+      "title": "KI-Spezialist / AI Power User - Schwerpunkt Claude Cowork & Claude Code (m/w/d)",
+      "company": "Nature Heart GmbH & Co KG",
+      "location": "Nidderau",
+      "salary": "",
+      "description": "<h2>Deine Aufgaben</h2>\n<ul>\n<li>Einsatz und Administration von Claude Cowork zur Automatisierung von Datei- und Aufgabenmanagement im Unternehmensalltag</li>\n<li>Entwicklung und Pflege von Code-Projekten mit Claude Code (agentenbasierte Softwareentwicklung über die Kommandozeile)</li>\n<li>Konzeption und Umsetzung von KI-gestützten Workflows für interne Teams</li>\n<li>Integration von Claude-Tools in bestehende Systeme und Prozesse</li>\n<li>Schulung und Unterstützung von Kolleginnen und Kollegen im Umgang mit KI-Werkzeugen</li>\n<li>Evaluierung neuer KI-Funktionen und -Modelle sowie Ableitung von Handlungsempfehlungen</li>\n<li>Prompt Engineering und Optimierung von KI-Anwendungsfällen im Unternehmen</li>\n</ul>\n<h2>Dein Profil</h2>\n<ul>\n<li>Fachliche Qualifikationen</li>\n<li>• Sehr gute praktische Kenntnisse in Claude Cowork und Claude Code • Fundiertes Verständnis der Anthropic Claude Modellpalette (Claude Opus, Sonnet, Haiku) • Erfahrung im Umgang mit der Anthropic API und Prompt Engineering • Erfahrung mit agentenbasierter KI und automatisierten Workflows</li>\n<li>Persönliche Stärken • Ausgeprägte Affinität für neue Technologien und digitale Innovation • Selbstständige, strukturierte und lösungsorientierte Arbeitsweise Kommunikationsstärke und Freude daran, Wissen im Team zu teilen • Hohe Lernbereitschaft in einem sich schnell entwickelnden Fachgebiet</li>\n<li>Von Vorteil Erfahrung mit weiteren KI-Tools (z. B. OpenAI, Copilot, Gemini) Kenntnisse in Prozessautomatisierung (z. B. Make, Zapier, n8n) Erfahrung in agilen, remote-freundlichen Arbeitsumgebungen</li>\n</ul>\n<h2>Wir bieten</h2>\n<ul>\n<li>100 % Remote – arbeite von überall</li>\n<li>Spannende Aufgaben an der Spitze der KI-Entwicklung</li>\n<li>Flexible Arbeitszeiten in einem herzlichen, werteorientierten Unternehmen</li>\n<li>Zugang zu den neuesten KI-Tools und kontinuierliche Weiterbildung</li>\n<li>Flache Hierarchien und kurze Entscheidungswege</li>\n<li>Ein sinnstiftendes Arbeitsumfeld bei Nature Heart</li>\n</ul>",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/nature-heart-gmbh-co-kg/ki-spezialist-ai-power-user-schwerpunkt-claude-cowork-claude-code-nidderau-306629",
+      "source": "Arbeitnow",
+      "posted": 1782865828,
       "score": 38,
       "applied": false,
       "analysis": "keyword"
@@ -7020,62 +7076,6 @@
       "applyUrl": "https://de.talent.com/view?id=625455402983041347",
       "source": "Talent.com",
       "posted": "2026-06-24T00:00:00.000Z",
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "fOyu6h7Ut0GhWhNpAAAAAA==",
-      "title": "Logistik Koordinator",
-      "company": "Fleurop AG",
-      "location": "",
-      "salary": "",
-      "description": "Dank deiner Unterstützung läuft es reibungslos und übernimmst Aufgaben wie: Koordination der gesamten Lieferkette – vom Wareneingang bis zur Kundenlieferung Kommunikation und Koordination hinsichtlich enger Abstimmung mit Lieferanten und unserem internationalen Netzwerk Angebotserstellung, Preisverhandlung und -kalkulation Erstellung aller relevanten Frachtpapiere Erstellung und Abwicklung von Zoll/Export Dokumenten Analyse und Optimierung logistischer Abläufe & Kosten Engpassmanagement und Problemlösung Mitarbeit in Projekten zur kontinuierlichen Prozessverbesserung",
-      "applyUrl": "https://de.trabajo.org/stellenangebot-1913-ea8f7c912a9b7ddcd922f4ca3d830cb4",
-      "source": "Trabajo.org",
-      "posted": "2026-06-26T00:00:00.000Z",
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "g5h-tLIVsYXkFVbBAAAAAA==",
-      "title": "Kommissarischer Leiter interne Logistik mit Aufstiegschance (m/w/d)",
-      "company": "Disrupted Cloud",
-      "location": "",
-      "salary": "",
-      "description": "Seit 1958 steht die WSM – Walter Solbach Metallbau GmbH für Qualität, Kompetenz und Zuverlässigkeit im Metallsystembau. Wir machen Produkte für Menschen: Überdachungen, unter die Sie sich beruhigt mit Ihren Kindern stellen können. Schaukästen, in denen Sie Informationen finden. Fahrradständer, denen Sie Ihr Fahrrad anvertrauen und mobile Raumsysteme, in denen Sie sich wohlfühlen. Wir sind ein Familienunternehmen mit über 240 Mitarbeitern und wir suchen Verstärkung!\n\nSie sind ein Organisationstalent, denken über den Tellerrand hinaus und lieben die Herausforderung? Dann suchen wir Sie als\n\nkommissarischen Leiter Interne Logistik mit Aufstiegschance (m/w/d) .(m/w/d).\n\nAufgaben Aktive Mitarbeit am Tagesgeschäft der internen Logistik, von der Bedarfsplanung über den Wareneingang und der anschließenden Lagerhaltung bis zur Verpackung und Lieferung an den Kunden Organisation, Planung, Steuerung und Überwachung der Arbeitsabläufe der Abteilung sowie die Organisation der Kommissionierung liegen in Ihrer Hand Dabei arbeiten Sie eng mit den Abteilungen Einkauf, Produktion und Disposition zusammen Sie erarbeiten Logistikkonzepte, verbessern bestehende Prozesse kontinuierlich und kümmern sich um die Qualitätssicherung der Abteilung Das Logistiksystem wird von Ihnen umgesetzt und Sie sind für die Definition und die Einhaltung von Standards verantwortlich Sie tragen Sorge dafür, dass betriebliche und gesetzliche Regelungen der internen Logistik eingehalten werden Sie haben Qualität, Termine und Kosten im Blick Planung, Organisation und Durchführung der Inventur runden Ihr Aufgabenspektrum ab Nach umfangreicher Einarbeitung kann sich die Entwicklungschance auf eine Leitungsposition im Bereich der internen Logistik ergeben\n\nProfil Sie sind ausgebildete Fachkraft für Lagerlogistik, sind Logistikmeister oder haben eine vergleichbare Ausbildung Sie haben bereits mehrjährige Berufserfahrung im Bereich der Lagerlogistik sammeln können Prozesse anzugehen und zu entwickeln ist Ihre Leiden",
-      "applyUrl": "https://de.talent.com/view?id=625455267719095730",
-      "source": "Talent.com",
-      "posted": "2026-06-24T00:00:00.000Z",
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "YIqGTa9ltO407sK9AAAAAA==",
-      "title": "Speditionskaufmann (m/w/d) – Organisiere Logistik mit Zukunft",
-      "company": "office people Personalmanagement GmbH",
-      "location": "",
-      "salary": "",
-      "description": "Über uns Aktuell suchen wir für unseren Kunden einen Speditionskaufmann (m/w/d) für einen spannenden Einsatz. Du bist ein Organisationstalent, behältst auch bei komplexen Transportabläufen den Überblick und kommunizierst gerne mit Kunden und Dienstleistern? Dann erwartet dich eine vielseitige Tätigkeit mit Verantwortung und Entwicklungsmöglichkeiten in einem modernen Unternehmen. Wir bei office people bringen täglich tausende Menschen mit unserem weit verzweigten Kundennetzwerk zusammen. Als erfahrener Personaldienstleister sind wir an über 130 Standorten in 10 Ländern erfolgreich für unsere Mitarbeiter und Kunden im Einsatz. Was sollten Sie mitbringen? - Abgeschlossene Ausbildung als Speditionskaufmann (m/w/d) oder eine vergleichbare kaufmännische Qualifikation - Erste Berufserfahrung im Bereich Spedition oder Logistik von Vorteil - Sicherer Umgang mit MS Office und gängigen ERP-Systemen - Strukturierte und eigenverantwortliche Arbeitsweise - Kommunikationsstärke und Organisationsgeschick - Gute Deutschkenntnisse in Wort und Schrift Was erwartet Sie? - Planung, Steuerung und Überwachung nationaler und internationaler Transporte - Kommunikation mit Kunden, Speditionen und Logistikdienstleistern - Erstellung und Bearbeitung von Versand- und Transportdokumenten - Terminüberwachung sowie Koordination von Lieferungen - Bearbeitung von Reklamationen und allgemeine administrative Tätigkeiten Warum gerade wir? - Übertarifliche Bezahlung - Jahressonderzahlungen und Zuschläge - Übernahmechance beim Kunden - Individuelle Betreuung und gründliche Einarbeitung - Langjährige Erfahrung & starkes Netzwerk - Über 20 Jahre Erfahrung in der Personaldienstleistung Kontaktinfo Office people Personalmanagement GmbH Marvin Riaz Markt 2-3 13597 Berlin Tel.: 030 36759390",
-      "applyUrl": "https://de.trabajo.org/stellenangebot-5506-91cc405ab548eb1f7b4e9d348b7e07cf",
-      "source": "Trabajo.org",
-      "posted": "2026-06-25T00:00:00.000Z",
-      "score": 30,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "Cu4PCMpYUM6rTxgBAAAAAA==",
-      "title": "Staplerfahrer Hochregallager",
-      "company": "Finsterwalder Transport & Logistik GmbH",
-      "location": "",
-      "salary": "",
-      "description": "Bilanzbuchhalter (m/w/d) in Vollzeit Staplerfahrer Hochregallager (m/w/d) WIR BEI FINSTERWALDER Seit mehr als 80 Jahren bietet die Finsterwalder-Gruppe Transport-, Logistik-, Warehouse- und Fulfillment-Lösungen als Dienstleistung für nationale und internationale Kunden. Nachhaltiges Unternehmenswachstum und kreative Lösungen für unsere Kunden zeichnen unser Familienunternehmen aus. Inzwischen unterstützen uns über 1.700 Mitarbeiter/innen an mehr als 10 Standorten im In- und Ausland. DAS BEWEGEN SIE BEI FINSTERWALDER Sie bedienen Schmal- und Breitgangstapler sicher und routiniert. Das Ein- und Auslagern von Waren fällt in Ihren Verantwortungsbereich. Sie übernehmen die Kommissionierung mithilfe des Staplers. Die Wareneingangskontrolle führen Sie gewissenhaft und sorgfältig durch. DAMIT BEWEGEN SIE UNS Sie haben einen gültigen Staplerschein sowie Erfahrung in der Bedienung von Schmal- und Breitgangstaplern. Sie bringen gute Deutschkenntnisse in Wort und Schrift mit. Teamgeist und die Fähigkeit zur Zusammenarbeit zeichnen Sie aus. Verantwortungsbewusstsein und eine sorgfältige Arbeitsweise gehören zu Ihren Stärken. DAS BEWEGEN WIR FÜR SIE Mitarbeitervergünstigungen über Corporate Benefits Vergünstigte Mahlzeiten Ein sicherer Arbeitsplatz in einem wachsenden Unternehmen, das von Offenheit, Respekt und Leidenschaft geprägt ist Gezielte Förderung durch Weiterbildungen JobRad über Mitarbeiterleasing Mitarbeiter-Werbeprämie für erfolgreich empfohlene neue Kollegen Zuschuss zum Wellpass für Ihre persönliche Fitness und Erholung Zuschuss zur Betrieblichen Altersvorsorge Echtes Teamwork in internationalem Kontext, flache Hierarchien und schnelle Entscheidungswege Arbeitskleidung wird gestellt Interesse geweckt ? Dann freuen wir uns über Ihre Bewerbungsunterlagen mit Ihren Gehaltsvorstellungen, dem möglichen Eintrittstermin und der Referenznummer YF-45620. Wir bevorzugen ONLINE-Bewerbungen – einfach unten klicken und in 2 Minuten ist Ihre Bewerbung bei uns.",
-      "applyUrl": "https://de.trabajo.org/stellenangebot-5509-8f20c4268ce6fea94b1975da44fa6278",
-      "source": "Trabajo.org",
-      "posted": "2026-06-26T21:00:00.000Z",
       "score": 30,
       "applied": false,
       "analysis": "keyword"
