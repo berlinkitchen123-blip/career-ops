@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-01T16:04:00.101194+00:00",
+  "lastUpdated": "2026-07-01T18:23:33.011919+00:00",
   "agentVersion": "4.0",
   "stats": {
     "total": 500,
-    "new_this_cycle": 70,
-    "berlin_jobs": 109,
-    "high_match_70plus": 16,
+    "new_this_cycle": 68,
+    "berlin_jobs": 111,
+    "high_match_70plus": 18,
     "applied_total": 0,
     "applied_this_cycle": 0
   },
@@ -132,6 +132,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/stealth-start-up-mobility-berlin/recruiter-t-1-vc-backed-stealth-startup-with-80-employees-berlin-281347",
       "source": "Arbeitnow",
       "posted": 1782894671,
+      "score": 74,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-senior-hardware-development-engineer-berlin-496793",
+      "title": "Senior Hardware Development Engineer",
+      "company": "Nordran Technologies",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<p>Nordran accelerates AI infrastructure by making liquid cooling chemistry measurable and controllable. Our patent-pending chemical–physical sensing technology continuously monitors coolant stability in hyperscale AI data centers to detect degradation before it becomes downtime.</p>\n<p>With pilot systems being deployed, we are now turning our first hardware MVP into a robust, manufacturable product for rollout across data centers.</p>\n<p>We are hiring a <strong>Senior Hardware Development Engineer</strong> to own the mechanical, electrical, and firmware engineering required to productize and harden our sensing platform.</p>\n<h2>Tasks</h2>\n<ul>\n<li>Own hardware productization from MVP to field-ready system across mechanics, electronics, firmware, fluidics, enclosures, connectors, and interfaces.</li>\n<li>Build, test, debug, and iterate hands-on to improve robustness, reliability, manufacturability, assembly, serviceability, and cost.</li>\n<li>Translate R&#x26;D learnings, customer requirements, and field failures into concrete design changes.</li>\n<li>Define and execute validation tests for leakage, lifetime, temperature, vibration, chemical compatibility, sensor stability, and deployment conditions.</li>\n<li>Set up and continuously improve in-house production processes, including assembly workflows, test procedures, quality checks, and manufacturing documentation.</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>Degree in Mechanical Engineering, Mechatronics, Electrical Engineering, Embedded Systems, or related field.</li>\n<li>Strong hands-on track record building and productizing physical hardware systems.</li>\n<li>Comfortable debugging across mechanical design, electronics, embedded firmware, and system integration.</li>\n<li>Experience with sensors, fluidics, pumps, valves, enclosures, or chemically exposed hardware is a strong plus.</li>\n<li>High ownership, fast iteration speed, clear communication, and strong thinking in failure modes, tolerances, and real-world opera",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/nordran-technologies/senior-hardware-development-engineer-berlin-496793",
+      "source": "Arbeitnow",
+      "posted": 1782927030,
       "score": 74,
       "applied": false,
       "analysis": "keyword"
@@ -300,6 +314,20 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/flix/senior-software-engineer-berlin-143506",
       "source": "Arbeitnow",
       "posted": 1782888324,
+      "score": 70,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
+      "id": "an-devops-data-architecture-intern-berlin-457764",
+      "title": "DevOps & Data Architecture Intern",
+      "company": "Heidi Systems",
+      "location": "Berlin",
+      "salary": "",
+      "description": "<p>**About Heidi Systems<br>\n**Heidi Systems is building the data infrastructure layer for buildings and energy. We help property owners and managers digitize metering, consumption data, reporting, and billing workflows in one of the largest and most outdated infrastructure markets in Europe.<br>\nWe are looking for an exceptional intern who wants to work close to the core of our technical system: data architecture, DevOps, infrastructure, and backend tooling.<br>\nThis is not a classic internship. You will work directly on production-relevant systems, help shape our data infrastructure, and build tools that directly impact customers, internal operations, and the scalability of the company.</p>\n<h2>Tasks</h2>\n<p><strong>What you will work on</strong></p>\n<ul>\n<li>Build and improve our data ingestion and processing infrastructure</li>\n<li>Work on backend services in Go and TypeScript</li>\n<li>Support the architecture of reliable data pipelines for meter, gateway, and building data</li>\n<li>Improve internal DevOps workflows, deployments, monitoring, and system reliability</li>\n<li>Work with configuration formats such as YAML and TOML</li>\n<li>Help structure, validate, and transform high-volume device and consumption data</li>\n<li>Build internal tools that make our operations faster and more automated</li>\n<li>Support debugging of real-world infrastructure issues across gateways, MQTT, APIs, and databases</li>\n<li>Work closely with the founding team on technical architecture decisions</li>\n</ul>\n<h2>Requirements</h2>\n<p><strong>Who we are looking for</strong></p>\n<p>We are looking for someone unusually strong, curious, and hands-on.<br>\nYou should be excited about infrastructure, data systems, and clean technical architecture. You do not need to know everything already, but you should learn extremely fast, think from first principles, and enjoy solving hard technical problems.<br>\nYou are a great fit if you:</p>\n<ul>\n<li>Have strong coding ability and a clear technical m",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/heidi-systems/devops-data-architecture-intern-berlin-457764",
+      "source": "Arbeitnow",
+      "posted": 1782921665,
       "score": 70,
       "applied": false,
       "analysis": "keyword"
@@ -5625,6 +5653,20 @@
       "analysis": "keyword"
     },
     {
+      "id": "an-technical-project-manager-iot-cloud-neumarkt-in-der-oberpfalz-106602",
+      "title": "Technical Project Manager - IoT & Cloud (m/w/d)",
+      "company": "Modern Drive Technology GmbH",
+      "location": "Neumarkt in der Oberpfalz",
+      "salary": "",
+      "description": "<p>Die Modern Drive Technology GmbH (MDT) ist ein Full-Service-IoT-Cloud-Integrator mit Fokus auf <strong>OEMs und Maschinenproduzenten</strong>. Mit unserer offenen Plattform ermöglichen wir Herstellern, ihren Maschinen und Produkten eine eigene, vollständig gebrandete digitale Servicewelt zu geben – ohne selbst eine Cloud-Infrastruktur aufbauen zu müssen.</p>\n<p>Ob Fernwartung, Predictive Maintenance oder datenbasierte After-Sales-Services: Wir liefern die technologische Grundlage, damit OEMs ihren Kunden smarte Mehrwerte anbieten und neue Geschäftsmodelle erschließen können.</p>\n<p>Bereits <strong>über 100 Kunden mit mehr als 13.000 vernetzten Einheiten</strong> setzen auf unsere Lösung – und wir wachsen weiter.</p>\n<h2>Aufgaben</h2>\n<p>Du bist die zentrale Schnittstelle zwischen unseren Kunden und unserem Entwicklungsteam. Du verstehst, was Kunden wirklich brauchen, formulierst es technisch präzise und stellst sicher, dass Projekte strukturiert, termingerecht und im Sinne des Kunden umgesetzt werden.</p>\n<p>Dabei bringst du eigene Einschätzungen zu Anforderungen und Prioritäten ein – die finale Roadmap-Entscheidung triffst du gemeinsam mit der Entwicklungsleitung und der Geschäftsführung. Du hältst beide Welten zusammen: die des Kunden und die des Teams.</p>\n<p><strong>Deine Aufgaben</strong></p>\n<ul>\n<li><strong>Anforderungsaufnahme &#x26; Spezifikation</strong> – du führst Gespräche mit Kunden, erkennst den eigentlichen Bedarf und übersetzt ihn in klare User Stories und Tickets für das Dev-Team</li>\n<li><strong>Kunden-Onboarding &#x26; Betreuung</strong> – du begleitest neue Kunden von der ersten Integration bis zum produktiven Betrieb und bist langfristiger Ansprechpartner</li>\n<li><strong>Produktdemos &#x26; Kundenpräsentationen</strong> – du präsentierst unsere Plattform überzeugend, technisch fundiert und auf den jeweiligen Kunden zugeschnitten</li>\n<li><strong>Koordination &#x26; Kommunikation</strong> – du hältst Kunden über Projektstatus auf dem Laufend",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/modern-drive-technology-gmbh/technical-project-manager-iot-cloud-neumarkt-in-der-oberpfalz-106602",
+      "source": "Arbeitnow",
+      "posted": 1782923453,
+      "score": 38,
+      "applied": false,
+      "analysis": "keyword"
+    },
+    {
       "id": "an-e-commerce-ecom-shopify-onlineshop-manager-fur-3-brands-dusseldorf-397091",
       "title": "E-Commerce / eCom Shopify Onlineshop Manager (m/w/d) für 3 Brands",
       "company": "Hommel Hired",
@@ -7034,48 +7076,6 @@
       "applyUrl": "https://www.arbeitnow.com/jobs/companies/ifdq-audit-gmbh/mitarbeiter-qualitatssicherung-vollzeit-kempten-allgau-116225",
       "source": "Arbeitnow",
       "posted": 1782804022,
-      "score": 34,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "an-trainees-als-it-trainer-dozenten-fur-microsoft-zertifizierungskurse-heidelberg-95094",
-      "title": "Trainees (m/w/x) als IT- Trainer/Dozenten für Microsoft Zertifizierungskurse (m/w/x)",
-      "company": "GFN GmbH",
-      "location": "Heidelberg",
-      "salary": "",
-      "description": "<p>Die GFN GmbH begleitet als Bildungsanbieter mit IT-Spezialisierung deutschlandweit Menschen bei ihrer Weiterbildung und beruflichen Neuorientierung.</p>\n<p>Dein Sprungbrett: Unser Traineeprogramm – Hol dir deine Ausbildereignung der IHK.</p>\n<p>In 12 Monaten erlebst du hautnah die Welt der IT-Weiterbildungen und gestaltest diese proaktiv mit!</p>\n<p>Wir glauben an dich und deine Stärken.</p>\n<h2>Aufgaben</h2>\n<p>Du wirst vom ersten Tag optimal auf Deine zukünftige Tätigkeit als <strong>Trainer (m/w/x)</strong> bei der GFN vorbereitet. Unsere erfahrenen Kollegen:innen begleiten Dich fachlich und methodisch-didaktisch auf Deinem Weg zur Trainertätigkeit.</p>\n<p>Unterrichtsschwerpunkte sind IT-Trainings zu Microsoft-Zertifizierungskursen und/oder entsprechenden Lernfeldern der Fachinformatiker:innen, vor allem:</p>\n<ul>\n<li><strong>Microsoft Windows Server</strong></li>\n<li><strong>Microsoft Teams Administrator: Microsoft 365 Workloads konfigurieren, bereitstellen und verwalten</strong> (MS-700)</li>\n<li><strong>Microsoft 365 Certified: Endpoint Administrator Associate</strong> (MD-102)</li>\n</ul>\n<p>Zusätzlich können gegebenenfalls eines oder mehrere der folgenden Themen unterrichtet werden:</p>\n<ul>\n<li>Microsoft Windows Client Systeme</li>\n<li>Microsoft Cloudlösung Azure (AZ-900 und AZ-104)</li>\n<li>Microsoft Certified: Azure AI Fundamentals (AI-900)</li>\n<li>Microsoft Certified: Security, Compliance and Identity Fundamentals (SC-900)</li>\n<li>Windows Server Hybrid Administrator Associate (AZ-800 und AZ-801)</li>\n<li>Microsoft 365 Certified: Administrator Expert (MS-102)</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Du bist unser Top Trainee (m/w/x), wenn Dich Deine zuverlässige und teamorientierte Arbeitsweise auszeichnet.</li>\n<li>Du konntest anderen Menschen schon immer gut Dinge erklären und stehst gerne auf Deiner eigenen Bühne?  Du zeichnest Dich durch Deine Affinität und Begeisterung für IT-Themen aus?</li>\n<li>Du bist oder warst bereits <strong>Microsoft Cer",
-      "applyUrl": "https://www.arbeitnow.com/jobs/companies/gfn-gmbh/trainees-als-it-trainer-dozenten-fur-microsoft-zertifizierungskurse-heidelberg-95094",
-      "source": "Arbeitnow",
-      "posted": 1782820859,
-      "score": 34,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "an-projekt-und-vertriebsingenieur-ulm-236282",
-      "title": "Projekt- und Vertriebsingenieur (m/w/d)",
-      "company": "Timebridge GmbH",
-      "location": "Ulm",
-      "salary": "",
-      "description": "<p>Für unseren Kunden im Raum Ulm suchen wir motivierte Unterstützung, um den Bereich Absaug- und Filtertechnik weiter auszubauen und weiterzuentwickeln.</p>\n<h2>Aufgaben</h2>\n<ul>\n<li>Planung, Ausarbeitung und Kalkulation von Angeboten für Absaug- und Filtersysteme sowie individuelle Anlagenlösungen im Bereich Luftreinhaltung</li>\n<li>Entwicklung technischer Konzepte und maßgeschneiderter Lösungen in enger Abstimmung mit unseren Kunden</li>\n<li>Betreuung und Beratung von Kunden vor Ort bei technisch anspruchsvollen Projekten</li>\n<li>Erstellung von technischen Dokumentationen und Unterlagen für Sonderanlagen und kundenspezifische Geräte</li>\n<li>Durchführung von technischen Berechnungen, Analysen und Versuchen in Zusammenarbeit mit den Bereichen Entwicklung und Konstruktion</li>\n</ul>\n<h2>Qualifikation</h2>\n<ul>\n<li>Erfolgreich abgeschlossenes Studium im Bereich Maschinenbau, Energie- oder Verfahrenstechnik</li>\n<li>Erfahrung in der technischen Projektabwicklung sowie im Umgang mit Kunden</li>\n<li>Kenntnisse und Interesse an strömungstechnischen Zusammenhängen</li>\n<li>Selbstständige, lösungsorientierte Arbeitsweise sowie ausgeprägte Eigeninitiative</li>\n<li>Kreativität und Freude daran, neue technische Ansätze zu entwickelnGute organisatorische Fähigkeiten und strukturierte Arbeitsweise</li>\n<li>Sicheres Auftreten bei Kundenbesuchen und eigenverantwortliches Handeln</li>\n<li>Gute Kenntnisse in MS Office sowie gute Englischkenntnisse</li>\n</ul>\n<h2>Benefits</h2>\n<ul>\n<li>Eine vielseitige und verantwortungsvolle Tätigkeit in einem motivierten Team</li>\n<li>Eine umfassende Einarbeitung mit persönlicher Betreuung</li>\n<li>Eine faire und attraktive Vergütung</li>\n<li>Ein langfristiger Arbeitsplatz mit unbefristeter Anstellung</li>\n<li>Ein moderner Arbeitsplatz mit angenehmer Arbeitsatmosphäre</li>\n<li>Umfangreiche Sozialleistungen eines etablierten Industrieunternehmens</li>\n<li>Schnelle Entscheidungsprozesse durch flache Unternehmensstrukturen</li>\n<li>Individuelle We",
-      "applyUrl": "https://www.arbeitnow.com/jobs/companies/timebridge-gmbh/projekt-und-vertriebsingenieur-ulm-236282",
-      "source": "Arbeitnow",
-      "posted": 1782820859,
-      "score": 34,
-      "applied": false,
-      "analysis": "keyword"
-    },
-    {
-      "id": "an-social-media-content-creator-vollzeit-40h-dusseldorf-172454",
-      "title": "Social Media Content Creator (m/w/d) | Vollzeit (40h)",
-      "company": "moveUP Media GmbH",
-      "location": "Düsseldorf",
-      "salary": "",
-      "description": "<p>moveUP Media ist eine Social Media Agentur mit Fokus auf organischen Shortform Content. Wir entwickeln wiedererkennbare Formate und produzieren Content-Pieces, die auf TikTok, Instagram und YouTube funktionieren und die Marken unserer Kunden langfristig stärken. Dabei arbeiten wir schnell, pragmatisch und mit hohem Anspruch an Schnitt, Story und Umsetzung. Wir sind ein junges Team mit direkter Kommunikation und kurzen Entscheidungswegen und freuen uns über Menschen, die Verantwortung übernehmen wollen.</p>\n<h2>Aufgaben</h2>\n<p>Als Social Media Content Creator bist Du bei uns nicht „nur Cutter“ und nicht „nur Producer“. Du denkst Content wie ein Creator: Du entwickelst Content-Ideen, baust Hooks und Skripte, planst Content-Drehs, auf denen Du dann die perfekten Shots einfängst. In der Post-Production schneidest Du dann alles zu einem rundem Content-Piece zusammen und iterierst anhand von Performance. Du übernimmst Verantwortung vom Konzept bis zum upload-ready Clip, gemeinsam mit unseren Creative Directoren und Projektteams.</p>\n<h2>Qualifikation</h2>\n<p><strong>Must-haves</strong></p>\n<ul>\n<li>Starkes, nachweisbares Portfolio im Shortform-Editing (TikTok/Reels/Shorts), idealerweise im Brand-/Agentur-Kontext</li>\n<li>Du kannst Drehs eigenständig vorbereiten und durchführen (Run-and-Gun, kleine Crew, viel Output)</li>\n<li>Sehr sicher in gängigen Schnitt-Tools (z. B. Adobe Premiere / DaVinci / CapCut; After Effects je nach Use Case)</li>\n<li>Ausgeprägtes Verständnis, wie man Watchtime/Retention steigert (Hook, Tempo, Pattern Interrupts, Payoffs)</li>\n<li>Strukturierte Arbeitsweise: parallele Deadlines, klare Prioritäten, termintreue Lieferung</li>\n<li>Hohe Reisebereitschaft und Freude an Drehs/Events vor Ort</li>\n</ul>\n<p><strong>Nice-to-haves</strong></p>\n<ul>\n<li>Du hast selbst schon „Creator-Style“ Content gemacht (On-Cam optional)</li>\n<li>Begeisterung für Automotive / Markenstorytelling</li>\n<li>Interesse an KI-Workflows (Transkription, Untertitel, Assistenz im",
-      "applyUrl": "https://www.arbeitnow.com/jobs/companies/moveup-media-gmbh/social-media-content-creator-vollzeit-40h-dusseldorf-172454",
-      "source": "Arbeitnow",
-      "posted": 1782819059,
       "score": 34,
       "applied": false,
       "analysis": "keyword"
